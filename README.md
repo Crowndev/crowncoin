@@ -52,8 +52,8 @@ or emailing support@crown.tech
 *****************************************
 The Crown team will  post a request for development and the requirements to receive the bounty reward and the size of the reward. 
 1.Developers at large can then post their interest in seeking the bounty on github and being developing on the change.
-2. Once the at-large developer deems his code complete, they will submit a pull request via ionomy github with the label of the Bounty Feature.
-3. It will then be reviewed and tested by the internal development team at ionomy.com.
+2. Once the at-large developer deems his code complete, they will submit a pull request via the Crown github with the label of the Bounty Feature.
+3. It will then be reviewed and tested by the internal development team at https://crown.tech/
 4. After initial code inspection and internal testing the update will be deployed to the testnet.
 5. A minimum of 15 days of testnet function per upgrade is required to fully validate and test the upgrade.
 6. Once tested and validated, the pull request will be merged to master code and included in the next update.
