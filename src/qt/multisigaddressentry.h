@@ -9,6 +9,7 @@
 
 
 class WalletModel;
+class PlatformStyle;
 
 namespace Ui
 {
@@ -46,3 +47,4 @@ class MultisigAddressEntry : public QFrame
 };
 
 #endif // MULTISIGADDRESSENTRY_H 
+

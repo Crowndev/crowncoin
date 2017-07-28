@@ -1,3 +1,7 @@
+// Copyright (c) 2015-2016 Silk Network Developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #ifndef MULTISIGDIALOG_H
 #define MULTISIGDIALOG_H
 
@@ -7,6 +11,8 @@
 #include "multisiginputentry.h"
 #include "sendcoinsentry.h"
 #include "walletmodel.h"
+
+#include <vector>
 
 
 namespace Ui
@@ -19,13 +25,18 @@ class MultisigDialog : public QDialog
     Q_OBJECT;
 
   public:
-    explicit MultisigDialog(QWidget *parent);
-    MultisigDialog();
+    explicit MultisigDialog(QWidget *parent = 0);
+    ~MultisigDialog();
+    
     void setModel(WalletModel *model);
+    bool AdvertisePublicKeyForMultiSig(const std::string& address, const std::string& publickey);
 
-  public slots:
+    typedef std::vector<CScript> redeemScripts;
+
+  public Q_SLOTS:
     MultisigAddressEntry * addPubKey();
     void clear();
+    void showTab(bool fShow);
     void updateRemoveEnabled();
     MultisigInputEntry * addInput();
     SendCoinsEntry * addOutput();
@@ -33,9 +44,9 @@ class MultisigDialog : public QDialog
   private:
     Ui::MultisigDialog *ui;
     WalletModel *model;
-    ~MultisigDialog();
+    bool fSetTxString;
 
-  private slots:
+  private Q_SLOTS:
     void on_createAddressButton_clicked();
     void on_copyMultisigAddressButton_clicked();
     void on_copyRedeemScriptButton_clicked();
@@ -54,4 +65,5 @@ class MultisigDialog : public QDialog
     void updateAmounts();
 };
 
-#endif // MULTISIGDIALOG_H
+#endif // MULTISIGDIALOG_H 
+

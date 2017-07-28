@@ -98,3 +98,4 @@ bool MultisigAddressEntry::updateLabel(const QString &address)
 
     return false;
 }
+
