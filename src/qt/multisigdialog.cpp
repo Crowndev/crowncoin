@@ -139,31 +139,45 @@ void MultisigDialog::on_createAddressButton_clicked()
     for(int i = 0; i < ui->pubkeyEntries->count(); i++)
     {
         MultisigAddressEntry *entry = qobject_cast<MultisigAddressEntry *>(ui->pubkeyEntries->itemAt(i)->widget());
-		std::string strAddressEntered = entry->getWalletAddress().toUtf8().constData();
-
-        if(!entry->validate())
-            return;
-		{
-		    bool fError = false;
-            CPubKey vchPubKey(ParseHex(strAddressEntered));
+	std::string strAddressEntered = entry->getWalletAddress().toUtf8().constData();
+        CBitcoinAddress address(strAddressEntered);
+        if(pwalletMain && address.IsValid())
+        {
+            bool fError = false;
+            CKeyID keyID;
+            if (!address.GetKeyID(keyID))
+                QMessageBox::critical(this, tr("Multisig: Public key does not refer to a key!"), tr("Invalid public key: %1").arg(strAddressEntered.c_str()));
+            CPubKey vchPubKey;
+            if (!pwalletMain->GetPubKey(keyID, vchPubKey))
+                QMessageBox::critical(this, tr("Multisig: No full public key for this address!"), tr("Invalid public key: %1").arg(strAddressEntered.c_str()));
             if (!vchPubKey.IsFullyValid())
             {
-                QMessageBox::critical(this, tr("Multisig: Invalid Public Key Entered!"), tr("Invalid public key: %1").arg(strAddressEntered.c_str()));
+                QMessageBox::critical(this, tr("Multisig: Invalid Public Key Entered 1!"), tr("Invalid public key: %1").arg(strAddressEntered.c_str()));
                 fError = true;
             }
             if (fError)
                 return;
             else
-                pubkeys[i] = vchPubKey;	
-		}
+                pubkeys[i] = vchPubKey;
+        } else {
+            if (IsHex(strAddressEntered))
+            {
+                CPubKey vchPubKey(ParseHex(strAddressEntered));
+                if (!vchPubKey.IsFullyValid())
+                    QMessageBox::critical(this, tr("Multisig: Invalid Public Key Entered 2!"), tr("Invalid public key: %1").arg(strAddressEntered.c_str()));
+                pubkeys[i] = vchPubKey;
+            } else {
+                QMessageBox::critical(this, tr("Multisig: Invalid Public Key Entered 3!"), tr("Invalid public key: %1").arg(strAddressEntered.c_str()));
+            }
+        }
     }
 
     if((required == 0) || (required > pubkeys.size()))
         return;
 
     CScript script = GetScriptForMultisig(required, pubkeys);
-	CScriptID scriptID = GetScriptID(script);
-	CBitcoinAddress address(scriptID);
+    CScriptID scriptID = GetScriptID(script);
+    CBitcoinAddress address(scriptID);
     
 
     ui->multisigAddress->setText(address.ToString().c_str());
@@ -561,13 +575,13 @@ void MultisigDialog::on_sendTransactionButton_clicked()
     int64_t minFee = 10000 * (1 + (int64_t) transactionSize / 1000);
     if(fee < minFee)
     {
-        QMessageBox::StandardButton ret = QMessageBox::question(this, tr("Confirm send transaction"), tr("The fee of the transaction (%1 DSLK) is smaller than the expected fee (%2 DSLK). Do you want to send the transaction anyway?").arg((double) fee / COIN).arg((double) minFee / COIN), QMessageBox::Yes | QMessageBox::Cancel, QMessageBox::Cancel);
+        QMessageBox::StandardButton ret = QMessageBox::question(this, tr("Confirm send transaction"), tr("The fee of the transaction (%1 CRW) is smaller than the expected fee (%2 CRW). Do you want to send the transaction anyway?").arg((double) fee / COIN).arg((double) minFee / COIN), QMessageBox::Yes | QMessageBox::Cancel, QMessageBox::Cancel);
         if(ret != QMessageBox::Yes)
             return;
     }
     else if(fee > minFee)
     {
-        QMessageBox::StandardButton ret = QMessageBox::question(this, tr("Confirm send transaction"), tr("The fee of the transaction (%1 DSLK) is bigger than the expected fee (%2 DSLK). Do you want to send the transaction anyway?").arg((double) fee / COIN).arg((double) minFee / COIN), QMessageBox::Yes | QMessageBox::Cancel, QMessageBox::Cancel);
+        QMessageBox::StandardButton ret = QMessageBox::question(this, tr("Confirm send transaction"), tr("The fee of the transaction (%1 CRW) is bigger than the expected fee (%2 CRW). Do you want to send the transaction anyway?").arg((double) fee / COIN).arg((double) minFee / COIN), QMessageBox::Yes | QMessageBox::Cancel, QMessageBox::Cancel);
         if(ret != QMessageBox::Yes)
             return;
     }
@@ -588,18 +602,19 @@ void MultisigDialog::on_sendTransactionButton_clicked()
 
     // Check if the transaction is already in the blockchain
     CTransaction existingTx;
-uint256 blockHash = uint256S("0");
+    uint256 blockHash = uint256S("0");
     if(GetTransaction(txHash, existingTx, blockHash))
     {
         if(blockHash != uint256())
             return;
     }
 
-    CMerkleTx cmt;
     // Send the transaction to the local node
     //   CTxDB txdb("r");
-    if(!cmt.AcceptToMemoryPool(false))
-    return;
+    bool fMissingInputs = false;
+    CValidationState state;
+    if(!AcceptToMemoryPool(mempool, state, tx, true, &fMissingInputs))
+        return;
     SyncWithWallets(tx, NULL);
     //(CInv(MSG_TX, txHash), tx);
     RelayTransaction(tx);
