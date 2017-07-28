@@ -178,7 +178,14 @@ void MultisigDialog::on_createAddressButton_clicked()
     CScript script = GetScriptForMultisig(required, pubkeys);
     CScriptID scriptID = GetScriptID(script);
     CBitcoinAddress address(scriptID);
-    
+    std::string label("multisig");
+
+    LOCK(pwalletMain->cs_wallet);
+    if(!pwalletMain->HaveCScript(scriptID))
+        pwalletMain->AddCScript(script);
+
+    if(!pwalletMain->mapAddressBook.count(address.Get()))
+        pwalletMain->SetAddressBook(address.Get(), label, "send");
 
     ui->multisigAddress->setText(address.ToString().c_str());
     ui->redeemScript->setText(HexStr(script.begin(), script.end()).c_str());
@@ -192,49 +199,6 @@ void MultisigDialog::on_copyMultisigAddressButton_clicked()
 void MultisigDialog::on_copyRedeemScriptButton_clicked()
 {
     QApplication::clipboard()->setText(ui->redeemScript->text());
-}
-
-void MultisigDialog::on_saveRedeemScriptButton_clicked()
-{
-    if(!model)
-        return;
-
-    CWallet *wallet = model->getWallet();
-    std::string redeemScript = ui->redeemScript->text().toStdString();
-    std::vector<unsigned char> scriptData(ParseHex(redeemScript));
-    CScript script(scriptData.begin(), scriptData.end());
-    CScriptID scriptID = GetScriptID(script);
-
-    LOCK(wallet->cs_wallet);
-    if(!wallet->HaveCScript(scriptID))
-        wallet->AddCScript(script);
-}
-
-void MultisigDialog::on_saveMultisigAddressButton_clicked()
-{
-    if(!model)
-        return;
-
-    CWallet *pwalletMain = model->getWallet();
-
-    std::string redeemScript = ui->redeemScript->text().toStdString();
-    std::string address = ui->multisigAddress->text().toStdString();
-    std::string label("multisig");
-
-    if(!model->validateAddress(QString(address.c_str())))
-        return;
-
-    std::vector<unsigned char> scriptData(ParseHex(redeemScript));
-    CScript script(scriptData.begin(), scriptData.end());
-    CScriptID scriptID = GetScriptID(script);
-
-    LOCK(pwalletMain->cs_wallet);
-    if(!pwalletMain->HaveCScript(scriptID))
-        pwalletMain->AddCScript(script);
-
-    CBitcoinAddress crownMultiSigAddress(address);
-    if(!pwalletMain->mapAddressBook.count(crownMultiSigAddress.Get()))
-		pwalletMain->SetAddressBook(crownMultiSigAddress.Get(), label, "multisig address");
 }
 
 void MultisigDialog::clear()

@@ -50,8 +50,6 @@ class MultisigDialog : public QDialog
     void on_createAddressButton_clicked();
     void on_copyMultisigAddressButton_clicked();
     void on_copyRedeemScriptButton_clicked();
-    void on_saveRedeemScriptButton_clicked();
-    void on_saveMultisigAddressButton_clicked();
     void removeEntry(MultisigAddressEntry *entry);
     void on_createTransactionButton_clicked();
     void on_transaction_textChanged();
