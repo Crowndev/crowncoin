@@ -205,7 +205,7 @@ bool IsBlockValueValid(const CBlock& block, int64_t nExpectedValue){
         if(nHeight % GetBudgetPaymentCycleBlocks() < 100){
             return true;
         } else {
-            if(block.vtx[0].GetValueOut() > nExpectedValue) return false;
+            if(block.vtx[0].GetValueOut() != nExpectedValue) return false;
         }
     } else { // we're synced and have data so check the budget schedule
 
@@ -218,7 +218,7 @@ bool IsBlockValueValid(const CBlock& block, int64_t nExpectedValue){
             //the value of the block is evaluated in CheckBlock
             return true;
         } else {
-            if(block.vtx[0].GetValueOut() > nExpectedValue) return false;
+            if(block.vtx[0].GetValueOut() != nExpectedValue) return false;
         }
     }
 
