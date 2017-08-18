@@ -385,9 +385,32 @@ bool EvalScript(vector<vector<unsigned char> >& stack, const CScript& script, un
                 }
                 break;
 
+
+                //
+                // Associative Operations
+                //
+
                 case OP_RETURN:
                 {
                     return set_error(serror, SCRIPT_ERR_OP_RETURN);
+                }
+                break;
+
+                case OP_REGISTER:
+                {
+                    return set_error(serror, SCRIPT_ERR_OP_REGISTER);
+                }
+                break;
+
+                case OP_DEREGISTER:
+                {
+                    return set_error(serror, SCRIPT_ERR_OP_DEREGISTER);
+                }
+                break;
+
+                case OP_META:
+                {
+                    return set_error(serror, SCRIPT_ERR_OP_META);
                 }
                 break;
 

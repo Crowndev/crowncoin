@@ -423,8 +423,8 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += "  -instantxdepth=<n>     " + strprintf(_("Show N confirmations for a successfully locked transaction (0-9340, default: %u)"), nInstantXDepth) + "\n";
 
     strUsage += "\n" + _("Node relay options:") + "\n";
-    strUsage += "  -datacarrier           " + strprintf(_("Relay and mine data carrier transactions (default: %u)"), 1) + "\n";
-    strUsage += "  -datacarriersize       " + strprintf(_("Maximum size of data in data carrier transactions we relay and mine (default: %u)"), MAX_OP_RETURN_RELAY) + "\n";
+    strUsage += "  -associativetx           " + strprintf(_("Relay and mine associative transactions (default: %u)"), 1) + "\n";
+    strUsage += "  -associativetxsize       " + strprintf(_("Maximum size of data in associative transactions we relay and mine (default: %u)"), MAX_ASSOCIATIVE_RELAY) + "\n";
 
     strUsage += "\n" + _("Block creation options:") + "\n";
     strUsage += "  -blockminsize=<n>      " + strprintf(_("Set minimum block size in bytes (default: %u)"), 0) + "\n";
@@ -812,7 +812,7 @@ bool AppInit2(boost::thread_group& threadGroup)
 #endif // ENABLE_WALLET
 
     fIsBareMultisigStd = GetArg("-permitbaremultisig", true) != 0;
-    nMaxDatacarrierBytes = GetArg("-datacarriersize", nMaxDatacarrierBytes);
+    nMaxAssociativeBytes = GetArg("-associativesize", nMaxAssociativeBytes);
 
     fAlerts = GetBoolArg("-alerts", DEFAULT_ALERTS);
 
