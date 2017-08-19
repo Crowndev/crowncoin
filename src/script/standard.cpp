@@ -53,32 +53,23 @@ bool Solver(const CScript& scriptPubKey, txnouttype& typeRet, vector<vector<unsi
         mTemplates.insert(make_pair(TX_MULTISIG, CScript() << OP_SMALLINTEGER << OP_PUBKEYS << OP_SMALLINTEGER << OP_CHECKMULTISIG));
 
         // ADD TEMPLATES FOR ASSOCIATIVE TRANSACTIONS HERE
+        // THE FLOW HERE IS PROBABLY (CERTAINLY) WRONG
         if (GetBoolArg("-associativetx", true))
-        {   
-            if (OP_RETURN.size > 7)
-               {
-                   mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_RETURN << OP_SMALLDATA));
+                {
+                    mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_RETURN << OP_SMALLDATA));
                mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_RETURN));
-               }
-
-               if (OP_REGISTER.size > 7)
-               {
-                   mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_REGISTER << OP_SMALLDATA));
-               mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_REGISTER));
-               }
-
-               if (OP_DEREGISTER.size > 7)
-               {
-                   mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_DEREGISTER << OP_SMALLDATA));
-               mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_DEREGISTER));
-               }
-
-               if (OP_META.size > 7)
-               {
-                mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_META << OP_SMALLDATA));
-               mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_META));
-               }
-        }
+               
+       //            mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_REGISTER << OP_SMALLDATA));
+       //        mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_REGISTER));
+        
+        
+       //            mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_DEREGISTER << OP_SMALLDATA));
+       //        mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_DEREGISTER));
+        
+       //          mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_META << OP_SMALLDATA));
+       //        mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_META));
+        
+                }
 
     }
 
