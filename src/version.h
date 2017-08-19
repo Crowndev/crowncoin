@@ -21,7 +21,7 @@ static const int GETHEADERS_VERSION = 70030;
 static const int MIN_PEER_PROTO_VERSION = 70050;
 
 //! minimum peer version accepted by DarksendPool
-static const int MIN_POOL_PEER_PROTO_VERSION = 999999999;
+static const int MIN_POOL_PEER_PROTO_VERSION = 70050;
 
 //! minimum peer version for throne budgets
 static const int MIN_BUDGET_PEER_PROTO_VERSION = 70050;
