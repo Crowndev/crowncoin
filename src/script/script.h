@@ -71,9 +71,9 @@ enum opcodetype
 
     // association
     OP_RETURN = 0x6a,
-    OP_REGISTER = 0xc1
-    OP_DEREGISTER = 0xc2
-    OP_META = 0xc3
+    OP_REGISTER = 0xc1,
+    OP_DEREGISTER = 0xc2,
+    OP_META = 0xc3,
 
     // stack ops
     OP_TOALTSTACK = 0x6b,
