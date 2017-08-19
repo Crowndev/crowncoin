@@ -25,7 +25,7 @@ public:
         destChange = CNoDestination();
         setSelected.clear();
         useInstantX = false;
-        useDarkSend = false;
+        useDarkSend = true;
     }
 
     bool HasSelected() const
