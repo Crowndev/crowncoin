@@ -54,25 +54,25 @@ bool Solver(const CScript& scriptPubKey, txnouttype& typeRet, vector<vector<unsi
 
         // ADD TEMPLATES FOR ASSOCIATIVE TRANSACTIONS HERE
         if (GetBoolArg("-associativetx", true))
-               if str.length(OP_RETURN)>7
+               if OP_RETURN.size > 7
                {
                    mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_RETURN << OP_SMALLDATA));
                mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_RETURN));
                }
 
-               if str.length(OP_REGISTER)>7
+               if OP_REGISTER.size > 7
                {
                    mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_REGISTER << OP_SMALLDATA));
                mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_REGISTER));
                }
 
-               if str.length(OP_DEREGISTER)>7
+               if OP_DEREGISTER.size > 7
                {
                    mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_DEREGISTER << OP_SMALLDATA));
                mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_DEREGISTER));
                }
 
-               if str.length(OP_META)>3
+               if OP_META.size > 3
                {
                 mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_META << OP_SMALLDATA));
                mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_META));
