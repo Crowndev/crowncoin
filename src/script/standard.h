@@ -58,7 +58,7 @@ enum txnouttype
 {
     TX_NONSTANDARD,
     // 'standard' transaction types:
-    TX_ASSOCIATIVE
+    TX_ASSOCIATIVE,
     TX_PUBKEY,
     TX_PUBKEYHASH,
     TX_SCRIPTHASH,
