@@ -71,13 +71,13 @@ void OptionsModel::Init()
         settings.setValue("fCoinControlFeatures", false);
     fCoinControlFeatures = settings.value("fCoinControlFeatures", false).toBool();
 
-    if (!settings.contains("nDarksendRounds"))
-        settings.setValue("nDarksendRounds", 2);
+    if (!settings.contains("nLegacysendRounds"))
+        settings.setValue("nLegacysendRounds", 2);
 
     if (!settings.contains("nAnonymizeCrownAmount"))
         settings.setValue("nAnonymizeCrownAmount", 10000);
 
-    nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
+    nLegacysendRounds = settings.value("nLegacysendRounds").toLongLong();
     nAnonymizeCrownAmount = settings.value("nAnonymizeCrownAmount").toLongLong();
 
     // These are shared with the core or have a command-line parameter
@@ -138,8 +138,8 @@ void OptionsModel::Init()
     if (!SoftSetArg("-lang", settings.value("language").toString().toStdString()))
         addOverriddenOption("-lang");
 
-    if (settings.contains("nDarksendRounds"))
-        SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
+    if (settings.contains("nLegacysendRounds"))
+        SoftSetArg("-legacysendrounds", settings.value("nLegacysendRounds").toString().toStdString());
     if (settings.contains("nAnonymizeCrownAmount"))
         SoftSetArg("-anonymizecrownamount", settings.value("nAnonymizeCrownAmount").toString().toStdString());
 
@@ -219,8 +219,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return settings.value("nDatabaseCache");
         case ThreadsScriptVerif:
             return settings.value("nThreadsScriptVerif");
-        case DarksendRounds:
-            return QVariant(nDarksendRounds);
+        case LegacysendRounds:
+            return QVariant(nLegacysendRounds);
         case AnonymizeCrownAmount:
             return QVariant(nAnonymizeCrownAmount);
         case Listen:
@@ -324,10 +324,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
                 setRestartRequired(true);
             }
             break;
-        case DarksendRounds:
-            nDarksendRounds = value.toInt();
-            settings.setValue("nDarksendRounds", nDarksendRounds);
-            emit darksendRoundsChanged(nDarksendRounds);
+        case LegacysendRounds:
+            nLegacysendRounds = value.toInt();
+            settings.setValue("nLegacysendRounds", nLegacysendRounds);
+            emit legacysendRoundsChanged(nLegacysendRounds);
             break;
         case AnonymizeCrownAmount:
             nAnonymizeCrownAmount = value.toInt();

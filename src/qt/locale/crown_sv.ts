@@ -736,10 +736,10 @@ Adress: %4
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>LegacysendConfig</name>
     <message>
-        <source>Configure Darksend</source>
-        <translation>Konfigurera Darksend</translation>
+        <source>Configure Legacysend</source>
+        <translation>Konfigurera Legacysend</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
@@ -758,16 +758,16 @@ Adress: %4
         <translation>Vänligen välj en integritetsnivå.</translation>
     </message>
     <message>
-        <source>Use 2 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Använd 2 enskilda throner för att mixa medel upp till 10000 CRW</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Använd 2 enskilda masternoder för att mixa medel upp till 10000 CRW</translation>
     </message>
     <message>
-        <source>Use 8 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Använd 8 enskilda throner för att mixa medel upp till 10000 CRW.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Använd 8 enskilda masternoder för att mixa medel upp till 10000 CRW.</translation>
     </message>
     <message>
-        <source>Use 16 separate thrones</source>
-        <translation>Använd 16 enskilda throner</translation>
+        <source>Use 16 separate masternodes</source>
+        <translation>Använd 16 enskilda masternoder</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 CRW to anonymize 10000 CRW</source>
@@ -786,20 +786,20 @@ Adress: %4
         <translation>Detta är det långsammaste och det säkraste alternativet. Användning av maximal anonymitet kommer att kosta</translation>
     </message>
     <message>
-        <source>Darksend Configuration</source>
-        <translation>Darksend-konfiguration</translation>
+        <source>Legacysend Configuration</source>
+        <translation>Legacysend-konfiguration</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna Crown:s konfigurationsskärm.</translation>
+        <source>Legacysend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna Crown:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna Crown:s konfigurationsskärm.</translation>
+        <source>Legacysend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna Crown:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna Crown:s konfigurationsskärm</translation>
+        <source>Legacysend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna Crown:s konfigurationsskärm</translation>
     </message>
 </context>
 <context>
@@ -1013,12 +1013,12 @@ Adress: %4
         <translation>(0 = auto, &lt;0 = lämna så många kärnor lediga)</translation>
     </message>
     <message>
-        <source>Darksend rounds to use</source>
-        <translation>Darksend-omgångar att använda</translation>
+        <source>Legacysend rounds to use</source>
+        <translation>Legacysend-omgångar att använda</translation>
     </message>
     <message>
-        <source>This amount acts as a threshold to turn off Darksend once it's reached.</source>
-        <translation>Denna mängd fungerar som en tröskel att stänga av Darksend då det har uppnåtts.</translation>
+        <source>This amount acts as a threshold to turn off Legacysend once it's reached.</source>
+        <translation>Denna mängd fungerar som en tröskel att stänga av Legacysend då det har uppnåtts.</translation>
     </message>
     <message>
         <source>Amount of Crown to keep anonymized</source>
@@ -1230,8 +1230,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Förlopp:</translation>
     </message>
     <message>
-        <source>Darksend Balance:</source>
-        <translation>Darksend-medel:</translation>
+        <source>Legacysend Balance:</source>
+        <translation>Legacysend-medel:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
@@ -1250,8 +1250,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>E/t</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>Start/Stop Mixing</source>
@@ -1262,16 +1262,16 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>(Senaste meddelande)</translation>
     </message>
     <message>
-        <source>Try to manually submit a Darksend request.</source>
-        <translation>Försök att lämna in en Darksend-begäran manuellt.</translation>
+        <source>Try to manually submit a Legacysend request.</source>
+        <translation>Försök att lämna in en Legacysend-begäran manuellt.</translation>
     </message>
     <message>
         <source>Try Mix</source>
         <translation>Försök att mixa</translation>
     </message>
     <message>
-        <source>Reset the current status of Darksend (can interrupt Darksend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Återställ den nuvarande Darksend-statusen (kan störa Darksend om den håller på att mixa vilket kan kosta dig pengar!)</translation>
+        <source>Reset the current status of Legacysend (can interrupt Legacysend if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Återställ den nuvarande Legacysend-statusen (kan störa Legacysend om den håller på att mixa vilket kan kosta dig pengar!)</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1286,12 +1286,12 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Inaktiverad</translation>
     </message>
     <message>
-        <source>Start Darksend Mixing</source>
-        <translation>Påbörja Darksend-mixning</translation>
+        <source>Start Legacysend Mixing</source>
+        <translation>Påbörja Legacysend-mixning</translation>
     </message>
     <message>
-        <source>Stop Darksend Mixing</source>
-        <translation>Stoppa Darksend-mixning</translation>
+        <source>Stop Legacysend Mixing</source>
+        <translation>Stoppa Legacysend-mixning</translation>
     </message>
     <message>
         <source>No inputs detected</source>
@@ -1302,9 +1302,9 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Aktiverad</translation>
     </message>
     <message>
-        <source>Last Darksend message:
+        <source>Last Legacysend message:
 </source>
-        <translation>Senaste Darksend-meddelande:
+        <translation>Senaste Legacysend-meddelande:
 
 
 
@@ -1316,16 +1316,16 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>E/t</translation>
     </message>
     <message>
-        <source>Darksend was successfully reset.</source>
-        <translation>Darksend återställdes framgångsrikt.</translation>
+        <source>Legacysend was successfully reset.</source>
+        <translation>Legacysend återställdes framgångsrikt.</translation>
     </message>
     <message>
-        <source>Darksend requires at least %1 to use.</source>
-        <translation>Darksend kräver åtminstone %1 att använda.</translation>
+        <source>Legacysend requires at least %1 to use.</source>
+        <translation>Legacysend kräver åtminstone %1 att använda.</translation>
     </message>
     <message>
-        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
-        <translation>Plånboken är låst och användaren avböjde upplåsning. Inaktiverar Darksend.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling Legacysend.</source>
+        <translation>Plånboken är låst och användaren avböjde upplåsning. Inaktiverar Legacysend.</translation>
     </message>
 </context>
 <context>
@@ -1791,8 +1791,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Lägg till &amp;mottagare</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>InstantX</source>
@@ -1839,8 +1839,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>anonyma medel</translation>
     </message>
     <message>
-        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(darksend kräver att denna mängd avrundas uppåt till närmaste %1)</translation>
+        <source>(legacysend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(legacysend kräver att denna mängd avrundas uppåt till närmaste %1)</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2384,8 +2384,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Mottagen från</translation>
     </message>
     <message>
-        <source>Received via Darksend</source>
-        <translation>Mottagen genom Darksend</translation>
+        <source>Received via Legacysend</source>
+        <translation>Mottagen genom Legacysend</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -2400,24 +2400,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Utvunnen</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Darksend-denomination</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend-denomination</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
+        <source>Legacysend Collateral Payment</source>
         <translation>Darskends-säkerhetsbetalning</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend-skapa säkerhetsinmatningar</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend-skapa säkerhetsinmatningar</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend-skapa denominationer</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend-skapa denominationer</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksent-(skickat)</translation>
+        <source>Legacysent</source>
+        <translation>Legacysent-(skickat)</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -2483,23 +2483,23 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Skickad till</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksent-(skickat)</translation>
+        <source>Legacysent</source>
+        <translation>Legacysent-(skickat)</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend-skapa säkerhetsinmatningar</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend-skapa säkerhetsinmatningar</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend-skapa denominationer</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend-skapa denominationer</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Darksend-denomination</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend-denomination</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
+        <source>Legacysend Collateral Payment</source>
         <translation>Darskends-säkerhetsbetalning</translation>
     </message>
     <message>
@@ -2666,8 +2666,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Kan inte erhålla ett lås på datakatalog %s. Crown Core körs förmodligen redan.</translation>
     </message>
     <message>
-        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend använder exakta denominationsmängder för att skicka medel, du kanske måste anonymisera fler mynt.</translation>
+        <source>Legacysend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>Legacysend använder exakta denominationsmängder för att skicka medel, du kanske måste anonymisera fler mynt.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -2718,12 +2718,12 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Det går inte att binda till %s till denna dator. Crown Core körs förmodligen redan.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>Kunde inte hitta tillräckliga Darksend-denominationsmedel för denna transaktion.</translation>
+        <source>Unable to locate enough Legacysend denominated funds for this transaction.</source>
+        <translation>Kunde inte hitta tillräckliga Legacysend-denominationsmedel för denna transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
-        <translation>Kunde inte hitta tillräckliga Darksend-icke-denominationsmedel för denna transaktion som inte är likvärdiga 10000 CRW.</translation>
+        <source>Unable to locate enough Legacysend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
+        <translation>Kunde inte hitta tillräckliga Legacysend-icke-denominationsmedel för denna transaktion som inte är likvärdiga 10000 CRW.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2746,8 +2746,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Varning: wallet.dat är korrumperad, data räddad! Den ursprungliga wallet.dat är sparad som wallet.{timestamp}.bak i %s; om ditt saldo eller transaktioner är felaktiga kanske du måste återställa från en säkerhetskopia.</translation>
     </message>
     <message>
-        <source>You must specify a throneprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Du måste specificera en thronepriv-nyckel i konfigurationen. Vänligen se dokumentationen för hjälp.</translation>
+        <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation>Du måste specificera en masternodepriv-nyckel i konfigurationen. Vänligen se dokumentationen för hjälp.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
@@ -2822,8 +2822,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Korrumperad blockdatabas upptäcktes</translation>
     </message>
     <message>
-        <source>Darksend options:</source>
-        <translation>Darksend-alternativ:</translation>
+        <source>Legacysend options:</source>
+        <translation>Legacysend-alternativ:</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -2894,8 +2894,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Fel: Plånbok låst, kan inte skapa en transaktion!</translation>
     </message>
     <message>
-        <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Fel: Du har redan väntande inmatningar i Darksend-poolen</translation>
+        <source>Error: You already have pending entries in the Legacysend pool</source>
+        <translation>Fel: Du har redan väntande inmatningar i Legacysend-poolen</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -2974,8 +2974,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Ogiltig mängd för -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Invalid throneprivkey. Please see documenation.</source>
-        <translation>Ogiltig thronepriv-nyckel. Vänligen se dokumentationen.</translation>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
+        <translation>Ogiltig masternodepriv-nyckel. Vänligen se dokumentationen.</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
@@ -2990,8 +2990,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Bibehåll som mest &lt;n&gt; icke-anslutningsbara transaktioner i minnet (standardvärde: %u)</translation>
     </message>
     <message>
-        <source>Last Darksend was too recent.</source>
-        <translation>Senaste Darksend gjordes för inte alltför länge sedan.</translation>
+        <source>Last Legacysend was too recent.</source>
+        <translation>Senaste Legacysend gjordes för inte alltför länge sedan.</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -3010,16 +3010,16 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Laddar plånbok...</translation>
     </message>
     <message>
-        <source>Throne options:</source>
-        <translation>Throne-alternativ:</translation>
+        <source>Masternode options:</source>
+        <translation>Masternode-alternativ:</translation>
     </message>
     <message>
-        <source>Throne queue is full.</source>
-        <translation>Throne-kön är uppfylld.</translation>
+        <source>Masternode queue is full.</source>
+        <translation>Masternode-kön är uppfylld.</translation>
     </message>
     <message>
-        <source>Throne:</source>
-        <translation>Throne:</translation>
+        <source>Masternode:</source>
+        <translation>Masternode:</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
@@ -3098,7 +3098,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Ställ in maximal blockstorlek i bytes (standardvärde: %d)</translation>
     </message>
     <message>
-        <source>Set the throne private key</source>
+        <source>Set the masternode private key</source>
         <translation>Ställ in masternodprivatnyckeln</translation>
     </message>
     <message>
@@ -3194,8 +3194,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Användarnamn för JSON-RPC-anslutningar</translation>
     </message>
     <message>
-        <source>Value more than Darksend pool maximum allows.</source>
-        <translation>Värdera mer än vad Darksends poolmaximum tillåter.</translation>
+        <source>Value more than Legacysend pool maximum allows.</source>
+        <translation>Värdera mer än vad Legacysends poolmaximum tillåter.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

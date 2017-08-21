@@ -642,7 +642,7 @@
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>LegacysendConfig</name>
     </context>
 <context>
     <name>EditAddressDialog</name>

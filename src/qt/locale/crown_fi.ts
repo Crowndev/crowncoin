@@ -741,8 +741,8 @@ Osoite: %4
         <translation>Kopioi vaihtoraha</translation>
     </message>
     <message>
-        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Ei anonyymeja syötteitä valittu. &lt;b&gt;Darksend poistetaan käytöstä.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Jos silti haluat käyttää Darksend:iä, poista ei anonyymit valinnat ensin ja valitse uudelleen Darksend optio.</translation>
+        <source>Non-anonymized input selected. &lt;b&gt;Legacysend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Legacysend, please deselect all non-nonymized inputs first and then check Legacysend checkbox again.</source>
+        <translation>Ei anonyymeja syötteitä valittu. &lt;b&gt;Legacysend poistetaan käytöstä.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Jos silti haluat käyttää Legacysend:iä, poista ei anonyymit valinnat ensin ja valitse uudelleen Legacysend optio.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -842,10 +842,10 @@ Osoite: %4
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>LegacysendConfig</name>
     <message>
-        <source>Configure Darksend</source>
-        <translation>Darksend Asetukset</translation>
+        <source>Configure Legacysend</source>
+        <translation>Legacysend Asetukset</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
@@ -864,16 +864,16 @@ Osoite: %4
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Käytä 2 erillistä thronea sekoittaaksesi varoja</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi varoja</translation>
     </message>
     <message>
-        <source>Use 8 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Käytä 8 erillistä thronea sekoittaaksesi varoja</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi varoja</translation>
     </message>
     <message>
-        <source>Use 16 separate thrones</source>
-        <translation>Käytä 16 erillistä thronea</translation>
+        <source>Use 16 separate masternodes</source>
+        <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 CRW to anonymize 10000 CRW</source>
@@ -892,20 +892,20 @@ Osoite: %4
         <translation>Tämä vaihtoehto on hitain ja kaikkein anonyymi. Suurimman yksityisyyden käyttö maksaa</translation>
     </message>
     <message>
-        <source>Darksend Configuration</source>
-        <translation>Darksend Asetukset</translation>
+        <source>Legacysend Configuration</source>
+        <translation>Legacysend Asetukset</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend on asetettu perusasetuksiin (%1 and 2 kierrosta). Voit muuttaa asetuksia milloin vain Crown asetuksista.</translation>
+        <source>Legacysend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend on asetettu perusasetuksiin (%1 and 2 kierrosta). Voit muuttaa asetuksia milloin vain Crown asetuksista.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend on asetettu keskitason asetuksiin (%1 and 8 kierrosta). Voit muuttaa asetuksia milloin vain Crown asetuksista.</translation>
+        <source>Legacysend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend on asetettu keskitason asetuksiin (%1 and 8 kierrosta). Voit muuttaa asetuksia milloin vain Crown asetuksista.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend on asetettu maksimitason asetuksiin (%1 and 16 kierrosta). Voit muuttaa asetuksia milloin vain Crown asetuksista.</translation>
+        <source>Legacysend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend on asetettu maksimitason asetuksiin (%1 and 16 kierrosta). Voit muuttaa asetuksia milloin vain Crown asetuksista.</translation>
     </message>
 </context>
 <context>
@@ -1147,12 +1147,12 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>(0 = auto, &lt;0 = jätä näin monta prosessorin ydintä vapaaksi)</translation>
     </message>
     <message>
-        <source>Darksend rounds to use</source>
-        <translation>Kuinka montaa Darksend kierrosta käytetään</translation>
+        <source>Legacysend rounds to use</source>
+        <translation>Kuinka montaa Legacysend kierrosta käytetään</translation>
     </message>
     <message>
-        <source>This amount acts as a threshold to turn off Darksend once it's reached.</source>
-        <translation>Tämä määrä toimii rajana keskeytykselle kun Darksend anonymisointi sen saavuttaa.</translation>
+        <source>This amount acts as a threshold to turn off Legacysend once it's reached.</source>
+        <translation>Tämä määrä toimii rajana keskeytykselle kun Legacysend anonymisointi sen saavuttaa.</translation>
     </message>
     <message>
         <source>Amount of Crown to keep anonymized</source>
@@ -1187,8 +1187,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>Expertti</translation>
     </message>
     <message>
-        <source>This setting determines the amount of individual thrones that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Tämä asetus määrittää kuinka monen erillisen thronen kautta syötteen anonymisointi tehdään.&lt;br/&gt;Mitä enemmän anonymisoinnin kierroksia, sen parempi yksityisyys, mutta se myös maksaa enemmän siirtomaksuina.</translation>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <translation>Tämä asetus määrittää kuinka monen erillisen masternoden kautta syötteen anonymisointi tehdään.&lt;br/&gt;Mitä enemmän anonymisoinnin kierroksia, sen parempi yksityisyys, mutta se myös maksaa enemmän siirtomaksuina.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1424,8 +1424,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Valmiina:</translation>
     </message>
     <message>
-        <source>Darksend Balance:</source>
-        <translation>Darksend Saldo:</translation>
+        <source>Legacysend Balance:</source>
+        <translation>Legacysend Saldo:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
@@ -1444,8 +1444,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>e/s</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1456,24 +1456,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Käynnistä/Lopeta Sekoitus</translation>
     </message>
     <message>
-        <source>The denominations you submitted to the Throne.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Thronelle lähetetyt denominoinnit.&lt;br&gt;Jotta sekoitus onnistuisi, täytyy muiden käyttäjien käyttää saman arvoisia denominointeja.</translation>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation>Masternodelle lähetetyt denominoinnit.&lt;br&gt;Jotta sekoitus onnistuisi, täytyy muiden käyttäjien käyttää saman arvoisia denominointeja.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
         <translation>(Viimeisin Viesti)</translation>
     </message>
     <message>
-        <source>Try to manually submit a Darksend request.</source>
-        <translation>Yritä manuaalisesti esittää Darksend sekoituspyyntö.</translation>
+        <source>Try to manually submit a Legacysend request.</source>
+        <translation>Yritä manuaalisesti esittää Legacysend sekoituspyyntö.</translation>
     </message>
     <message>
         <source>Try Mix</source>
         <translation>Yritä Sekoittaa</translation>
     </message>
     <message>
-        <source>Reset the current status of Darksend (can interrupt Darksend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Nollaa nykyinen Darksend tila (voi keskeyttää Darksend sekoituksen, joka voi maksaa ylimääräisiä kuluja)</translation>
+        <source>Reset the current status of Legacysend (can interrupt Legacysend if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Nollaa nykyinen Legacysend tila (voi keskeyttää Legacysend sekoituksen, joka voi maksaa ylimääräisiä kuluja)</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1488,12 +1488,12 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Ei käytössä</translation>
     </message>
     <message>
-        <source>Start Darksend Mixing</source>
-        <translation>Käynnistä Darksend Sekoitus</translation>
+        <source>Start Legacysend Mixing</source>
+        <translation>Käynnistä Legacysend Sekoitus</translation>
     </message>
     <message>
-        <source>Stop Darksend Mixing</source>
-        <translation>Lopeta Darksend Sekoitus</translation>
+        <source>Stop Legacysend Mixing</source>
+        <translation>Lopeta Legacysend Sekoitus</translation>
     </message>
     <message>
         <source>No inputs detected</source>
@@ -1536,9 +1536,9 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Käytössä</translation>
     </message>
     <message>
-        <source>Last Darksend message:
+        <source>Last Legacysend message:
 </source>
-        <translation>Viimeisin Darksend viesti:
+        <translation>Viimeisin Legacysend viesti:
 </translation>
     </message>
     <message>
@@ -1546,20 +1546,20 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>e/s</translation>
     </message>
     <message>
-        <source>Darksend was successfully reset.</source>
-        <translation>Darksend nollattu onnistuneesti.</translation>
+        <source>Legacysend was successfully reset.</source>
+        <translation>Legacysend nollattu onnistuneesti.</translation>
     </message>
     <message>
-        <source>If you don't want to see internal Darksend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Jos et halua nähdä sisäisiä Darksend sekoituksen kuluja/tapahtumia, valitse "Yleiset" tyypiksi siirtotapahtumissa.</translation>
+        <source>If you don't want to see internal Legacysend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>Jos et halua nähdä sisäisiä Legacysend sekoituksen kuluja/tapahtumia, valitse "Yleiset" tyypiksi siirtotapahtumissa.</translation>
     </message>
     <message>
-        <source>Darksend requires at least %1 to use.</source>
-        <translation>Darksendin käyttö vaatii vähintään %1.</translation>
+        <source>Legacysend requires at least %1 to use.</source>
+        <translation>Legacysendin käyttö vaatii vähintään %1.</translation>
     </message>
     <message>
-        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
-        <translation>Lompakko on lukittu ja käyttäjä ei avannut sitä. Darksend asetetaan pois käytöstä.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling Legacysend.</source>
+        <translation>Lompakko on lukittu ja käyttäjä ei avannut sitä. Legacysend asetetaan pois käytöstä.</translation>
     </message>
 </context>
 <context>
@@ -1813,8 +1813,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Lohkoketju</translation>
     </message>
     <message>
-        <source>Number of Thrones</source>
-        <translation>Thronet määrä</translation>
+        <source>Number of Masternodes</source>
+        <translation>Masternodet määrä</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2369,8 +2369,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Lisää &amp;Vastaanottaja</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>InstantX</source>
@@ -2421,8 +2421,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>anonymisoituja varoja</translation>
     </message>
     <message>
-        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(darksend pyöristää tämän lähimpään %1).</translation>
+        <source>(legacysend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(legacysend pyöristää tämän lähimpään %1).</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3025,8 +3025,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Vastaanotettu osoitteesta</translation>
     </message>
     <message>
-        <source>Received via Darksend</source>
-        <translation>Darksend vastaanotettu</translation>
+        <source>Received via Legacysend</source>
+        <translation>Legacysend vastaanotettu</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -3041,24 +3041,24 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Louhittu</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Darksend denominointi</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend denominointi</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Darksend vakuus maksu</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Legacysend vakuus maksu</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend luo vakuus syötteet</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend luo vakuus syötteet</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend denominointien luonti</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend denominointien luonti</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksend lähetetty</translation>
+        <source>Legacysent</source>
+        <translation>Legacysend lähetetty</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3136,24 +3136,24 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Lähetetty</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksend lähetetty</translation>
+        <source>Legacysent</source>
+        <translation>Legacysend lähetetty</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend luo vakuus syötteet</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend luo vakuus syötteet</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend denominointien luonti</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend denominointien luonti</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Darksend denominointi</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend denominointi</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Darksend vakuus maksu</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Legacysend vakuus maksu</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3335,8 +3335,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Ei voida lukita data hakemistoa %s. Crown Core on luultavasti jo käynnissä.</translation>
     </message>
     <message>
-        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend käyttää tarkalleen denominoituja syötteitä lähettäessään varoja, saatat tarvita anonymisoida lisää varoja.</translation>
+        <source>Legacysend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>Legacysend käyttää tarkalleen denominoituja syötteitä lähettäessään varoja, saatat tarvita anonymisoida lisää varoja.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3387,12 +3387,12 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Ei voida yhdistää %s tässä tietokoneessa. Crown Core on luultavasti jo käynnissä.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>Ei tarpeeksi Darksend anonymisoituja varoja tälle siirtotapahtumalle.</translation>
+        <source>Unable to locate enough Legacysend denominated funds for this transaction.</source>
+        <translation>Ei tarpeeksi Legacysend anonymisoituja varoja tälle siirtotapahtumalle.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
-        <translation>Ei tarpeeksi Darksend ei-anonymisoituja varoja tälle siirtotapahtumalle, joka ei ole 10000 CRW.</translation>
+        <source>Unable to locate enough Legacysend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
+        <translation>Ei tarpeeksi Legacysend ei-anonymisoituja varoja tälle siirtotapahtumalle, joka ei ole 10000 CRW.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3415,8 +3415,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Varoitus: Wallet.dat lompakkotiedosto on vioittunut, tiedot pelastettu. Alkuperäinen wallet.dat lompakkotiedosto on tallennettu wallet.{timestamp}.bak kansioon %s, jos saldosi tai siirtohistoria on virheellinen, sinun tulisi palauttaa lompakkotiedosto varmuuskopiosta.</translation>
     </message>
     <message>
-        <source>You must specify a throneprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Sinun täytyy määritellä throneprivkey asetustiedostoon. Katso lisätietoja dokumentaatiosta.</translation>
+        <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation>Sinun täytyy määritellä masternodeprivkey asetustiedostoon. Katso lisätietoja dokumentaatiosta.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
@@ -3491,8 +3491,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Vioittunut lohkotietokanta havaittu</translation>
     </message>
     <message>
-        <source>Darksend options:</source>
-        <translation>Darksend valinnat:</translation>
+        <source>Legacysend options:</source>
+        <translation>Legacysend valinnat:</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -3563,8 +3563,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Virhe: Lompakko on lukittu, siirtotapahtumaa ei voida luoda!</translation>
     </message>
     <message>
-        <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Virhe: Sinulla on jo odottavia merkintöjä Darksend varannossa</translation>
+        <source>Error: You already have pending entries in the Legacysend pool</source>
+        <translation>Virhe: Sinulla on jo odottavia merkintöjä Legacysend varannossa</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -3615,8 +3615,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Poista kaikki lompakon siirtotapahtumat ja palauta vain nuo osat lohkoketjusta -rescan valinnan avulla käynnistyksessä</translation>
     </message>
     <message>
-        <source>Disable all Crown specific functionality (Thrones, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Kytke pois käytöstä kaikki Crown:in erityistoiminnot (Thronet, Darksend, InstantX, Budjetointi) (0-1, oletus: %u)</translation>
+        <source>Disable all Crown specific functionality (Masternodes, Legacysend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Kytke pois käytöstä kaikki Crown:in erityistoiminnot (Masternodet, Legacysend, InstantX, Budjetointi) (0-1, oletus: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3627,8 +3627,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Ota instantx käyttöön, näytä lukittujen siirtojen vahvistukset (bool, oletus: %s)</translation>
     </message>
     <message>
-        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Ota käyttöön automaattinen Darksend rahavaroille tässä lompakossa  (0-1, oletus: %u)</translation>
+        <source>Enable use of automated legacysend for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Ota käyttöön automaattinen Legacysend rahavaroille tässä lompakossa  (0-1, oletus: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3687,8 +3687,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Tulosta debuggaustieto (oletus: %u, tarjottava &lt;category&gt; on valinnainen)</translation>
     </message>
     <message>
-        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Tarjoa Darksend:ille likviditeettiä jatkuvaa kolikoiden sekoitusta varten (0-100, oletus: %u, 1=usein, isot maksukulut, 100=harvoin, pienet maksukulut)</translation>
+        <source>Provide liquidity to Legacysend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Tarjoa Legacysend:ille likviditeettiä jatkuvaa kolikoiden sekoitusta varten (0-100, oletus: %u, 1=usein, isot maksukulut, 100=harvoin, pienet maksukulut)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3807,28 +3807,28 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Ei voida jäsentää -rpcbind arvoa %s verkko-osoitteena</translation>
     </message>
     <message>
-        <source>Darksend is idle.</source>
-        <translation>Darksend odottaa.</translation>
+        <source>Legacysend is idle.</source>
+        <translation>Legacysend odottaa.</translation>
     </message>
     <message>
-        <source>Darksend request complete:</source>
-        <translation>Darksend pyyntö valmis:</translation>
+        <source>Legacysend request complete:</source>
+        <translation>Legacysend pyyntö valmis:</translation>
     </message>
     <message>
-        <source>Darksend request incomplete:</source>
-        <translation>Darksend pyyntö kesken:</translation>
+        <source>Legacysend request incomplete:</source>
+        <translation>Legacysend pyyntö kesken:</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
         <translation>Poista turvatila käytöstä, ohita todellinen turvatila tapahtuma (oletus: %u)</translation>
     </message>
     <message>
-        <source>Enable the client to act as a throne (0-1, default: %u)</source>
-        <translation>Aktivoi asiakasohjelman käyttö throne:na (0-1, oletus: %u)</translation>
+        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
+        <translation>Aktivoi asiakasohjelman käyttö masternode:na (0-1, oletus: %u)</translation>
     </message>
     <message>
-        <source>Error connecting to Throne.</source>
-        <translation>Virhe throne:en kytkeytymisessä.</translation>
+        <source>Error connecting to Masternode.</source>
+        <translation>Virhe masternode:en kytkeytymisessä.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Crown Core</source>
@@ -3947,8 +3947,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Virheellinen määrä -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Last successful Darksend action was too recent.</source>
-        <translation>Viimeinen onnistunut Darksend tapahtuma oli liian äskettäin.</translation>
+        <source>Last successful Legacysend action was too recent.</source>
+        <translation>Viimeinen onnistunut Legacysend tapahtuma oli liian äskettäin.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
@@ -3967,20 +3967,20 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Ladataan budjetti välimuistia...</translation>
     </message>
     <message>
-        <source>Loading throne cache...</source>
-        <translation>Ladataan throne välimuistia...</translation>
+        <source>Loading masternode cache...</source>
+        <translation>Ladataan masternode välimuistia...</translation>
     </message>
     <message>
-        <source>Loading throne payment cache...</source>
-        <translation>Ladataan throne maksuvälimuistia...</translation>
+        <source>Loading masternode payment cache...</source>
+        <translation>Ladataan masternode maksuvälimuistia...</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
         <translation>On jo lukittu.</translation>
     </message>
     <message>
-        <source>Lock thrones from throne configuration file (default: %u)</source>
-        <translation>Lukitse thronet niiden asetustiedoston kautta (oletus: %u)</translation>
+        <source>Lock masternodes from masternode configuration file (default: %u)</source>
+        <translation>Lukitse masternodet niiden asetustiedoston kautta (oletus: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
@@ -4003,16 +4003,16 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Tarvitaan määritellä portti -whitebind: '%s'</translation>
     </message>
     <message>
-        <source>No Thrones detected.</source>
-        <translation>Throneja ei havaittu.</translation>
+        <source>No Masternodes detected.</source>
+        <translation>Masternodeja ei havaittu.</translation>
     </message>
     <message>
-        <source>No compatible Throne found.</source>
-        <translation>Yhteensopivaa Thronea ei löytynyt.</translation>
+        <source>No compatible Masternode found.</source>
+        <translation>Yhteensopivaa Masternodea ei löytynyt.</translation>
     </message>
     <message>
-        <source>Not in the Throne list.</source>
-        <translation>Ei ole Throne listassa.</translation>
+        <source>Not in the Masternode list.</source>
+        <translation>Ei ole Masternode listassa.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
@@ -4051,8 +4051,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Serverin yksityisavain (oletus: %s)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this throne (example: %s)</source>
-        <translation>Aseta ulkoinen osoite:portti tälle thronelle (esim: %s)</translation>
+        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <translation>Aseta ulkoinen osoite:portti tälle masternodelle (esim: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
@@ -4083,8 +4083,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Määritä yhteyden aikakatkaisu millisekunneissa (minimi: 1, oletus: %d)</translation>
     </message>
     <message>
-        <source>Specify throne configuration file (default: %s)</source>
-        <translation>Määritä thronen asetustiedosto (oletus: %s)</translation>
+        <source>Specify masternode configuration file (default: %s)</source>
+        <translation>Määritä masternoden asetustiedosto (oletus: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -4099,16 +4099,16 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Keskeytä kun kaikki lohkot tuotu levyltä (oletus: %u)</translation>
     </message>
     <message>
-        <source>Submitted following entries to throne: %u / %d</source>
-        <translation>Esitetty seuraavat merkinnät thronelle: %u / %d</translation>
+        <source>Submitted following entries to masternode: %u / %d</source>
+        <translation>Esitetty seuraavat merkinnät masternodelle: %u / %d</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Esitetty thronelle, odotetaan lisää merkintöjä ( %u / %d ) %s</translation>
+        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
+        <translation>Esitetty masternodelle, odotetaan lisää merkintöjä ( %u / %d ) %s</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting in queue %s</source>
-        <translation>Esitetty thronelle, odotetaan jonossa %s</translation>
+        <source>Submitted to masternode, waiting in queue %s</source>
+        <translation>Esitetty masternodelle, odotetaan jonossa %s</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -4123,28 +4123,28 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Synkronoidaan budjetit...</translation>
     </message>
     <message>
-        <source>Synchronizing throne winners...</source>
-        <translation>Synkronoidaan throne voittajat...</translation>
+        <source>Synchronizing masternode winners...</source>
+        <translation>Synkronoidaan masternode voittajat...</translation>
     </message>
     <message>
-        <source>Synchronizing thrones...</source>
-        <translation>Synkronoidaan thronet...</translation>
+        <source>Synchronizing masternodes...</source>
+        <translation>Synkronoidaan masternodet...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
         <translation>Synkronoidaan sporkit...</translation>
     </message>
     <message>
-        <source>This is not a Throne.</source>
-        <translation>Tämä ei ole Throne.</translation>
+        <source>This is not a Masternode.</source>
+        <translation>Tämä ei ole Masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Yhteyden kynnysaika huonosti käyttäyville peers:lle (oletus: %u)</translation>
     </message>
     <message>
-        <source>Use N separate thrones to anonymize funds  (2-8, default: %u)</source>
-        <translation>Käytä N erillistä thronea varojen anonymisointiin (2-8, oletus: %u)</translation>
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
+        <translation>Käytä N erillistä masternodea varojen anonymisointiin (2-8, oletus: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -4167,32 +4167,32 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Yritetään uudelleen...</translation>
     </message>
     <message>
-        <source>Invalid throneprivkey. Please see documenation.</source>
-        <translation>Virheellinen thronen yksityisavain (throneprivkey). Katso lisätietoja dokumentaatiosta.</translation>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
+        <translation>Virheellinen masternoden yksityisavain (masternodeprivkey). Katso lisätietoja dokumentaatiosta.</translation>
     </message>
     <message>
         <source>(must be 9340 for mainnet)</source>
         <translation>(oltava 9340 pääverkossa)</translation>
     </message>
     <message>
-        <source>Can't find random Throne.</source>
-        <translation>Satunnaista Thronea ei löydy.</translation>
+        <source>Can't find random Masternode.</source>
+        <translation>Satunnaista Masternodea ei löydy.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>Ei voida sekoittaa synkronoinnin aikana.</translation>
     </message>
     <message>
-        <source>Could not parse throne.conf</source>
-        <translation> Ei voitu jäsentää throne.conf</translation>
+        <source>Could not parse masternode.conf</source>
+        <translation> Ei voitu jäsentää masternode.conf</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
         <translation>Virheellinen verkkomaski määritelty -whitelist: '%s'</translation>
     </message>
     <message>
-        <source>Invalid port detected in throne.conf</source>
-        <translation>Virheellinen portti löytyi throne.conf :sta</translation>
+        <source>Invalid port detected in masternode.conf</source>
+        <translation>Virheellinen portti löytyi masternode.conf :sta</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
@@ -4211,8 +4211,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Pidä enintään &lt;n&gt; ei yhdistettyä siirtotapahtumaa muistissa (oletus: %u)</translation>
     </message>
     <message>
-        <source>Last Darksend was too recent.</source>
-        <translation>Viimeisin Darksend oli liian äskettäin.</translation>
+        <source>Last Legacysend was too recent.</source>
+        <translation>Viimeisin Legacysend oli liian äskettäin.</translation>
     </message>
     <message>
         <source>Line: %d</source>
@@ -4235,16 +4235,16 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Ladataan lompakkoa...</translation>
     </message>
     <message>
-        <source>Throne options:</source>
-        <translation>Throne valinnat:</translation>
+        <source>Masternode options:</source>
+        <translation>Masternode valinnat:</translation>
     </message>
     <message>
-        <source>Throne queue is full.</source>
-        <translation>Throne jono on täysi.</translation>
+        <source>Masternode queue is full.</source>
+        <translation>Masternode jono on täysi.</translation>
     </message>
     <message>
-        <source>Throne:</source>
-        <translation>Throne:</translation>
+        <source>Masternode:</source>
+        <translation>Masternode:</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
@@ -4347,8 +4347,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Aseta lohkon maksimikoko tavuissa (oletus: %d)</translation>
     </message>
     <message>
-        <source>Set the throne private key</source>
-        <translation>Aseta thronen yksityisavain.</translation>
+        <source>Set the masternode private key</source>
+        <translation>Aseta masternoden yksityisavain.</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -4463,8 +4463,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "Crown Hälytys" admin@foo.com
         <translation>Käyttäjätunnus JSON-RPC yhteyksille</translation>
     </message>
     <message>
-        <source>Value more than Darksend pool maximum allows.</source>
-        <translation>Määrä on enemmän kuin Darksend varannon maksimi sallii.</translation>
+        <source>Value more than Legacysend pool maximum allows.</source>
+        <translation>Määrä on enemmän kuin Legacysend varannon maksimi sallii.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

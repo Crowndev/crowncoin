@@ -2,25 +2,25 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DARKSEND_H
-#define DARKSEND_H
+#ifndef LEGACYSEND_H
+#define LEGACYSEND_H
 
 #include "main.h"
 #include "sync.h"
-#include "activethrone.h"
-#include "throneman.h"
-#include "throne-payments.h"
-#include "darksend-relay.h"
-#include "throne-sync.h"
+#include "activemasternode.h"
+#include "masternodeman.h"
+#include "masternode-payments.h"
+#include "legacysend-relay.h"
+#include "masternode-sync.h"
 
 class CTxIn;
-class CDarksendPool;
-class CDarkSendSigner;
-class CThroNeVote;
+class CLegacysendPool;
+class CLegacySendSigner;
+class CMasterNodeVote;
 class CBitcoinAddress;
-class CDarksendQueue;
-class CDarksendBroadcastTx;
-class CActiveThrone;
+class CLegacysendQueue;
+class CLegacysendBroadcastTx;
+class CActiveMasternode;
 
 // pool states for mixing
 #define POOL_STATUS_UNKNOWN                    0 // waiting for update
@@ -34,29 +34,29 @@ class CActiveThrone;
 #define POOL_STATUS_SUCCESS                    8 // success
 
 // status update message constants
-#define THRONE_ACCEPTED                    1
-#define THRONE_REJECTED                    0
-#define THRONE_RESET                       -1
+#define MASTERNODE_ACCEPTED                    1
+#define MASTERNODE_REJECTED                    0
+#define MASTERNODE_RESET                       -1
 
-#define DARKSEND_QUEUE_TIMEOUT                 30
-#define DARKSEND_SIGNING_TIMEOUT               15
+#define LEGACYSEND_QUEUE_TIMEOUT                 30
+#define LEGACYSEND_SIGNING_TIMEOUT               15
 
 // used for anonymous relaying of inputs/outputs/sigs
-#define DARKSEND_RELAY_IN                 1
-#define DARKSEND_RELAY_OUT                2
-#define DARKSEND_RELAY_SIG                3
+#define LEGACYSEND_RELAY_IN                 1
+#define LEGACYSEND_RELAY_OUT                2
+#define LEGACYSEND_RELAY_SIG                3
 
-static const int64_t DARKSEND_COLLATERAL = (0.01*COIN);
-static const int64_t DARKSEND_POOL_MAX = (9999.99*COIN);
+static const int64_t LEGACYSEND_COLLATERAL = (0.01*COIN);
+static const int64_t LEGACYSEND_POOL_MAX = (9999.99*COIN);
 
-extern CDarksendPool darkSendPool;
-extern CDarkSendSigner darkSendSigner;
-extern std::vector<CDarksendQueue> vecDarksendQueue;
-extern std::string strThroNePrivKey;
-extern map<uint256, CDarksendBroadcastTx> mapDarksendBroadcastTxes;
-extern CActiveThrone activeThrone;
+extern CLegacysendPool legacySendPool;
+extern CLegacySendSigner legacySendSigner;
+extern std::vector<CLegacysendQueue> vecLegacysendQueue;
+extern std::string strMasterNodePrivKey;
+extern map<uint256, CLegacysendBroadcastTx> mapLegacysendBroadcastTxes;
+extern CActiveMasternode activeMasternode;
 
-/** Holds an Darksend input
+/** Holds an Legacysend input
  */
 class CTxDSIn : public CTxIn
 {
@@ -75,7 +75,7 @@ public:
     }
 };
 
-/** Holds an Darksend output
+/** Holds an Legacysend output
  */
 class CTxDSOut : public CTxOut
 {
@@ -91,8 +91,8 @@ public:
     }
 };
 
-// A clients transaction in the darksend pool
-class CDarkSendEntry
+// A clients transaction in the legacysend pool
+class CLegacySendEntry
 {
 public:
     bool isSet;
@@ -103,14 +103,14 @@ public:
     CTransaction txSupporting;
     int64_t addedTime; // time in UTC milliseconds
 
-    CDarkSendEntry()
+    CLegacySendEntry()
     {
         isSet = false;
         collateral = CTransaction();
         amount = 0;
     }
 
-    /// Add entries to use for Darksend
+    /// Add entries to use for Legacysend
     bool Add(const std::vector<CTxIn> vinIn, int64_t amountIn, const CTransaction collateralIn, const std::vector<CTxOut> voutIn)
     {
         if(isSet){return false;}
@@ -147,15 +147,15 @@ public:
 
     bool IsExpired()
     {
-        return (GetTime() - addedTime) > DARKSEND_QUEUE_TIMEOUT;// 120 seconds
+        return (GetTime() - addedTime) > LEGACYSEND_QUEUE_TIMEOUT;// 120 seconds
     }
 };
 
 
 /**
- * A currently inprogress Darksend merge and denomination information
+ * A currently inprogress Legacysend merge and denomination information
  */
-class CDarksendQueue
+class CLegacysendQueue
 {
 public:
     CTxIn vin;
@@ -164,7 +164,7 @@ public:
     bool ready; //ready for submit
     std::vector<unsigned char> vchSig;
 
-    CDarksendQueue()
+    CLegacysendQueue()
     {
         nDenom = 0;
         vin = CTxIn();
@@ -186,7 +186,7 @@ public:
 
     bool GetAddress(CService &addr)
     {
-        CThrone* pmn = mnodeman.Find(vin);
+        CMasternode* pmn = mnodeman.Find(vin);
         if(pmn != NULL)
         {
             addr = pmn->addr;
@@ -198,7 +198,7 @@ public:
     /// Get the protocol version
     bool GetProtocolVersion(int &protocolVersion)
     {
-        CThrone* pmn = mnodeman.Find(vin);
+        CMasternode* pmn = mnodeman.Find(vin);
         if(pmn != NULL)
         {
             protocolVersion = pmn->protocolVersion;
@@ -207,10 +207,10 @@ public:
         return false;
     }
 
-    /** Sign this Darksend transaction
+    /** Sign this Legacysend transaction
      *  \return true if all conditions are met:
-     *     1) we have an active Throne,
-     *     2) we have a valid Throne private key,
+     *     1) we have an active Masternode,
+     *     2) we have a valid Masternode private key,
      *     3) we signed the message successfully, and
      *     4) we verified the message successfully
      */
@@ -218,20 +218,20 @@ public:
 
     bool Relay();
 
-    /// Is this Darksend expired?
+    /// Is this Legacysend expired?
     bool IsExpired()
     {
-        return (GetTime() - time) > DARKSEND_QUEUE_TIMEOUT;// 120 seconds
+        return (GetTime() - time) > LEGACYSEND_QUEUE_TIMEOUT;// 120 seconds
     }
 
-    /// Check if we have a valid Throne address
+    /// Check if we have a valid Masternode address
     bool CheckSignature();
 
 };
 
-/** Helper class to store Darksend transaction (tx) information.
+/** Helper class to store Legacysend transaction (tx) information.
  */
-class CDarksendBroadcastTx
+class CLegacysendBroadcastTx
 {
 public:
     CTransaction tx;
@@ -242,10 +242,10 @@ public:
 
 /** Helper object for signing and checking signatures
  */
-class CDarkSendSigner
+class CLegacySendSigner
 {
 public:
-    /// Is the inputs associated with this public key? (and there is 10000 CRW - checking if valid throne)
+    /// Is the inputs associated with this public key? (and there is 10000 CRW - checking if valid masternode)
     bool IsVinAssociatedWithPubkey(CTxIn& vin, CPubKey& pubkey);
     /// Set the private/public key values, returns true if successful
     bool SetKey(std::string strSecret, std::string& errorMessage, CKey& key, CPubKey& pubkey);
@@ -255,14 +255,14 @@ public:
     bool VerifyMessage(CPubKey pubkey, std::vector<unsigned char>& vchSig, std::string strMessage, std::string& errorMessage);
 };
 
-/** Used to keep track of current status of Darksend pool
+/** Used to keep track of current status of Legacysend pool
  */
-class CDarksendPool
+class CLegacysendPool
 {
 private:
-    mutable CCriticalSection cs_darksend;
+    mutable CCriticalSection cs_legacysend;
 
-    std::vector<CDarkSendEntry> entries; // Throne/clients entries
+    std::vector<CLegacySendEntry> entries; // Masternode/clients entries
     CMutableTransaction finalTransaction; // the finalized transaction ready for signing
 
     int64_t lastTimeChanged; // last time the 'state' changed, in UTC milliseconds
@@ -280,7 +280,7 @@ private:
     int sessionID;
 
     int sessionUsers; //N Users have said they'll join
-    bool sessionFoundThrone; //If we've found a compatible Throne
+    bool sessionFoundMasternode; //If we've found a compatible Masternode
     std::vector<CTransaction> vecSessionCollateral;
 
     int cachedLastSuccess;
@@ -322,13 +322,13 @@ public:
     // where collateral should be made out to
     CScript collateralPubKey;
 
-    CThrone* pSubmittedToThrone;
+    CMasternode* pSubmittedToMasternode;
     int sessionDenom; //Users must submit an denom matching this
     int cachedNumBlocks; //used for the overview screen
 
-    CDarksendPool()
+    CLegacysendPool()
     {
-        /* Darksend uses collateral addresses to trust parties entering the pool
+        /* Legacysend uses collateral addresses to trust parties entering the pool
             to behave themselves. If they don't it takes their money. */
 
         cachedLastSuccess = 0;
@@ -341,25 +341,25 @@ public:
         SetNull();
     }
 
-    /** Process a Darksend message using the Darksend protocol
+    /** Process a Legacysend message using the Legacysend protocol
      * \param pfrom
      * \param strCommand lower case command string; valid values are:
      *        Command  | Description
      *        -------- | -----------------
-     *        dsa      | Darksend Acceptable
-     *        dsc      | Darksend Complete
-     *        dsf      | Darksend Final tx
-     *        dsi      | Darksend vIn
-     *        dsq      | Darksend Queue
-     *        dss      | Darksend Signal Final Tx
-     *        dssu     | Darksend status update
-     *        dssub    | Darksend Subscribe To
+     *        dsa      | Legacysend Acceptable
+     *        dsc      | Legacysend Complete
+     *        dsf      | Legacysend Final tx
+     *        dsi      | Legacysend vIn
+     *        dsq      | Legacysend Queue
+     *        dss      | Legacysend Signal Final Tx
+     *        dssu     | Legacysend status update
+     *        dssub    | Legacysend Subscribe To
      * \param vRecv
      */
-    void ProcessMessageDarksend(CNode* pfrom, std::string& strCommand, CDataStream& vRecv);
+    void ProcessMessageLegacysend(CNode* pfrom, std::string& strCommand, CDataStream& vRecv);
 
     void InitCollateralAddress(){
-        SetCollateralAddress(Params().DarksendPoolDummyAddress());
+        SetCollateralAddress(Params().LegacysendPoolDummyAddress());
     }
 
     void SetMinBlockSpacing(int minBlockSpacingIn){
@@ -404,16 +404,16 @@ public:
     // Set the 'state' value, with some logging and capturing when the state changed
     void UpdateState(unsigned int newState)
     {
-        if (fThroNe && (newState == POOL_STATUS_ERROR || newState == POOL_STATUS_SUCCESS)){
-            LogPrint("darksend", "CDarksendPool::UpdateState() - Can't set state to ERROR or SUCCESS as a Throne. \n");
+        if (fMasterNode && (newState == POOL_STATUS_ERROR || newState == POOL_STATUS_SUCCESS)){
+            LogPrint("legacysend", "CLegacysendPool::UpdateState() - Can't set state to ERROR or SUCCESS as a Masternode. \n");
             return;
         }
 
-        LogPrintf("CDarksendPool::UpdateState() == %d | %d \n", state, newState);
+        LogPrintf("CLegacysendPool::UpdateState() == %d | %d \n", state, newState);
         if(state != newState){
             lastTimeChanged = GetTimeMillis();
-            if(fThroNe) {
-                RelayStatus(darkSendPool.sessionID, darkSendPool.GetState(), darkSendPool.GetEntriesCount(), THRONE_RESET);
+            if(fMasterNode) {
+                RelayStatus(legacySendPool.sessionID, legacySendPool.GetState(), legacySendPool.GetEntriesCount(), MASTERNODE_RESET);
             }
         }
         state = newState;
@@ -436,11 +436,11 @@ public:
     /// Is this amount compatible with other client in the pool?
     bool IsCompatibleWithSession(int64_t nAmount, CTransaction txCollateral, int &errorID);
 
-    /// Passively run Darksend in the background according to the configuration in settings (only for QT)
+    /// Passively run Legacysend in the background according to the configuration in settings (only for QT)
     bool DoAutomaticDenominating(bool fDryRun=false);
-    bool PrepareDarksendDenominate();
+    bool PrepareLegacysendDenominate();
 
-    /// Check for process in Darksend
+    /// Check for process in Legacysend
     void Check();
     void CheckFinalTransaction();
     /// Charge fees to bad actors (Charge clients a fee if they're abusive)
@@ -459,9 +459,9 @@ public:
     bool AddScriptSig(const CTxIn& newVin);
     /// Check that all inputs are signed. (Are all inputs signed?)
     bool SignaturesComplete();
-    /// As a client, send a transaction to a Throne to start the denomination process
-    void SendDarksendDenominate(std::vector<CTxIn>& vin, std::vector<CTxOut>& vout, int64_t amount);
-    /// Get Throne updates about the progress of Darksend
+    /// As a client, send a transaction to a Masternode to start the denomination process
+    void SendLegacysendDenominate(std::vector<CTxIn>& vin, std::vector<CTxOut>& vout, int64_t amount);
+    /// Get Masternode updates about the progress of Legacysend
     bool StatusUpdate(int newState, int newEntriesCount, int newAccepted, int &errorID, int newSessionID=0);
 
     /// As a client, check and sign the final transaction
@@ -493,7 +493,7 @@ public:
     std::string GetMessageByID(int messageID);
 
     //
-    // Relay Darksend Messages
+    // Relay Legacysend Messages
     //
 
     void RelayFinalTransaction(const int sessionID, const CTransaction& txNew);
@@ -504,6 +504,6 @@ public:
     void RelayCompletedTransaction(const int sessionID, const bool error, const int errorID);
 };
 
-void ThreadCheckDarkSendPool();
+void ThreadCheckLegacySendPool();
 
 #endif

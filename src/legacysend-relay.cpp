@@ -1,19 +1,19 @@
 
-#include "darksend-relay.h"
+#include "legacysend-relay.h"
 
 
-CDarkSendRelay::CDarkSendRelay()
+CLegacySendRelay::CLegacySendRelay()
 {
-    vinThrone = CTxIn();
+    vinMasternode = CTxIn();
     nBlockHeight = 0;
     nRelayType = 0;
     in = CTxIn();
     out = CTxOut();
 }
 
-CDarkSendRelay::CDarkSendRelay(CTxIn& vinThroneIn, vector<unsigned char>& vchSigIn, int nBlockHeightIn, int nRelayTypeIn, CTxIn& in2, CTxOut& out2)
+CLegacySendRelay::CLegacySendRelay(CTxIn& vinMasternodeIn, vector<unsigned char>& vchSigIn, int nBlockHeightIn, int nRelayTypeIn, CTxIn& in2, CTxOut& out2)
 {
-    vinThrone = vinThroneIn;
+    vinMasternode = vinMasternodeIn;
     vchSig = vchSigIn;
     nBlockHeight = nBlockHeightIn;
     nRelayType = nRelayTypeIn;
@@ -21,11 +21,11 @@ CDarkSendRelay::CDarkSendRelay(CTxIn& vinThroneIn, vector<unsigned char>& vchSig
     out = out2;
 }
 
-std::string CDarkSendRelay::ToString()
+std::string CLegacySendRelay::ToString()
 {
     std::ostringstream info;
 
-    info << "vin: " << vinThrone.ToString() <<
+    info << "vin: " << vinMasternode.ToString() <<
         " nBlockHeight: " << (int)nBlockHeight <<
         " nRelayType: "  << (int)nRelayType <<
         " in " << in.ToString() <<
@@ -34,7 +34,7 @@ std::string CDarkSendRelay::ToString()
     return info.str();   
 }
 
-bool CDarkSendRelay::Sign(std::string strSharedKey)
+bool CLegacySendRelay::Sign(std::string strSharedKey)
 {
     std::string strMessage = in.ToString() + out.ToString();
 
@@ -42,26 +42,26 @@ bool CDarkSendRelay::Sign(std::string strSharedKey)
     CPubKey pubkey2;
     std::string errorMessage = "";
 
-    if(!darkSendSigner.SetKey(strSharedKey, errorMessage, key2, pubkey2))
+    if(!legacySendSigner.SetKey(strSharedKey, errorMessage, key2, pubkey2))
     {
-        LogPrintf("CDarkSendRelay():Sign - ERROR: Invalid shared key: '%s'\n", errorMessage.c_str());
+        LogPrintf("CLegacySendRelay():Sign - ERROR: Invalid shared key: '%s'\n", errorMessage.c_str());
         return false;
     }
 
-    if(!darkSendSigner.SignMessage(strMessage, errorMessage, vchSig2, key2)) {
-        LogPrintf("CDarkSendRelay():Sign - Sign message failed\n");
+    if(!legacySendSigner.SignMessage(strMessage, errorMessage, vchSig2, key2)) {
+        LogPrintf("CLegacySendRelay():Sign - Sign message failed\n");
         return false;
     }
 
-    if(!darkSendSigner.VerifyMessage(pubkey2, vchSig2, strMessage, errorMessage)) {
-        LogPrintf("CDarkSendRelay():Sign - Verify message failed\n");
+    if(!legacySendSigner.VerifyMessage(pubkey2, vchSig2, strMessage, errorMessage)) {
+        LogPrintf("CLegacySendRelay():Sign - Verify message failed\n");
         return false;
     }
 
     return true;
 }
 
-bool CDarkSendRelay::VerifyMessage(std::string strSharedKey)
+bool CLegacySendRelay::VerifyMessage(std::string strSharedKey)
 {
     std::string strMessage = in.ToString() + out.ToString();
 
@@ -69,21 +69,21 @@ bool CDarkSendRelay::VerifyMessage(std::string strSharedKey)
     CPubKey pubkey2;
     std::string errorMessage = "";
 
-    if(!darkSendSigner.SetKey(strSharedKey, errorMessage, key2, pubkey2))
+    if(!legacySendSigner.SetKey(strSharedKey, errorMessage, key2, pubkey2))
     {
-        LogPrintf("CDarkSendRelay()::VerifyMessage - ERROR: Invalid shared key: '%s'\n", errorMessage.c_str());
+        LogPrintf("CLegacySendRelay()::VerifyMessage - ERROR: Invalid shared key: '%s'\n", errorMessage.c_str());
         return false;
     }
 
-    if(!darkSendSigner.VerifyMessage(pubkey2, vchSig2, strMessage, errorMessage)) {
-        LogPrintf("CDarkSendRelay()::VerifyMessage - Verify message failed\n");
+    if(!legacySendSigner.VerifyMessage(pubkey2, vchSig2, strMessage, errorMessage)) {
+        LogPrintf("CLegacySendRelay()::VerifyMessage - Verify message failed\n");
         return false;
     }
 
     return true;
 }
 
-void CDarkSendRelay::Relay()
+void CLegacySendRelay::Relay()
 {
     int nCount = std::min(mnodeman.CountEnabled(MIN_POOL_PEER_PROTO_VERSION), 20);
     int nRank1 = (rand() % nCount)+1; 
@@ -99,9 +99,9 @@ void CDarkSendRelay::Relay()
     RelayThroughNode(nRank2);
 }
 
-void CDarkSendRelay::RelayThroughNode(int nRank)
+void CLegacySendRelay::RelayThroughNode(int nRank)
 {
-    CThrone* pmn = mnodeman.GetThroneByRank(nRank, nBlockHeight, MIN_POOL_PEER_PROTO_VERSION);
+    CMasternode* pmn = mnodeman.GetMasternodeByRank(nRank, nBlockHeight, MIN_POOL_PEER_PROTO_VERSION);
 
     if(pmn != NULL){
         //printf("RelayThroughNode %s\n", pmn->addr.ToString().c_str());

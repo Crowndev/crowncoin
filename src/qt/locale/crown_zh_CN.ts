@@ -741,7 +741,7 @@ Address: %4
         <translation>复制零钱</translation>
     </message>
     <message>
-        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
+        <source>Non-anonymized input selected. &lt;b&gt;Legacysend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Legacysend, please deselect all non-nonymized inputs first and then check Legacysend checkbox again.</source>
         <translation>已选择非匿名输入. &lt;b&gt;匿名发送将会被禁用.&lt;/ b&gt;&lt;br&gt; &lt;br&gt;如果你仍然想使用匿名发送功能,请先取消所选的非匿名输入,然后再勾选匿名发送.</translation>
     </message>
     <message>
@@ -842,9 +842,9 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>LegacysendConfig</name>
     <message>
-        <source>Configure Darksend</source>
+        <source>Configure Legacysend</source>
         <translation>配置匿名发送</translation>
     </message>
     <message>
@@ -864,15 +864,15 @@ Address: %4
         <translation>请选择隐私等级。</translation>
     </message>
     <message>
-        <source>Use 2 separate thrones to mix funds up to 10000 CRW</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRW</source>
         <translation>使用2个独立的主节点混合资金最多1000达世币</translation>
     </message>
     <message>
-        <source>Use 8 separate thrones to mix funds up to 10000 CRW</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRW</source>
         <translation>使用8个独立的主节点混合资金最多1000达世币</translation>
     </message>
     <message>
-        <source>Use 16 separate thrones</source>
+        <source>Use 16 separate masternodes</source>
         <translation>使用16个独立主节点</translation>
     </message>
     <message>
@@ -892,19 +892,19 @@ Address: %4
         <translation>此选项提供最慢速度但是却最安全的匿名服务。最多匿名化将花费</translation>
     </message>
     <message>
-        <source>Darksend Configuration</source>
+        <source>Legacysend Configuration</source>
         <translation>匿名发送配置</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <source>Legacysend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
         <translation>匿名发送已成功设置为一般(%1到2次循环)。可以通过打开达世币配置窗口来随时修改。</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <source>Legacysend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
         <translation>匿名发送已成功设置为高(%1到8次循环)。可以通过打开达世币配置窗口来随时修改。</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <source>Legacysend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
         <translation>匿名发送已成功设置为最高(%1到16次循环)。可以通过打开达世币配置窗口来随时修改。</translation>
     </message>
 </context>
@@ -1147,11 +1147,11 @@ Address: %4
         <translation>(0 = 自动, &lt;0 = 离开很多免费的核心)</translation>
     </message>
     <message>
-        <source>Darksend rounds to use</source>
+        <source>Legacysend rounds to use</source>
         <translation>匿名传送的循环次数</translation>
     </message>
     <message>
-        <source>This amount acts as a threshold to turn off Darksend once it's reached.</source>
+        <source>This amount acts as a threshold to turn off Legacysend once it's reached.</source>
         <translation>此金额为关闭匿名发送的极限.</translation>
     </message>
     <message>
@@ -1187,7 +1187,7 @@ Address: %4
         <translation>专家</translation>
     </message>
     <message>
-        <source>This setting determines the amount of individual thrones that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
         <translation>此选项用以调整进行匿名化操作的主节点数量。&lt;br/&gt;越多的循环次数提供了更高级别的匿名性，同时也会花费更多的手续费</translation>
     </message>
     <message>
@@ -1424,7 +1424,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>完成度:</translation>
     </message>
     <message>
-        <source>Darksend Balance:</source>
+        <source>Legacysend Balance:</source>
         <translation>匿名传送余额:</translation>
     </message>
     <message>
@@ -1444,7 +1444,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>n/a</translation>
     </message>
     <message>
-        <source>Darksend</source>
+        <source>Legacysend</source>
         <translation>匿名发送</translation>
     </message>
     <message>
@@ -1456,7 +1456,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>开始/关闭 混合</translation>
     </message>
     <message>
-        <source>The denominations you submitted to the Throne.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
         <translation>您向主节点所提交的用以面额化混合的CRW,&lt;br&gt;当其他用户提交相同的面额化CRW数量时,将开始混合.</translation>
     </message>
     <message>
@@ -1464,7 +1464,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>(最近一次信息)</translation>
     </message>
     <message>
-        <source>Try to manually submit a Darksend request.</source>
+        <source>Try to manually submit a Legacysend request.</source>
         <translation>尝试手动提交一次匿名化请求</translation>
     </message>
     <message>
@@ -1472,7 +1472,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>尝试混合</translation>
     </message>
     <message>
-        <source>Reset the current status of Darksend (can interrupt Darksend if it's in the process of Mixing, which can cost you money!)</source>
+        <source>Reset the current status of Legacysend (can interrupt Legacysend if it's in the process of Mixing, which can cost you money!)</source>
         <translation>重置目前匿名状态(此操作可能会影响您目前正在执行的混合过程，并且产生费用!)</translation>
     </message>
     <message>
@@ -1488,11 +1488,11 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>关闭</translation>
     </message>
     <message>
-        <source>Start Darksend Mixing</source>
+        <source>Start Legacysend Mixing</source>
         <translation>开始匿名化混合</translation>
     </message>
     <message>
-        <source>Stop Darksend Mixing</source>
+        <source>Stop Legacysend Mixing</source>
         <translation>关闭匿名化混合</translation>
     </message>
     <message>
@@ -1532,7 +1532,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>打开</translation>
     </message>
     <message>
-        <source>Last Darksend message:
+        <source>Last Legacysend message:
 </source>
         <translation>最后一次匿名信息:
 </translation>
@@ -1542,15 +1542,15 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>不可用</translation>
     </message>
     <message>
-        <source>Darksend was successfully reset.</source>
+        <source>Legacysend was successfully reset.</source>
         <translation>匿名化被成功重置。</translation>
     </message>
     <message>
-        <source>Darksend requires at least %1 to use.</source>
+        <source>Legacysend requires at least %1 to use.</source>
         <translation>匿名化要求至少 %1 以使用</translation>
     </message>
     <message>
-        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
+        <source>Wallet is locked and user declined to unlock. Disabling Legacysend.</source>
         <translation>钱包已锁定需要用户解锁。 正在关闭匿名化。</translation>
     </message>
 </context>
@@ -1805,7 +1805,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>数据链</translation>
     </message>
     <message>
-        <source>Number of Thrones</source>
+        <source>Number of Masternodes</source>
         <translation>主节点数量</translation>
     </message>
     <message>
@@ -2361,7 +2361,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>添加收款人(&amp;R)</translation>
     </message>
     <message>
-        <source>Darksend</source>
+        <source>Legacysend</source>
         <translation>匿名发送</translation>
     </message>
     <message>
@@ -2413,7 +2413,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>匿名化金额</translation>
     </message>
     <message>
-        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
+        <source>(legacysend requires this amount to be rounded up to the nearest %1).</source>
         <translation>(匿名发送需要四舍五入此金额致最接近的值%1).</translation>
     </message>
     <message>
@@ -3009,7 +3009,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>收款来自</translation>
     </message>
     <message>
-        <source>Received via Darksend</source>
+        <source>Received via Legacysend</source>
         <translation>已通过匿名处理接收</translation>
     </message>
     <message>
@@ -3025,23 +3025,23 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>挖矿所得</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
+        <source>Legacysend Denominate</source>
         <translation>匿名发送面额化</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
+        <source>Legacysend Collateral Payment</source>
         <translation>匿名发送附加费用</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
+        <source>Legacysend Make Collateral Inputs</source>
         <translation>匿名发送会产生附加费用</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
+        <source>Legacysend Create Denominations</source>
         <translation>匿名发送会生成面值额度</translation>
     </message>
     <message>
-        <source>Darksent</source>
+        <source>Legacysent</source>
         <translation>匿名发送</translation>
     </message>
     <message>
@@ -3116,23 +3116,23 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>发送给</translation>
     </message>
     <message>
-        <source>Darksent</source>
+        <source>Legacysent</source>
         <translation>匿名发送</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
+        <source>Legacysend Make Collateral Inputs</source>
         <translation>匿名发送会产生附加费用</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
+        <source>Legacysend Create Denominations</source>
         <translation>匿名发送会生成面值额度</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
+        <source>Legacysend Denominate</source>
         <translation>匿名发送面额化</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
+        <source>Legacysend Collateral Payment</source>
         <translation>匿名发送附加费用</translation>
     </message>
     <message>
@@ -3311,7 +3311,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>不能获得锁定的数据目录 %s. 达世币核心可能已经在运行。</translation>
     </message>
     <message>
-        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <source>Legacysend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
         <translation>为了匿名发送的正常发送,您可能需要再混淆一些币.</translation>
     </message>
     <message>
@@ -3343,11 +3343,11 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>无法绑定%s此计算机. 达世币核心应该已经在运行中了.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
+        <source>Unable to locate enough Legacysend denominated funds for this transaction.</source>
         <translation>无法找到足够的已匿名化资金来完成交易,不足1000 CRW.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
+        <source>Unable to locate enough Legacysend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
         <translation>无法找到足够的未匿名化资金来完成交易,不足1000 CRW.</translation>
     </message>
     <message>
@@ -3371,7 +3371,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>警告: 钱包档wallet.dat 损坏，但资料被拯救回来了！原来的wallet.dat 会改储存在%s, 档名是wallet.{timestamp}.bak. 如果余额或交易资料有误，你应该要用备份资料复原回来。</translation>
     </message>
     <message>
-        <source>You must specify a throneprivkey in the configuration. Please see documentation for help.</source>
+        <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
         <translation>您必须在配置中指定一个主节点密钥。请参阅文档以获得帮助。</translation>
     </message>
     <message>
@@ -3447,7 +3447,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>已找到损坏的数据块</translation>
     </message>
     <message>
-        <source>Darksend options:</source>
+        <source>Legacysend options:</source>
         <translation>匿名发送选项：</translation>
     </message>
     <message>
@@ -3531,7 +3531,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>删除钱包里的所有交易信息, 并且在下次启动时, 使用 -rescan 来从区块链中恢复</translation>
     </message>
     <message>
-        <source>Disable all Crown specific functionality (Thrones, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all Crown specific functionality (Masternodes, Legacysend, InstantX, Budgeting) (0-1, default: %u)</source>
         <translation>禁止所有达世币附加功能(主节点, 匿名发送, 即时发送, 预算) (0-1, default: %u)</translation>
     </message>
     <message>
@@ -3539,7 +3539,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>激活即时支付,显示锁定交易的确认数(bool, 默认: %s)</translation>
     </message>
     <message>
-        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
+        <source>Enable use of automated legacysend for funds stored in this wallet (0-1, default: %u)</source>
         <translation>允许存储在这个钱包内的资金自动使用匿名发送(0-1, 默认: %u)</translation>
     </message>
     <message>
@@ -3657,15 +3657,15 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>无法解析 -rpcbind 参数 %s 作为网络地址</translation>
     </message>
     <message>
-        <source>Darksend is idle.</source>
+        <source>Legacysend is idle.</source>
         <translation>匿名化处于空闲状态</translation>
     </message>
     <message>
-        <source>Darksend request complete:</source>
+        <source>Legacysend request complete:</source>
         <translation>匿名化请求已完成:</translation>
     </message>
     <message>
-        <source>Darksend request incomplete:</source>
+        <source>Legacysend request incomplete:</source>
         <translation>匿名化请求未完成:</translation>
     </message>
     <message>
@@ -3673,11 +3673,11 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>未激活安全模式，重新写入真正安全模式项目(默认: %u)</translation>
     </message>
     <message>
-        <source>Enable the client to act as a throne (0-1, default: %u)</source>
+        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation>激活客户端,使其作为主节点(0-1, 默认: %u)</translation>
     </message>
     <message>
-        <source>Error connecting to Throne.</source>
+        <source>Error connecting to Masternode.</source>
         <translation>连接到主节点时发生错误.</translation>
     </message>
     <message>
@@ -3782,7 +3782,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>设定 -paytxfee=&lt;金额&gt; 的金额无效: '%s'</translation>
     </message>
     <message>
-        <source>Last successful Darksend action was too recent.</source>
+        <source>Last successful Legacysend action was too recent.</source>
         <translation>最后一次成功匿名发送刚刚完成.</translation>
     </message>
     <message>
@@ -3798,11 +3798,11 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>正在读取预算缓存...</translation>
     </message>
     <message>
-        <source>Loading throne cache...</source>
+        <source>Loading masternode cache...</source>
         <translation>正在读取主节点缓存...</translation>
     </message>
     <message>
-        <source>Loading throne payment cache...</source>
+        <source>Loading masternode payment cache...</source>
         <translation>正在读取主节点奖励缓存...</translation>
     </message>
     <message>
@@ -3810,15 +3810,15 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>混淆中...</translation>
     </message>
     <message>
-        <source>No Thrones detected.</source>
+        <source>No Masternodes detected.</source>
         <translation>没有检测到任何主节点。</translation>
     </message>
     <message>
-        <source>No compatible Throne found.</source>
+        <source>No compatible Masternode found.</source>
         <translation>没有找到任何兼容的主节点。</translation>
     </message>
     <message>
-        <source>Not in the Throne list.</source>
+        <source>Not in the Masternode list.</source>
         <translation>在主节点列表中不存在.</translation>
     </message>
     <message>
@@ -3886,7 +3886,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>指定连接超时毫秒数 (最小值: 1, 默认: %d)</translation>
     </message>
     <message>
-        <source>Specify throne configuration file (default: %s)</source>
+        <source>Specify masternode configuration file (default: %s)</source>
         <translation>指定主节点配置文件 (默认: %s)</translation>
     </message>
     <message>
@@ -3914,11 +3914,11 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>正在同步预算...</translation>
     </message>
     <message>
-        <source>Synchronizing throne winners...</source>
+        <source>Synchronizing masternode winners...</source>
         <translation>正在同步获得奖励的主节点...</translation>
     </message>
     <message>
-        <source>Synchronizing thrones...</source>
+        <source>Synchronizing masternodes...</source>
         <translation>正在同步主节点...</translation>
     </message>
     <message>
@@ -3926,7 +3926,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>同步分叉...</translation>
     </message>
     <message>
-        <source>This is not a Throne.</source>
+        <source>This is not a Masternode.</source>
         <translation>这并不是一个主节点。</translation>
     </message>
     <message>
@@ -3951,7 +3951,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>即将重试...</translation>
     </message>
     <message>
-        <source>Invalid throneprivkey. Please see documenation.</source>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation>无效主节点私钥。请查阅文件材料。</translation>
     </message>
     <message>
@@ -3959,7 +3959,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>(设置 9340 为主网)</translation>
     </message>
     <message>
-        <source>Can't find random Throne.</source>
+        <source>Can't find random Masternode.</source>
         <translation>无法找到随机主节点.</translation>
     </message>
     <message>
@@ -3967,11 +3967,11 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>无法在同步过程中进行混淆.</translation>
     </message>
     <message>
-        <source>Could not parse throne.conf</source>
+        <source>Could not parse masternode.conf</source>
         <translation>无法解析主节点配置文件</translation>
     </message>
     <message>
-        <source>Invalid port detected in throne.conf</source>
+        <source>Invalid port detected in masternode.conf</source>
         <translation>在主节点配置文件中检测到无效端口</translation>
     </message>
     <message>
@@ -3987,7 +3987,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>保持定量达世币匿名化(默认: %u)</translation>
     </message>
     <message>
-        <source>Last Darksend was too recent.</source>
+        <source>Last Legacysend was too recent.</source>
         <translation>最后一次匿名发送刚刚完成。</translation>
     </message>
     <message>
@@ -4011,15 +4011,15 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>正在读取钱包...</translation>
     </message>
     <message>
-        <source>Throne options:</source>
+        <source>Masternode options:</source>
         <translation>主节点选项：</translation>
     </message>
     <message>
-        <source>Throne queue is full.</source>
+        <source>Masternode queue is full.</source>
         <translation>主节点列队已满。</translation>
     </message>
     <message>
-        <source>Throne:</source>
+        <source>Masternode:</source>
         <translation>主节点：</translation>
     </message>
     <message>
@@ -4099,7 +4099,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>以字节为单位设置最大的块(默认： %d)</translation>
     </message>
     <message>
-        <source>Set the throne private key</source>
+        <source>Set the masternode private key</source>
         <translation>设置主节点私钥</translation>
     </message>
     <message>
@@ -4211,7 +4211,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>链接JSON-RPC的用户名</translation>
     </message>
     <message>
-        <source>Value more than Darksend pool maximum allows.</source>
+        <source>Value more than Legacysend pool maximum allows.</source>
         <translation>数值超过匿名发送池所允许的最大数。</translation>
     </message>
     <message>
