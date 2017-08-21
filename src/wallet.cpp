@@ -2061,6 +2061,8 @@ bool CWallet::GetBudgetSystemCollateralTX(CWalletTx& tx, uint256 hash, bool useI
 
     CScript scriptChange;
     scriptChange << OP_RETURN << ToByteVector(hash);
+    scriptChange << OP_REGISTER << ToByteVector(hash);
+    scriptChange << OP_DEREGISTER << ToByteVector(hash);
 
     int64_t nFeeRet = 0;
     std::string strFail = "";
