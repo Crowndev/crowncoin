@@ -741,8 +741,8 @@ Address: %4
         <translation>Копировать сдачу</translation>
     </message>
     <message>
-        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Выбраны неанонимизированные средства. &lt;b&gt;Darksend будет отключен.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Если Вы все-таки хотите использовать Darksend, пожалуйста, снимите выделение с со всех неанонимизированных средств и заново поставьте галочку напротив Darksend.</translation>
+        <source>Non-anonymized input selected. &lt;b&gt;Legacysend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Legacysend, please deselect all non-nonymized inputs first and then check Legacysend checkbox again.</source>
+        <translation>Выбраны неанонимизированные средства. &lt;b&gt;Legacysend будет отключен.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Если Вы все-таки хотите использовать Legacysend, пожалуйста, снимите выделение с со всех неанонимизированных средств и заново поставьте галочку напротив Legacysend.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -842,10 +842,10 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>LegacysendConfig</name>
     <message>
-        <source>Configure Darksend</source>
-        <translation>Настройте Darksend</translation>
+        <source>Configure Legacysend</source>
+        <translation>Настройте Legacysend</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
@@ -864,15 +864,15 @@ Address: %4
         <translation>Пожалуйста, выберите уровень приватности.</translation>
     </message>
     <message>
-        <source>Use 2 separate thrones to mix funds up to 10000 CRW</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRW</source>
         <translation>Использовать 2 отдельные мастерноды для перемешивания до 10000 CRW</translation>
     </message>
     <message>
-        <source>Use 8 separate thrones to mix funds up to 10000 CRW</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRW</source>
         <translation>Использовать 8 отдельных мастернод для перемешивания до 10000 CRW</translation>
     </message>
     <message>
-        <source>Use 16 separate thrones</source>
+        <source>Use 16 separate masternodes</source>
         <translation>Использовать 16 отдельных мастернод</translation>
     </message>
     <message>
@@ -892,20 +892,20 @@ Address: %4
         <translation>Этот самый медленный и безопасный вариант. Анонимизация будет стоить</translation>
     </message>
     <message>
-        <source>Darksend Configuration</source>
-        <translation>Настройки Darksend</translation>
+        <source>Legacysend Configuration</source>
+        <translation>Настройки Legacysend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend успешно установлен в режим обычной приватности (%1 и 2 раунда). Вы можете изменить это в любое время, используя окно настроек.</translation>
+        <source>Legacysend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend успешно установлен в режим обычной приватности (%1 и 2 раунда). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend успешно установлен в режим высокой приватности (%1 и 8 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
+        <source>Legacysend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend успешно установлен в режим высокой приватности (%1 и 8 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend успешно установлен в режим максимально приватности (%1 и 16 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
+        <source>Legacysend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend успешно установлен в режим максимально приватности (%1 и 16 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
 </context>
 <context>
@@ -1146,11 +1146,11 @@ Address: %4
         <translation>(0 = автоматически, &lt;0 = оставить столько незагруженных ядер)</translation>
     </message>
     <message>
-        <source>Darksend rounds to use</source>
-        <translation>Количество раундов Darksend</translation>
+        <source>Legacysend rounds to use</source>
+        <translation>Количество раундов Legacysend</translation>
     </message>
     <message>
-        <source>This amount acts as a threshold to turn off Darksend once it's reached.</source>
+        <source>This amount acts as a threshold to turn off Legacysend once it's reached.</source>
         <translation>Это пороговое значение, при достижении которого автоматическое перемешивание отключается.</translation>
     </message>
     <message>
@@ -1186,7 +1186,7 @@ Address: %4
         <translation>Настройки для опытных пользователей</translation>
     </message>
     <message>
-        <source>This setting determines the amount of individual thrones that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
         <translation>Эта настройка определяет количество отдельных мастернод, через которые пройдет анонимизация.&lt;br/&gt;Чем больше раундов, тем выше степень конфиденциальности, но также выше и суммарная стоимость комиссий.</translation>
     </message>
     <message>
@@ -1423,8 +1423,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Завершение:</translation>
     </message>
     <message>
-        <source>Darksend Balance:</source>
-        <translation>Баланс Darksend:</translation>
+        <source>Legacysend Balance:</source>
+        <translation>Баланс Legacysend:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
@@ -1443,8 +1443,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>н/д</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1455,7 +1455,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Начать/остановить автоматическое перемешивание</translation>
     </message>
     <message>
-        <source>The denominations you submitted to the Throne.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
         <translation>Номиналы, предоставленные Вами мастерноде.&lt;br&gt;Для перемешивания другие пользователи должны предоставить точно такой же набор номиналов.</translation>
     </message>
     <message>
@@ -1463,16 +1463,16 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>(Последнее сообщение)</translation>
     </message>
     <message>
-        <source>Try to manually submit a Darksend request.</source>
-        <translation>Попробовать отправить Darksend-запрос вручную.</translation>
+        <source>Try to manually submit a Legacysend request.</source>
+        <translation>Попробовать отправить Legacysend-запрос вручную.</translation>
     </message>
     <message>
         <source>Try Mix</source>
         <translation>Попробовать вручную</translation>
     </message>
     <message>
-        <source>Reset the current status of Darksend (can interrupt Darksend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Сбросить текущий статус Darksend (можно прервать процесс перемешивания Darksend, но это может стоить Вам немного денег!)</translation>
+        <source>Reset the current status of Legacysend (can interrupt Legacysend if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Сбросить текущий статус Legacysend (можно прервать процесс перемешивания Legacysend, но это может стоить Вам немного денег!)</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1487,11 +1487,11 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Выключен</translation>
     </message>
     <message>
-        <source>Start Darksend Mixing</source>
+        <source>Start Legacysend Mixing</source>
         <translation>Начать автоперемешивание</translation>
     </message>
     <message>
-        <source>Stop Darksend Mixing</source>
+        <source>Stop Legacysend Mixing</source>
         <translation>Остановить перемешивание</translation>
     </message>
     <message>
@@ -1535,9 +1535,9 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Включен</translation>
     </message>
     <message>
-        <source>Last Darksend message:
+        <source>Last Legacysend message:
 </source>
-        <translation>Последнее сообщение Darksend:
+        <translation>Последнее сообщение Legacysend:
 </translation>
     </message>
     <message>
@@ -1545,20 +1545,20 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Н/Д</translation>
     </message>
     <message>
-        <source>Darksend was successfully reset.</source>
-        <translation>Статус Darksend был успешно сброшен.</translation>
+        <source>Legacysend was successfully reset.</source>
+        <translation>Статус Legacysend был успешно сброшен.</translation>
     </message>
     <message>
-        <source>If you don't want to see internal Darksend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Если Вы не хотите видеть внутренние транзакции/комиссии от работы Darksend, выберите Тип "Наиболее общие" на закладке "Транзакции".</translation>
+        <source>If you don't want to see internal Legacysend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>Если Вы не хотите видеть внутренние транзакции/комиссии от работы Legacysend, выберите Тип "Наиболее общие" на закладке "Транзакции".</translation>
     </message>
     <message>
-        <source>Darksend requires at least %1 to use.</source>
-        <translation>Для работы Darksend требуется минимум %1.</translation>
+        <source>Legacysend requires at least %1 to use.</source>
+        <translation>Для работы Legacysend требуется минимум %1.</translation>
     </message>
     <message>
-        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
-        <translation>Кошелёк заблокирован и пользователь отказался его разблокировать. Darksend будет выключен.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling Legacysend.</source>
+        <translation>Кошелёк заблокирован и пользователь отказался его разблокировать. Legacysend будет выключен.</translation>
     </message>
 </context>
 <context>
@@ -1812,7 +1812,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Цепочка блоков</translation>
     </message>
     <message>
-        <source>Number of Thrones</source>
+        <source>Number of Masternodes</source>
         <translation>Количество Мастернод</translation>
     </message>
     <message>
@@ -2364,8 +2364,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>&amp;Добавить получателя</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>InstantX</source>
@@ -2416,8 +2416,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>анонимные средства</translation>
     </message>
     <message>
-        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(для работы darksend требуется принудительно округлить до ближайшего %1).</translation>
+        <source>(legacysend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(для работы legacysend требуется принудительно округлить до ближайшего %1).</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3020,8 +3020,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Получено от</translation>
     </message>
     <message>
-        <source>Received via Darksend</source>
-        <translation>Получено через Darksend</translation>
+        <source>Received via Legacysend</source>
+        <translation>Получено через Legacysend</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -3036,24 +3036,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Добыто</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Перемешивание Darksend</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Перемешивание Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Обеспечительный платеж Darksend</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Обеспечительный платеж Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Создание обеспечительных монет для Darksend</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Создание обеспечительных монет для Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Создание номиналов для Darksend</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Создание номиналов для Legacysend</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Отправлено через Darksend</translation>
+        <source>Legacysent</source>
+        <translation>Отправлено через Legacysend</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3131,24 +3131,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Отправлено на</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Отправлено через Darksend</translation>
+        <source>Legacysent</source>
+        <translation>Отправлено через Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Создание обеспечительных монет для Darksend</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Создание обеспечительных монет для Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Создание номиналов для Darksend</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Создание номиналов для Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Перемешивание Darksend</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Перемешивание Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Обеспечительный платеж Darksend</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Обеспечительный платеж Legacysend</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3330,8 +3330,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Crown Core уже запущен.</translation>
     </message>
     <message>
-        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>При отправке Darksend использует только деноминированные средства, возможно, Вам просто нужно анонимизировать немного больше монет.</translation>
+        <source>Legacysend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>При отправке Legacysend использует только деноминированные средства, возможно, Вам просто нужно анонимизировать немного больше монет.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3382,11 +3382,11 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Не удалось привязаться к %s на этом компьютере. Возможно, Crown Core уже запущен.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>Не удалось обнаружить достаточных для выполнения этой транзакции номиналов Darksend.</translation>
+        <source>Unable to locate enough Legacysend denominated funds for this transaction.</source>
+        <translation>Не удалось обнаружить достаточных для выполнения этой транзакции номиналов Legacysend.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
+        <source>Unable to locate enough Legacysend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
         <translation>Не удалось обнаружить достаточных для выполнения этой транзакции неденоминированных средств, отличающихся от 10000 CRW.</translation>
     </message>
     <message>
@@ -3410,8 +3410,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Внимание: wallet.dat повреждён, данные спасены! Оригинальный wallet.dat сохранён как wallet.{timestamp}.bak в %s. Если Ваш баланс или транзакции некорректны, Вы должны восстановить файл из резервной копии.</translation>
     </message>
     <message>
-        <source>You must specify a throneprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Необходимо указать throneprivkey в файле конфигурации. Пожалуйста, ознакомьтесь с документацией.</translation>
+        <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation>Необходимо указать masternodeprivkey в файле конфигурации. Пожалуйста, ознакомьтесь с документацией.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
@@ -3486,8 +3486,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>База данных блоков повреждена</translation>
     </message>
     <message>
-        <source>Darksend options:</source>
-        <translation>Параметры Darksend:</translation>
+        <source>Legacysend options:</source>
+        <translation>Параметры Legacysend:</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -3558,8 +3558,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Ошибка: кошелёк заблокирован, создание транзакции невозможно!</translation>
     </message>
     <message>
-        <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Ошибка: у Вас уже есть ожидающие записи в пуле Darksend</translation>
+        <source>Error: You already have pending entries in the Legacysend pool</source>
+        <translation>Ошибка: у Вас уже есть ожидающие записи в пуле Legacysend</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -3610,8 +3610,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Удалить все трансакции из кошелька и при рестарте с помощью -rescan восстановить только те, которые есть в цепочке блоков</translation>
     </message>
     <message>
-        <source>Disable all Crown specific functionality (Thrones, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Отключить всю функциональность, относящуюся к  Crown (Мастерноды, Darksend, InstantX, бюджеты) (0-1, по умолчанию: %u)</translation>
+        <source>Disable all Crown specific functionality (Masternodes, Legacysend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Отключить всю функциональность, относящуюся к  Crown (Мастерноды, Legacysend, InstantX, бюджеты) (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3622,8 +3622,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Включить instantx, показывать подтверждения для заблокированных транзакций (булевое, по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Включить автоматическое перемешивание Darksend для средств, хранящихся в этом кошельке (0-1, по умолчанию: %u)</translation>
+        <source>Enable use of automated legacysend for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Включить автоматическое перемешивание Legacysend для средств, хранящихся в этом кошельке (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3682,8 +3682,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Вывод отладочной информации (по умолчанию: %u, указание &lt;category&gt; необязательно)</translation>
     </message>
     <message>
-        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Предоставлять ликвидность для Darksend путем редкого участия в перемешивании монет на постоянной основе (0-100, по умолчанию: %u, 1=очень часто, высокая комиссия, 100=очень редко, низкая комиссия)</translation>
+        <source>Provide liquidity to Legacysend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Предоставлять ликвидность для Legacysend путем редкого участия в перемешивании монет на постоянной основе (0-100, по умолчанию: %u, 1=очень часто, высокая комиссия, 100=очень редко, низкая комиссия)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3800,27 +3800,27 @@ rpcpassword=%s
         <translation>Не могу распознать сетевой адрес в значении %s параметра -rpcbind</translation>
     </message>
     <message>
-        <source>Darksend is idle.</source>
-        <translation>Darksend в режиме ожидания.</translation>
+        <source>Legacysend is idle.</source>
+        <translation>Legacysend в режиме ожидания.</translation>
     </message>
     <message>
-        <source>Darksend request complete:</source>
-        <translation>Запрос Darksend завершен:</translation>
+        <source>Legacysend request complete:</source>
+        <translation>Запрос Legacysend завершен:</translation>
     </message>
     <message>
-        <source>Darksend request incomplete:</source>
-        <translation>Запрос Darksend не завершен:</translation>
+        <source>Legacysend request incomplete:</source>
+        <translation>Запрос Legacysend не завершен:</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
         <translation>Отменить безопасный режим, перекрывает реальные события о переходе в безопасный режим (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Enable the client to act as a throne (0-1, default: %u)</source>
+        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation>Разрешить этому клиенту работать в качестве мастерноды (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Error connecting to Throne.</source>
+        <source>Error connecting to Masternode.</source>
         <translation>Ошибка соединения с мастернодой.</translation>
     </message>
     <message>
@@ -3940,8 +3940,8 @@ rpcpassword=%s
         <translation>Неверная сумма в параметре -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Last successful Darksend action was too recent.</source>
-        <translation>Последнее успешное действие Darksend было слишком недавно.</translation>
+        <source>Last successful Legacysend action was too recent.</source>
+        <translation>Последнее успешное действие Legacysend было слишком недавно.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
@@ -3960,11 +3960,11 @@ rpcpassword=%s
         <translation>Загрузка кэша бюджетов...</translation>
     </message>
     <message>
-        <source>Loading throne cache...</source>
+        <source>Loading masternode cache...</source>
         <translation>Загрузка кэша мастернод...</translation>
     </message>
     <message>
-        <source>Loading throne payment cache...</source>
+        <source>Loading masternode payment cache...</source>
         <translation>Загрузка кэша выплат Мастернодам...</translation>
     </message>
     <message>
@@ -3972,7 +3972,7 @@ rpcpassword=%s
         <translation>Установлена блокировка.</translation>
     </message>
     <message>
-        <source>Lock thrones from throne configuration file (default: %u)</source>
+        <source>Lock masternodes from masternode configuration file (default: %u)</source>
         <translation>Заблокировать средства мастернод, указанных в настроечном файле (по умолчанию: %u)</translation>
     </message>
     <message>
@@ -3996,15 +3996,15 @@ rpcpassword=%s
         <translation>Для параметра -whitebind нужно указать порт: '%s'</translation>
     </message>
     <message>
-        <source>No Thrones detected.</source>
+        <source>No Masternodes detected.</source>
         <translation>Мастерноды не найдены.</translation>
     </message>
     <message>
-        <source>No compatible Throne found.</source>
+        <source>No compatible Masternode found.</source>
         <translation>Отсутствуют совместимые мастерноды.</translation>
     </message>
     <message>
-        <source>Not in the Throne list.</source>
+        <source>Not in the Masternode list.</source>
         <translation>Отсутствует в списке мастернод.</translation>
     </message>
     <message>
@@ -4044,7 +4044,7 @@ rpcpassword=%s
         <translation>Закрытый ключ сервера (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this throne (example: %s)</source>
+        <source>Set external address:port to get to this masternode (example: %s)</source>
         <translation>Указать внешний адрес:порт для доступа к этой мастерноде (например: %s)</translation>
     </message>
     <message>
@@ -4076,7 +4076,7 @@ rpcpassword=%s
         <translation>Указать тайм-аут соединения в миллисекундах (минимально: 1, по умолчанию: %d)</translation>
     </message>
     <message>
-        <source>Specify throne configuration file (default: %s)</source>
+        <source>Specify masternode configuration file (default: %s)</source>
         <translation>Указать конфигурационный файл для мастернод (по умолчанию: %s)</translation>
     </message>
     <message>
@@ -4092,15 +4092,15 @@ rpcpassword=%s
         <translation>Закрыть приложение после завершения импорта блоков с диска (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Submitted following entries to throne: %u / %d</source>
+        <source>Submitted following entries to masternode: %u / %d</source>
         <translation>Мастерноде отправлены следующие записи: %u / %d</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting for more entries ( %u / %d ) %s</source>
+        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
         <translation>Отправлено мастерноде, ожидаем больше записей ( %u / %d ) %s</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting in queue %s</source>
+        <source>Submitted to masternode, waiting in queue %s</source>
         <translation>Отправлено на мастерноду, ожидаем в очереди %s</translation>
     </message>
     <message>
@@ -4116,11 +4116,11 @@ rpcpassword=%s
         <translation>Синхронизация бюджетов...</translation>
     </message>
     <message>
-        <source>Synchronizing throne winners...</source>
+        <source>Synchronizing masternode winners...</source>
         <translation>Синхронизация списка мастернод-победителей...</translation>
     </message>
     <message>
-        <source>Synchronizing thrones...</source>
+        <source>Synchronizing masternodes...</source>
         <translation>Синхронизация списка мастернод...</translation>
     </message>
     <message>
@@ -4128,7 +4128,7 @@ rpcpassword=%s
         <translation>Синхронизация спорков...</translation>
     </message>
     <message>
-        <source>This is not a Throne.</source>
+        <source>This is not a Masternode.</source>
         <translation>Это не мастернода.</translation>
     </message>
     <message>
@@ -4136,7 +4136,7 @@ rpcpassword=%s
         <translation>Порог для отключения некорректно ведущих себя пиров (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Use N separate thrones to anonymize funds  (2-8, default: %u)</source>
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
         <translation>Использовать N отдельных мастернод для анонимизации средств (2-8, по умолчанию: %u)</translation>
     </message>
     <message>
@@ -4160,15 +4160,15 @@ rpcpassword=%s
         <translation>Попробуем еще раз...</translation>
     </message>
     <message>
-        <source>Invalid throneprivkey. Please see documenation.</source>
-        <translation>Неправильное значение throneprivkey. Пожалуйста, ознакомьтесь с документацией.</translation>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
+        <translation>Неправильное значение masternodeprivkey. Пожалуйста, ознакомьтесь с документацией.</translation>
     </message>
     <message>
         <source>(must be 9340 for mainnet)</source>
         <translation>(должно быть 9340 в главной сети)</translation>
     </message>
     <message>
-        <source>Can't find random Throne.</source>
+        <source>Can't find random Masternode.</source>
         <translation>Не получилось выбрать случайную Мастерноду.</translation>
     </message>
     <message>
@@ -4176,16 +4176,16 @@ rpcpassword=%s
         <translation>Перемешивание до завершения синхронизации невозможно.</translation>
     </message>
     <message>
-        <source>Could not parse throne.conf</source>
-        <translation>Не могу разобрать throne.conf</translation>
+        <source>Could not parse masternode.conf</source>
+        <translation>Не могу разобрать masternode.conf</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
         <translation>В параметре -whitelist указана некорректная маска: '%s'</translation>
     </message>
     <message>
-        <source>Invalid port detected in throne.conf</source>
-        <translation>Обнаружен некорректный порт в throne.conf</translation>
+        <source>Invalid port detected in masternode.conf</source>
+        <translation>Обнаружен некорректный порт в masternode.conf</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
@@ -4204,8 +4204,8 @@ rpcpassword=%s
         <translation>Держать в памяти до &lt;n&gt; несвязных транзакций (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Last Darksend was too recent.</source>
-        <translation>Последнее действие Darksend было слишком недавно.</translation>
+        <source>Last Legacysend was too recent.</source>
+        <translation>Последнее действие Legacysend было слишком недавно.</translation>
     </message>
     <message>
         <source>Line: %d</source>
@@ -4228,15 +4228,15 @@ rpcpassword=%s
         <translation>Загрузка кошелька...</translation>
     </message>
     <message>
-        <source>Throne options:</source>
+        <source>Masternode options:</source>
         <translation>Параметры мастерноды:</translation>
     </message>
     <message>
-        <source>Throne queue is full.</source>
+        <source>Masternode queue is full.</source>
         <translation>Очередь на мастерноде переполнена.</translation>
     </message>
     <message>
-        <source>Throne:</source>
+        <source>Masternode:</source>
         <translation>Мастернода:</translation>
     </message>
     <message>
@@ -4340,7 +4340,7 @@ rpcpassword=%s
         <translation>Установить максимальный размер блока в байтах (по умолчанию: %d)</translation>
     </message>
     <message>
-        <source>Set the throne private key</source>
+        <source>Set the masternode private key</source>
         <translation>Установить закрытый ключ мастерноды</translation>
     </message>
     <message>
@@ -4456,8 +4456,8 @@ rpcpassword=%s
         <translation>Имя для подключений JSON-RPC</translation>
     </message>
     <message>
-        <source>Value more than Darksend pool maximum allows.</source>
-        <translation>Превышено значение допустимой для пула Darksend суммы.</translation>
+        <source>Value more than Legacysend pool maximum allows.</source>
+        <translation>Превышено значение допустимой для пула Legacysend суммы.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

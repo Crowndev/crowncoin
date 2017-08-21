@@ -740,8 +740,8 @@ Adresa: %4</translation>
         <translation>Kopírovat zmìnu</translation>
     </message>
     <message>
-        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disebled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Zvolen ne-anonymizovaný vstup. &lt;b&gt;Darksend bude vypnutý.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Jestli si nadále pøejete použít Darksend, nejdøíve odznaète všechny ne-anonymizované vstupy a poté znovu oznaète Darksend zaškrtávací políèko.</translation>
+        <source>Non-anonymized input selected. &lt;b&gt;Legacysend will be disebled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Legacysend, please deselect all non-nonymized inputs first and then check Legacysend checkbox again.</source>
+        <translation>Zvolen ne-anonymizovaný vstup. &lt;b&gt;Legacysend bude vypnutý.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Jestli si nadále pøejete použít Legacysend, nejdøíve odznaète všechny ne-anonymizované vstupy a poté znovu oznaète Legacysend zaškrtávací políèko.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -841,10 +841,10 @@ Adresa: %4</translation>
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>LegacysendConfig</name>
     <message>
-        <source>Configure Darksend</source>
-        <translation>Konfigurovat Darksend</translation>
+        <source>Configure Legacysend</source>
+        <translation>Konfigurovat Legacysend</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
@@ -863,15 +863,15 @@ Adresa: %4</translation>
         <translation>Prosím vyberte úroveò soukromí.</translation>
     </message>
     <message>
-        <source>Use 2 separate thrones to mix funds up to 10000 CRW</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRW</source>
         <translation>Použít 2 rozdílné Trony pro fixování prostøedkù až do 10000 CRW</translation>
     </message>
     <message>
-        <source>Use 8 separate thrones to mix funds up to 10000 CRW</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRW</source>
         <translation>Použít 8 rozdílných Trons pro fixování prostøedkù až do 10000 CRW</translation>
     </message>
     <message>
-        <source>Use 16 separate thrones</source>
+        <source>Use 16 separate masternodes</source>
         <translation>Použít 16 rozdílných Tronù</translation>
     </message>
     <message>
@@ -891,20 +891,20 @@ Adresa: %4</translation>
         <translation>Toto je nejpomalejší a najvíce bezpeèná možnost. Použití maximální anonymity bude stát</translation>
     </message>
     <message>
-        <source>Darksend Configuration</source>
-        <translation>Konfigurace Darksend</translation>
+        <source>Legacysend Configuration</source>
+        <translation>Konfigurace Legacysend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend byl úspìšnì nastaven na základní hodnotu (%1 a 2 kola). Toto nastavení mùžete kdykoliv zmìnit otevøením konfiguraèní obrazovky Crown.</translation>
+        <source>Legacysend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend byl úspìšnì nastaven na základní hodnotu (%1 a 2 kola). Toto nastavení mùžete kdykoliv zmìnit otevøením konfiguraèní obrazovky Crown.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend byl úspìšnì nastaven na základní hodnotu (%1 a 8 kol). Toto nastavení mùžete kdykoliv zmìnit otevøením konfiguraèní obrazovky Crown.</translation>
+        <source>Legacysend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend byl úspìšnì nastaven na základní hodnotu (%1 a 8 kol). Toto nastavení mùžete kdykoliv zmìnit otevøením konfiguraèní obrazovky Crown.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend byl úspìšnì nastaven na základní hodnotu (%1 a 16 kol). Toto nastavení mùžete kdykoliv zmìnit otevøením konfiguraèní obrazovky Crown.</translation>
+        <source>Legacysend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend byl úspìšnì nastaven na základní hodnotu (%1 a 16 kol). Toto nastavení mùžete kdykoliv zmìnit otevøením konfiguraèní obrazovky Crown.</translation>
     </message>
 </context>
 <context>
@@ -1145,12 +1145,12 @@ Adresa: %4</translation>
         <translation>(0 = auto, &lt;0 = ponechat tolik volných jader)</translation>
     </message>
     <message>
-        <source>Darksend rounds to use</source>
-        <translation>Použít kola Darksend</translation>
+        <source>Legacysend rounds to use</source>
+        <translation>Použít kola Legacysend</translation>
     </message>
     <message>
-        <source>This amount acts as a threshold to turn off Darksend once it's reached.</source>
-        <translation>Tato èástka slouží jako prahová hodnota k vypnutí funkce Darksend po jeho dosažení</translation>
+        <source>This amount acts as a threshold to turn off Legacysend once it's reached.</source>
+        <translation>Tato èástka slouží jako prahová hodnota k vypnutí funkce Legacysend po jeho dosažení</translation>
     </message>
     <message>
         <source>Amount of Crown to keep anonymized</source>
@@ -1185,7 +1185,7 @@ Adresa: %4</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>This setting determines the amount of individual thrones that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
         <translation>Toto nastavení urèuje množství rozlièných Trons, pøes které se bude anonymizovat vstup.&lt;br/&gt; Více kol anonymizace dává vìtší úroveò soukromí, ale též stojí více na poplatcích.</translation>
     </message>
     <message>
@@ -1422,8 +1422,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Dokonèení:</translation>
     </message>
     <message>
-        <source>Darksend Balance:</source>
-        <translation>Bilance Darksend:</translation>
+        <source>Legacysend Balance:</source>
+        <translation>Bilance Legacysend:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
@@ -1442,8 +1442,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>není k dispozici</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>Recent Transactions</source>
@@ -1454,7 +1454,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Spustit/Zastavit míchání</translation>
     </message>
     <message>
-        <source>The denominations you submitted to the Throne.&lt;br&gt;To mix, other users must submit the exact seme denominations.</source>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact seme denominations.</source>
         <translation>Denominace které jste odeslali na Tron. &lt;br&gt;Pro míchání, ostatní uživatelé musí odeslat stejnou èástku denominací.</translation>
     </message>
     <message>
@@ -1462,16 +1462,16 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>(Poslední zpráva)</translation>
     </message>
     <message>
-        <source>Try to manually submit a Darksend request.</source>
-        <translation>Skusit manuálnì odeslat Darksend požadavek.</translation>
+        <source>Try to manually submit a Legacysend request.</source>
+        <translation>Skusit manuálnì odeslat Legacysend požadavek.</translation>
     </message>
     <message>
         <source>Try Mix</source>
         <translation>Zkusit mix</translation>
     </message>
     <message>
-        <source>Reset the current status of Darksend (can interrupt Darksend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Vynulovat souèasný stav Darksend (mùže pøerušit Darksend když je v procesu míchání, èož vás mùže stát peníze!)</translation>
+        <source>Reset the current status of Legacysend (can interrupt Legacysend if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Vynulovat souèasný stav Legacysend (mùže pøerušit Legacysend když je v procesu míchání, èož vás mùže stát peníze!)</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1486,11 +1486,11 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Vypnuto</translation>
     </message>
     <message>
-        <source>Start Darksend Mixing</source>
+        <source>Start Legacysend Mixing</source>
         <translation>Spustit Dasksend míchání</translation>
     </message>
     <message>
-        <source>Stop Darksend Mixing</source>
+        <source>Stop Legacysend Mixing</source>
         <translation>Zastavit Dasksend míchání</translation>
     </message>
     <message>
@@ -1534,9 +1534,9 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Povoleno</translation>
     </message>
     <message>
-        <source>Last Darksend message:
+        <source>Last Legacysend message:
 </source>
-        <translation>Poslední Darksend zpráva:
+        <translation>Poslední Legacysend zpráva:
 </translation>
     </message>
     <message>
@@ -1544,20 +1544,20 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>není k dispozici</translation>
     </message>
     <message>
-        <source>Darksend was successfully reset.</source>
-        <translation>Darksend byl úspešnì obnoven</translation>
+        <source>Legacysend was successfully reset.</source>
+        <translation>Legacysend byl úspešnì obnoven</translation>
     </message>
     <message>
-        <source>If you don't want to see internal Darksend fees/Transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Jestli nechcete vidìt interní Darksend poplatky/transakce, vyberte "nejèastìjší" jako typ na záložce "transakce".</translation>
+        <source>If you don't want to see internal Legacysend fees/Transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>Jestli nechcete vidìt interní Legacysend poplatky/transakce, vyberte "nejèastìjší" jako typ na záložce "transakce".</translation>
     </message>
     <message>
-        <source>Darksend requires at least %1 to use.</source>
-        <translation>Pro použití vyžaduje Darksend alespoò %1.</translation>
+        <source>Legacysend requires at least %1 to use.</source>
+        <translation>Pro použití vyžaduje Legacysend alespoò %1.</translation>
     </message>
     <message>
-        <source>Wallet is locked and user declined to unlock. Disebling Darksend.</source>
-        <translation>Penìženka je zamèená a uživatel ji odmítl odemknout. Vypínám Darksend.</translation>
+        <source>Wallet is locked and user declined to unlock. Disebling Legacysend.</source>
+        <translation>Penìženka je zamèená a uživatel ji odmítl odemknout. Vypínám Legacysend.</translation>
     </message>
 </context>
 <context>
@@ -1811,7 +1811,7 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Øetìzec blokù</translation>
     </message>
     <message>
-        <source>Number of Thrones</source>
+        <source>Number of Masternodes</source>
         <translation>Poèet Tronù</translation>
     </message>
     <message>
@@ -2363,8 +2363,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>&amp;Pøidat pøíjemce</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>InstantX</source>
@@ -2415,8 +2415,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>anonymní zdroje</translation>
     </message>
     <message>
-        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(Darksend vyžaduje aby byla tato Èástka zaokrouhlena nahoru k nejbližší %1).</translation>
+        <source>(legacysend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(Legacysend vyžaduje aby byla tato Èástka zaokrouhlena nahoru k nejbližší %1).</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3019,8 +3019,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Pøijato od</translation>
     </message>
     <message>
-        <source>Received via Darksend</source>
-        <translation>Pøijato pøes Darksend</translation>
+        <source>Received via Legacysend</source>
+        <translation>Pøijato pøes Legacysend</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -3035,24 +3035,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Vytìženo</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Denominace Darksend</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Denominace Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Zajišovací Darksend platba</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Zajišovací Legacysend platba</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend zajišuje kolaterální vstupy</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend zajišuje kolaterální vstupy</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend vytváøí denominace</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend vytváøí denominace</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3130,24 +3130,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Odesláno na</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend zajišuje kolaterální vstupy</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend zajišuje kolaterální vstupy</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Vytvoøit denominaci Darksend</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Vytvoøit denominaci Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Denominace Darksend</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Denominace Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Zajišovací Darksend platba</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Zajišovací Legacysend platba</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3329,8 +3329,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Nedá se zamknout datový adresáø %s. Crown Core už pravdepodobnì bìží.</translation>
     </message>
     <message>
-        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Pro odeslání zdrojù používá Darksend pøesné sumy, potøebujete jednoduše anonymizovat více mincí. </translation>
+        <source>Legacysend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>Pro odeslání zdrojù používá Legacysend pøesné sumy, potøebujete jednoduše anonymizovat více mincí. </translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3381,12 +3381,12 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Nelze svázat k %s na tomto poèítaèi. Crown Core už pravdìpodobnì bìží.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend denominated funds for this transection.</source>
-        <translation>Nelze najít dostatek denominací Darksend pro tuto transakci. </translation>
+        <source>Unable to locate enough Legacysend denominated funds for this transection.</source>
+        <translation>Nelze najít dostatek denominací Legacysend pro tuto transakci. </translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
-        <translation>Nelze najít dostatek ne-denominovaných Darksend zdrojù pro tuto transakci, které nejsou rovné 10000 CRW.</translation>
+        <source>Unable to locate enough Legacysend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
+        <translation>Nelze najít dostatek ne-denominovaných Legacysend zdrojù pro tuto transakci, které nejsou rovné 10000 CRW.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transection.</source>
@@ -3409,8 +3409,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Upozornìní: wallet.dat je poškozen, data jsou zachránìna! Pùvodní wallet.dat byl uložen jako wallet.{timestamp}.bak v %s; pokud je váš zùstatek nebo transakce nesprávný, mìli byste obnovit ze zálohy.</translation>
     </message>
     <message>
-        <source>You must specify a throneprivkey in the configuration. Please see documentation for help.</source>
-        <translation>V konfiguraci musíte zadat throneprivkey. Pokyny naleznete v dokumentaci.</translation>
+        <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation>V konfiguraci musíte zadat masternodeprivkey. Pokyny naleznete v dokumentaci.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
@@ -3485,8 +3485,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Zjištìn poškozený blok databáze</translation>
     </message>
     <message>
-        <source>Darksend options:</source>
-        <translation>Možnosti Darksend:</translation>
+        <source>Legacysend options:</source>
+        <translation>Možnosti Legacysend:</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -3557,8 +3557,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Chyba: Penìženka uzamèena, transakce nelze vytvoøit!</translation>
     </message>
     <message>
-        <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Chyba: Již máte èekající položky ve fondu Darksend</translation>
+        <source>Error: You already have pending entries in the Legacysend pool</source>
+        <translation>Chyba: Již máte èekající položky ve fondu Legacysend</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -3609,8 +3609,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Vymazat všechny transakce z penìženky a pøi spuštìní znovu získat z øetìzce blokù pouze ty získané pomocí -rescan</translation>
     </message>
     <message>
-        <source>Diseble all Crown specific functionality (Thrones, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Vypnout všchny funkce specifikované pro Crown (Tron, Darksend, InstantX, Rozpoèty) (0-1, pøedvoleno: %u)</translation>
+        <source>Diseble all Crown specific functionality (Masternodes, Legacysend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Vypnout všchny funkce specifikované pro Crown (Tron, Legacysend, InstantX, Rozpoèty) (0-1, pøedvoleno: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3621,8 +3621,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Zapnout InstantX, ukázat potvrzení pro zamèené transakce (bool, pøedvoleno: %s)</translation>
     </message>
     <message>
-        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Povolit používání automatického darksend pro zdroje uložené v této penìžence (0-1, pøedvoleno: %u)</translation>
+        <source>Enable use of automated legacysend for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Povolit používání automatického legacysend pro zdroje uložené v této penìžence (0-1, pøedvoleno: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3681,8 +3681,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Výstupní ladící informace (pøedvoleno: %u, dodání &lt;category&gt; je volitelné)</translation>
     </message>
     <message>
-        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Poskytnout likviditu pro Darksend nepravidelným mícháním mincí na kontinuální bázi (0-100, pøedvoleno: %u, 1=velmi èasto, vysoké poplatky, 100=velmi zøídka, malé poplatky)</translation>
+        <source>Provide liquidity to Legacysend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Poskytnout likviditu pro Legacysend nepravidelným mícháním mincí na kontinuální bázi (0-100, pøedvoleno: %u, 1=velmi èasto, vysoké poplatky, 100=velmi zøídka, malé poplatky)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3799,16 +3799,16 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Nedá se analyzovat -rpcbind hodnota %s jako síová adresa</translation>
     </message>
     <message>
-        <source>Darksend is idle.</source>
-        <translation>Darksend je neèinný.</translation>
+        <source>Legacysend is idle.</source>
+        <translation>Legacysend je neèinný.</translation>
     </message>
     <message>
-        <source>Darksend request complete:</source>
-        <translation>Darksend požadavek dokonèen:</translation>
+        <source>Legacysend request complete:</source>
+        <translation>Legacysend požadavek dokonèen:</translation>
     </message>
     <message>
-        <source>Darksend request incomplete:</source>
-        <translation>Darksend požadavek nedokonèen:</translation>
+        <source>Legacysend request incomplete:</source>
+        <translation>Legacysend požadavek nedokonèen:</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
@@ -3819,7 +3819,7 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Povolit klientovi, aby vystupoval jako Tron (0-1, pøedvoleno: %u)</translation>
     </message>
     <message>
-        <source>Error connecting to Throne.</source>
+        <source>Error connecting to Masternode.</source>
         <translation>Chyba pøipojení k Tron.</translation>
     </message>
     <message>
@@ -3939,7 +3939,7 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Neplatná èástka pro -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Last successful Darksend action was too recent.</source>
+        <source>Last successful Legacysend action was too recent.</source>
         <translation>Poslední Dasksend akce byla pøed chvílí.</translation>
     </message>
     <message>
@@ -3959,11 +3959,11 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Naèítá se vyrovnávací pamì rozpoètu...</translation>
     </message>
     <message>
-        <source>Loading throne cache...</source>
+        <source>Loading masternode cache...</source>
         <translation>Naèítá se vyrovnávací pamì Tron...</translation>
     </message>
     <message>
-        <source>Loading throne payment cache...</source>
+        <source>Loading masternode payment cache...</source>
         <translation>Naèíta se vyrovnávací pamì plateb Tron...</translation>
     </message>
     <message>
@@ -3971,7 +3971,7 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Zámek je už na místì.</translation>
     </message>
     <message>
-        <source>Lock thrones from Tron configuration file (default: %u)</source>
+        <source>Lock masternodes from Tron configuration file (default: %u)</source>
         <translation>Zamknout masternody z konfiguraèního souboru Tron (pøedvoleno: %u)</translation>
     </message>
     <message>
@@ -3995,15 +3995,15 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Je potøeba zadat port s -whitebind: '%s'</translation>
     </message>
     <message>
-        <source>No Thrones detected.</source>
+        <source>No Masternodes detected.</source>
         <translation>Nezjištìn žádný Tron.</translation>
     </message>
     <message>
-        <source>No compatible Throne found.</source>
+        <source>No compatible Masternode found.</source>
         <translation>Nenalezen žádný kompatibilní trùn.</translation>
     </message>
     <message>
-        <source>Not in the Throne list.</source>
+        <source>Not in the Masternode list.</source>
         <translation>Nenalezeno v seznamu trùnù.</translation>
     </message>
     <message>
@@ -4043,7 +4043,7 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Soukromý klíè serveru (Standard: %s)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this throne (example: %s)</source>
+        <source>Set external address:port to get to this masternode (example: %s)</source>
         <translation>Nastavit externí adresu:port k nastavení tohoto trùnu (pøíklad: %s)</translation>
     </message>
     <message>
@@ -4075,8 +4075,8 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Zadejte èasový limit pøipojení v milisekundách (Minimum: 1, Standardnì: %d)</translation>
     </message>
     <message>
-        <source>Specify throne configuration file (default: %s)</source>
-        <translation>Zadat konfiguraèní soubor throne (Standardnì: %s)</translation>
+        <source>Specify masternode configuration file (default: %s)</source>
+        <translation>Zadat konfiguraèní soubor masternode (Standardnì: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -4091,16 +4091,16 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Ukonèit èinnost po importování blockù z disku (Standardnì: %u)</translation>
     </message>
     <message>
-        <source>Submitted following entries to throne: %u / %d</source>
-        <translation>Položky odeslané na throne: %u / %d</translation>
+        <source>Submitted following entries to masternode: %u / %d</source>
+        <translation>Položky odeslané na masternode: %u / %d</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Odeslané a throne, èeká se na víc položek ( %u / %d ) %s</translation>
+        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
+        <translation>Odeslané a masternode, èeká se na víc položek ( %u / %d ) %s</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting in queue %s</source>
-        <translation>Odeslané na throne, èeká ve frontì %s</translation>
+        <source>Submitted to masternode, waiting in queue %s</source>
+        <translation>Odeslané na masternode, èeká ve frontì %s</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -4115,28 +4115,28 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Synchornizují se rozpoèty...</translation>
     </message>
     <message>
-        <source>Synchronizing throne winners...</source>
-        <translation>Synchronizují se throne vítìzové...</translation>
+        <source>Synchronizing masternode winners...</source>
+        <translation>Synchronizují se masternode vítìzové...</translation>
     </message>
     <message>
-        <source>Synchronizing thrones...</source>
-        <translation>Synchronizují se thrones...</translation>
+        <source>Synchronizing masternodes...</source>
+        <translation>Synchronizují se masternodes...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
         <translation>Synchronizují se sporky...</translation>
     </message>
     <message>
-        <source>This is not a Throne.</source>
-        <translation>Toto není Throne.</translation>
+        <source>This is not a Masternode.</source>
+        <translation>Toto není Masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Hranice pro odpojování špatnì fungujícím partnerským uzlem (Standardnì: %u)</translation>
     </message>
     <message>
-        <source>Use N separate thrones to anonymize funds  (2-8, default: %u)</source>
-        <translation>Požít N rozdílných thrones pro anonymizování zdrojù (2-8, Standardnì: %u)</translation>
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
+        <translation>Požít N rozdílných masternodes pro anonymizování zdrojù (2-8, Standardnì: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -4159,7 +4159,7 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Zkusit znovu...</translation>
     </message>
     <message>
-        <source>Invalid throneprivkey. Please see documenation.</source>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation>Neplatný Thorneprivkey. Prosím podívejte se do dokumentace. </translation>
     </message>
     <message>
@@ -4167,24 +4167,24 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>(pro hlavní sí musí být 9340)</translation>
     </message>
     <message>
-        <source>Can't find random Throne.</source>
-        <translation>Nelze nalézt náhodný Throne</translation>
+        <source>Can't find random Masternode.</source>
+        <translation>Nelze nalézt náhodný Masternode</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>Nelze mixovat bìhem synchornizace.</translation>
     </message>
     <message>
-        <source>Could not parse throne.conf</source>
-        <translation>Nelze analyzovat throne.conf</translation>
+        <source>Could not parse masternode.conf</source>
+        <translation>Nelze analyzovat masternode.conf</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
         <translation>Neplatná netmask nalezena v -whitelist: '%s'</translation>
     </message>
     <message>
-        <source>Invalid port detected in throne.conf</source>
-        <translation>Zjištìn neplatný port v throne.conf</translation>
+        <source>Invalid port detected in masternode.conf</source>
+        <translation>Zjištìn neplatný port v masternode.conf</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
@@ -4203,8 +4203,8 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>V pamìti držet nejvíce &lt;n&gt; nepotvrzených transakcí (Standardnì: %u)</translation>
     </message>
     <message>
-        <source>Last Darksend was too recent.</source>
-        <translation>Poslední Darksend byl pøed chvílí.</translation>
+        <source>Last Legacysend was too recent.</source>
+        <translation>Poslední Legacysend byl pøed chvílí.</translation>
     </message>
     <message>
         <source>Line: %d</source>
@@ -4227,16 +4227,16 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Naèítání penìženky...</translation>
     </message>
     <message>
-        <source>Throne options:</source>
-        <translation>Nastavení Throne:</translation>
+        <source>Masternode options:</source>
+        <translation>Nastavení Masternode:</translation>
     </message>
     <message>
-        <source>Throne queue is full.</source>
-        <translation>Fronta Throne je plná.</translation>
+        <source>Masternode queue is full.</source>
+        <translation>Fronta Masternode je plná.</translation>
     </message>
     <message>
-        <source>Throne:</source>
-        <translation>Throne:</translation>
+        <source>Masternode:</source>
+        <translation>Masternode:</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
@@ -4339,7 +4339,7 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Nastavit maximální velikost bloku v bytech (Standardnì: %d)</translation>
     </message>
     <message>
-        <source>Set the throne private key</source>
+        <source>Set the masternode private key</source>
         <translation>Nastavit soukromý klíè Tron</translation>
     </message>
     <message>
@@ -4455,8 +4455,8 @@ napøíklad: alertnotify=echo %%s | mail -s "Crown Upozornìní" admin@foo.com
         <translation>Uživatelské jméno pro JSON-RPC spojení</translation>
     </message>
     <message>
-        <source>Value more than Darksend pool maximum allows.</source>
-        <translation>Vyšší hodnota než dovoluje fronta Darksend.</translation>
+        <source>Value more than Legacysend pool maximum allows.</source>
+        <translation>Vyšší hodnota než dovoluje fronta Legacysend.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

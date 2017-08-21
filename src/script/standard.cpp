@@ -16,7 +16,7 @@ using namespace std;
 
 typedef vector<unsigned char> valtype;
 
-unsigned nMaxDatacarrierBytes = MAX_OP_RETURN_RELAY;
+unsigned nMaxAssociativeBytes = MAX_ASSOCIATIVE_RELAY;
 
 CScriptID::CScriptID(const CScript& in) : uint160(Hash160(in.begin(), in.end())) {}
 
@@ -25,11 +25,11 @@ const char* GetTxnOutputType(txnouttype t)
     switch (t)
     {
     case TX_NONSTANDARD: return "nonstandard";
+    case TX_ASSOCIATIVE: return "associative";
     case TX_PUBKEY: return "pubkey";
     case TX_PUBKEYHASH: return "pubkeyhash";
     case TX_SCRIPTHASH: return "scripthash";
     case TX_MULTISIG: return "multisig";
-    case TX_NULL_DATA: return "nulldata";
     }
     return NULL;
 }
@@ -52,11 +52,23 @@ bool Solver(const CScript& scriptPubKey, txnouttype& typeRet, vector<vector<unsi
         // Sender provides N pubkeys, receivers provides M signatures
         mTemplates.insert(make_pair(TX_MULTISIG, CScript() << OP_SMALLINTEGER << OP_PUBKEYS << OP_SMALLINTEGER << OP_CHECKMULTISIG));
 
-        // Empty, provably prunable, data-carrying output
-        if (GetBoolArg("-datacarrier", true))
-            mTemplates.insert(make_pair(TX_NULL_DATA, CScript() << OP_RETURN << OP_SMALLDATA));
-        mTemplates.insert(make_pair(TX_NULL_DATA, CScript() << OP_RETURN));
-    }
+        // ADD TEMPLATES FOR ASSOCIATIVE TRANSACTIONS HERE
+        if (GetBoolArg("-associativetx", true))
+            {
+                    mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_RETURN << OP_SMALLDATA));
+                mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_RETURN));
+
+                    mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_REGISTER << OP_SMALLDATA));
+                mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_REGISTER));
+
+                    mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_DEREGISTER << OP_SMALLDATA)));
+                mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_DEREGISTER));
+
+                 mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_META << OP_SMALLDATA));
+                mTemplates.insert(make_pair(TX_ASSOCIATIVE, CScript() << OP_META));
+            }
+      }
+ }
 
     // Shortcut for pay-to-script-hash, which are more constrained than the other types:
     // it is always OP_HASH160 20 [20 byte hash] OP_EQUAL
@@ -142,8 +154,8 @@ bool Solver(const CScript& scriptPubKey, txnouttype& typeRet, vector<vector<unsi
             }
             else if (opcode2 == OP_SMALLDATA)
             {
-                // small pushdata, <= nMaxDatacarrierBytes
-                if (vch1.size() > nMaxDatacarrierBytes)
+                // small pushdata, <= nMaxAssociativeBytes
+                if (vch1.size() > nMaxAssociativeBytes)
                     break;
             }
             else if (opcode1 != opcode2 || vch1 != vch2)
@@ -164,7 +176,7 @@ int ScriptSigArgsExpected(txnouttype t, const std::vector<std::vector<unsigned c
     switch (t)
     {
     case TX_NONSTANDARD:
-    case TX_NULL_DATA:
+    case TX_ASSOCIATIVE:
         return -1;
     case TX_PUBKEY:
         return 1;
@@ -237,7 +249,7 @@ bool ExtractDestinations(const CScript& scriptPubKey, txnouttype& typeRet, vecto
     vector<valtype> vSolutions;
     if (!Solver(scriptPubKey, typeRet, vSolutions))
         return false;
-    if (typeRet == TX_NULL_DATA){
+    if (typeRet == TX_ASSOCIATIVE){
         // This is data, not addresses
         return false;
     }

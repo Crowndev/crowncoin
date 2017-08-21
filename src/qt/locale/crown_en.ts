@@ -933,8 +933,8 @@ Address: %4
     </message>
     <message>
         <location line="+329"/>
-        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</translation>
+        <source>Non-anonymized input selected. &lt;b&gt;Legacysend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Legacysend, please deselect all non-nonymized inputs first and then check Legacysend checkbox again.</source>
+        <translation>Non-anonymized input selected. &lt;b&gt;Legacysend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Legacysend, please deselect all non-nonymized inputs first and then check Legacysend checkbox again.</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -1062,11 +1062,11 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>LegacysendConfig</name>
     <message>
-        <location filename="../forms/darksendconfig.ui" line="+14"/>
-        <source>Configure Darksend</source>
-        <translation>Configure Darksend</translation>
+        <location filename="../forms/legacysendconfig.ui" line="+14"/>
+        <source>Configure Legacysend</source>
+        <translation>Configure Legacysend</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1090,18 +1090,18 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Use 2 separate thrones to mix funds up to 10000 CRW</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Use 2 separate masternodes to mix funds up to 10000 CRW</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Use 8 separate thrones to mix funds up to 10000 CRW</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Use 8 separate masternodes to mix funds up to 10000 CRW</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 16 separate thrones</source>
-        <translation>Use 16 separate thrones</translation>
+        <source>Use 16 separate masternodes</source>
+        <translation>Use 16 separate masternodes</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1124,26 +1124,26 @@ Address: %4
         <translation>This is the slowest and most secure option. Using maximum anonymity will cost</translation>
     </message>
     <message>
-        <location filename="../darksendconfig.cpp" line="+43"/>
+        <location filename="../legacysendconfig.cpp" line="+43"/>
         <location line="+15"/>
         <location line="+15"/>
-        <source>Darksend Configuration</source>
-        <translation>Darksend Configuration</translation>
+        <source>Legacysend Configuration</source>
+        <translation>Legacysend Configuration</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</translation>
+        <source>Legacysend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</source>
+        <translation>Legacysend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</translation>
+        <source>Legacysend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</source>
+        <translation>Legacysend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</translation>
+        <source>Legacysend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</source>
+        <translation>Legacysend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1441,13 +1441,13 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Darksend rounds to use</source>
-        <translation>Darksend rounds to use</translation>
+        <source>Legacysend rounds to use</source>
+        <translation>Legacysend rounds to use</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>This amount acts as a threshold to turn off Darksend once it&apos;s reached.</source>
-        <translation>This amount acts as a threshold to turn off Darksend once it&apos;s reached.</translation>
+        <source>This amount acts as a threshold to turn off Legacysend once it&apos;s reached.</source>
+        <translation>This amount acts as a threshold to turn off Legacysend once it&apos;s reached.</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1491,8 +1491,8 @@ Address: %4
     </message>
     <message>
         <location line="-74"/>
-        <source>This setting determines the amount of individual thrones that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>This setting determines the amount of individual thrones that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</translation>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <translation>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</translation>
     </message>
     <message>
         <location line="+80"/>
@@ -1790,8 +1790,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+20"/>
-        <source>Darksend Balance:</source>
-        <translation>Darksend Balance:</translation>
+        <source>Legacysend Balance:</source>
+        <translation>Legacysend Balance:</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1819,8 +1819,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <location line="+10"/>
         <location line="+10"/>
         <location line="+14"/>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <location line="+74"/>
@@ -1834,8 +1834,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="-469"/>
-        <source>The denominations you submitted to the Throne.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>The denominations you submitted to the Throne.&lt;br&gt;To mix, other users must submit the exact same denominations.</translation>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</translation>
     </message>
     <message>
         <location line="+501"/>
@@ -1844,8 +1844,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Try to manually submit a Darksend request.</source>
-        <translation>Try to manually submit a Darksend request.</translation>
+        <source>Try to manually submit a Legacysend request.</source>
+        <translation>Try to manually submit a Legacysend request.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1854,8 +1854,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+19"/>
-        <source>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</source>
-        <translation>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</translation>
+        <source>Reset the current status of Legacysend (can interrupt Legacysend if it&apos;s in the process of Mixing, which can cost you money!)</source>
+        <translation>Reset the current status of Legacysend (can interrupt Legacysend if it&apos;s in the process of Mixing, which can cost you money!)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1881,14 +1881,14 @@ https://www.transifex.com/projects/p/crown/</translation>
         <location line="-288"/>
         <location line="+290"/>
         <location line="+91"/>
-        <source>Start Darksend Mixing</source>
-        <translation>Start Darksend Mixing</translation>
+        <source>Start Legacysend Mixing</source>
+        <translation>Start Legacysend Mixing</translation>
     </message>
     <message>
         <location line="-379"/>
         <location line="+382"/>
-        <source>Stop Darksend Mixing</source>
-        <translation>Stop Darksend Mixing</translation>
+        <source>Stop Legacysend Mixing</source>
+        <translation>Stop Legacysend Mixing</translation>
     </message>
     <message>
         <location line="-211"/>
@@ -1945,9 +1945,9 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>Last Darksend message:
+        <source>Last Legacysend message:
 </source>
-        <translation>Last Darksend message:
+        <translation>Last Legacysend message:
 </translation>
     </message>
     <message>
@@ -1957,23 +1957,23 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>Darksend was successfully reset.</source>
-        <translation>Darksend was successfully reset.</translation>
+        <source>Legacysend was successfully reset.</source>
+        <translation>Legacysend was successfully reset.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>If you don&apos;t want to see internal Darksend fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</source>
-        <translation>If you don&apos;t want to see internal Darksend fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</translation>
+        <source>If you don&apos;t want to see internal Legacysend fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</source>
+        <translation>If you don&apos;t want to see internal Legacysend fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Darksend requires at least %1 to use.</source>
-        <translation>Darksend requires at least %1 to use.</translation>
+        <source>Legacysend requires at least %1 to use.</source>
+        <translation>Legacysend requires at least %1 to use.</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
-        <translation>Wallet is locked and user declined to unlock. Disabling Darksend.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling Legacysend.</source>
+        <translation>Wallet is locked and user declined to unlock. Disabling Legacysend.</translation>
     </message>
 </context>
 <context>
@@ -2319,8 +2319,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+289"/>
-        <source>Number of Thrones</source>
-        <translation>Number of Thrones</translation>
+        <source>Number of Masternodes</source>
+        <translation>Number of Masternodes</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -3015,8 +3015,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+38"/>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -3083,8 +3083,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(darksend requires this amount to be rounded up to the nearest %1).</translation>
+        <source>(legacysend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(legacysend requires this amount to be rounded up to the nearest %1).</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3868,8 +3868,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received via Darksend</source>
-        <translation>Received via Darksend</translation>
+        <source>Received via Legacysend</source>
+        <translation>Received via Legacysend</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3888,28 +3888,28 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Darksend Denominate</source>
-        <translation>Darksend Denominate</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend Denominate</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksend Collateral Payment</source>
-        <translation>Darksend Collateral Payment</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Legacysend Collateral Payment</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Make Collateral Inputs</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend Make Collateral Inputs</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend Create Denominations</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend Create Denominations</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksent</source>
-        <translation>Darksent</translation>
+        <source>Legacysent</source>
+        <translation>Legacysent</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -4007,28 +4007,28 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksent</source>
-        <translation>Darksent</translation>
+        <source>Legacysent</source>
+        <translation>Legacysent</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Make Collateral Inputs</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend Make Collateral Inputs</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend Create Denominations</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend Create Denominations</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Darksend Denominate</source>
-        <translation>Darksend Denominate</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend Denominate</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Darksend Collateral Payment</source>
-        <translation>Darksend Collateral Payment</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Legacysend Collateral Payment</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4255,8 +4255,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+12"/>
-        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</translation>
+        <source>Legacysend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>Legacysend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -4320,13 +4320,13 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>Unable to locate enough Darksend denominated funds for this transaction.</translation>
+        <source>Unable to locate enough Legacysend denominated funds for this transaction.</source>
+        <translation>Unable to locate enough Legacysend denominated funds for this transaction.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
-        <translation>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 CRW.</translation>
+        <source>Unable to locate enough Legacysend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
+        <translation>Unable to locate enough Legacysend non-denominated funds for this transaction that are not equal 10000 CRW.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4355,8 +4355,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>You must specify a throneprivkey in the configuration. Please see documentation for help.</source>
-        <translation>You must specify a throneprivkey in the configuration. Please see documentation for help.</translation>
+        <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4450,8 +4450,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>Darksend options:</source>
-        <translation>Darksend options:</translation>
+        <source>Legacysend options:</source>
+        <translation>Legacysend options:</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4540,8 +4540,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Error: You already have pending entries in the Darksend pool</translation>
+        <source>Error: You already have pending entries in the Legacysend pool</source>
+        <translation>Error: You already have pending entries in the Legacysend pool</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4605,8 +4605,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all Crown specific functionality (Thrones, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all Crown specific functionality (Thrones, Darksend, InstantX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all Crown specific functionality (Masternodes, Legacysend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all Crown specific functionality (Masternodes, Legacysend, InstantX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4620,8 +4620,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</translation>
+        <source>Enable use of automated legacysend for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Enable use of automated legacysend for funds stored in this wallet (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -4695,8 +4695,8 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</translation>
+        <source>Provide liquidity to Legacysend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Provide liquidity to Legacysend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -4837,18 +4837,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksend is idle.</source>
-        <translation>Darksend is idle.</translation>
+        <source>Legacysend is idle.</source>
+        <translation>Legacysend is idle.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Darksend request complete:</source>
-        <translation>Darksend request complete:</translation>
+        <source>Legacysend request complete:</source>
+        <translation>Legacysend request complete:</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Darksend request incomplete:</source>
-        <translation>Darksend request incomplete:</translation>
+        <source>Legacysend request incomplete:</source>
+        <translation>Legacysend request incomplete:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4857,13 +4857,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+5"/>
-        <source>Enable the client to act as a throne (0-1, default: %u)</source>
-        <translation>Enable the client to act as a throne (0-1, default: %u)</translation>
+        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
+        <translation>Enable the client to act as a masternode (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Error connecting to Throne.</source>
-        <translation>Error connecting to Throne.</translation>
+        <source>Error connecting to Masternode.</source>
+        <translation>Error connecting to Masternode.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -5012,8 +5012,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+11"/>
-        <source>Last successful Darksend action was too recent.</source>
-        <translation>Last successful Darksend action was too recent.</translation>
+        <source>Last successful Legacysend action was too recent.</source>
+        <translation>Last successful Legacysend action was too recent.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5037,13 +5037,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Loading throne cache...</source>
-        <translation>Loading throne cache...</translation>
+        <source>Loading masternode cache...</source>
+        <translation>Loading masternode cache...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Loading throne payment cache...</source>
-        <translation>Loading throne payment cache...</translation>
+        <source>Loading masternode payment cache...</source>
+        <translation>Loading masternode payment cache...</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5052,8 +5052,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Lock thrones from throne configuration file (default: %u)</source>
-        <translation>Lock thrones from throne configuration file (default: %u)</translation>
+        <source>Lock masternodes from masternode configuration file (default: %u)</source>
+        <translation>Lock masternodes from masternode configuration file (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5082,18 +5082,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>No Thrones detected.</source>
-        <translation>No Thrones detected.</translation>
+        <source>No Masternodes detected.</source>
+        <translation>No Masternodes detected.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>No compatible Throne found.</source>
-        <translation>No compatible Throne found.</translation>
+        <source>No compatible Masternode found.</source>
+        <translation>No compatible Masternode found.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Not in the Throne list.</source>
-        <translation>Not in the Throne list.</translation>
+        <source>Not in the Masternode list.</source>
+        <translation>Not in the Masternode list.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5142,8 +5142,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Set external address:port to get to this throne (example: %s)</source>
-        <translation>Set external address:port to get to this throne (example: %s)</translation>
+        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <translation>Set external address:port to get to this masternode (example: %s)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5182,8 +5182,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify throne configuration file (default: %s)</source>
-        <translation>Specify throne configuration file (default: %s)</translation>
+        <source>Specify masternode configuration file (default: %s)</source>
+        <translation>Specify masternode configuration file (default: %s)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5202,18 +5202,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Submitted following entries to throne: %u / %d</source>
-        <translation>Submitted following entries to throne: %u / %d</translation>
+        <source>Submitted following entries to masternode: %u / %d</source>
+        <translation>Submitted following entries to masternode: %u / %d</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Submitted to throne, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Submitted to throne, waiting for more entries ( %u / %d ) %s</translation>
+        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
+        <translation>Submitted to masternode, waiting for more entries ( %u / %d ) %s</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Submitted to throne, waiting in queue %s</source>
-        <translation>Submitted to throne, waiting in queue %s</translation>
+        <source>Submitted to masternode, waiting in queue %s</source>
+        <translation>Submitted to masternode, waiting in queue %s</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5232,13 +5232,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchronizing throne winners...</source>
-        <translation>Synchronizing throne winners...</translation>
+        <source>Synchronizing masternode winners...</source>
+        <translation>Synchronizing masternode winners...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchronizing thrones...</source>
-        <translation>Synchronizing thrones...</translation>
+        <source>Synchronizing masternodes...</source>
+        <translation>Synchronizing masternodes...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5247,8 +5247,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>This is not a Throne.</source>
-        <translation>This is not a Throne.</translation>
+        <source>This is not a Masternode.</source>
+        <translation>This is not a Masternode.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5257,8 +5257,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Use N separate thrones to anonymize funds  (2-8, default: %u)</source>
-        <translation>Use N separate thrones to anonymize funds  (2-8, default: %u)</translation>
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
+        <translation>Use N separate masternodes to anonymize funds  (2-8, default: %u)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -5287,8 +5287,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="-136"/>
-        <source>Invalid throneprivkey. Please see documenation.</source>
-        <translation>Invalid throneprivkey. Please see documenation.</translation>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
+        <translation>Invalid masternodeprivkey. Please see documenation.</translation>
     </message>
     <message>
         <location line="-88"/>
@@ -5297,8 +5297,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+13"/>
-        <source>Can&apos;t find random Throne.</source>
-        <translation>Can&apos;t find random Throne.</translation>
+        <source>Can&apos;t find random Masternode.</source>
+        <translation>Can&apos;t find random Masternode.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5307,8 +5307,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+16"/>
-        <source>Could not parse throne.conf</source>
-        <translation>Could not parse throne.conf</translation>
+        <source>Could not parse masternode.conf</source>
+        <translation>Could not parse masternode.conf</translation>
     </message>
     <message>
         <location line="+59"/>
@@ -5317,8 +5317,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Invalid port detected in throne.conf</source>
-        <translation>Invalid port detected in throne.conf</translation>
+        <source>Invalid port detected in masternode.conf</source>
+        <translation>Invalid port detected in masternode.conf</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5342,8 +5342,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Last Darksend was too recent.</source>
-        <translation>Last Darksend was too recent.</translation>
+        <source>Last Legacysend was too recent.</source>
+        <translation>Last Legacysend was too recent.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5372,18 +5372,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Throne options:</source>
-        <translation>Throne options:</translation>
+        <source>Masternode options:</source>
+        <translation>Masternode options:</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Throne queue is full.</source>
-        <translation>Throne queue is full.</translation>
+        <source>Masternode queue is full.</source>
+        <translation>Masternode queue is full.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Throne:</source>
-        <translation>Throne:</translation>
+        <source>Masternode:</source>
+        <translation>Masternode:</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5512,8 +5512,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+2"/>
-        <source>Set the throne private key</source>
-        <translation>Set the throne private key</translation>
+        <source>Set the masternode private key</source>
+        <translation>Set the masternode private key</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5657,8 +5657,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Crown Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Value more than Darksend pool maximum allows.</source>
-        <translation>Value more than Darksend pool maximum allows.</translation>
+        <source>Value more than Legacysend pool maximum allows.</source>
+        <translation>Value more than Legacysend pool maximum allows.</translation>
     </message>
     <message>
         <location line="+1"/>

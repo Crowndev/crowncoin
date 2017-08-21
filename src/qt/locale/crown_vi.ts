@@ -741,8 +741,8 @@ Kiểu: %3
         <translation>Sao chép tiền trả lại</translation>
     </message>
     <message>
-        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Đầu vào không ẩn danh được chọn. &lt;b&gt;Darksend sẽ bị tắt.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Nếu bạn vẫn muốn sử dụng Darksend, hãy bỏ chọn tata cả các đầu vào không ẩn danh trước và đánh dấu vào hộp Darksend lần nữa.</translation>
+        <source>Non-anonymized input selected. &lt;b&gt;Legacysend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Legacysend, please deselect all non-nonymized inputs first and then check Legacysend checkbox again.</source>
+        <translation>Đầu vào không ẩn danh được chọn. &lt;b&gt;Legacysend sẽ bị tắt.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Nếu bạn vẫn muốn sử dụng Legacysend, hãy bỏ chọn tata cả các đầu vào không ẩn danh trước và đánh dấu vào hộp Legacysend lần nữa.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -842,10 +842,10 @@ Kiểu: %3
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>LegacysendConfig</name>
     <message>
-        <source>Configure Darksend</source>
-        <translation>Cấu hình Darksend</translation>
+        <source>Configure Legacysend</source>
+        <translation>Cấu hình Legacysend</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
@@ -864,16 +864,16 @@ Kiểu: %3
         <translation>Hãy chọn mức độ riêng tư.</translation>
     </message>
     <message>
-        <source>Use 2 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Sử dụng 2 throne khác nhau để trộn số tiền lên đến 10000 CRW</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Sử dụng 2 masternode khác nhau để trộn số tiền lên đến 10000 CRW</translation>
     </message>
     <message>
-        <source>Use 8 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Sử dụng 8 throne khác nhau để trộn số tiền lên đến 10000 CRW</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Sử dụng 8 masternode khác nhau để trộn số tiền lên đến 10000 CRW</translation>
     </message>
     <message>
-        <source>Use 16 separate thrones</source>
-        <translation>Sử dụng 16 throne khác nhau</translation>
+        <source>Use 16 separate masternodes</source>
+        <translation>Sử dụng 16 masternode khác nhau</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 CRW to anonymize 10000 CRW</source>
@@ -892,20 +892,20 @@ Kiểu: %3
         <translation>Đây là tuỳ chọn chậm nhất và an toàn nhất. Sử dụng mức vô danh cao nhất sẽ tốn kém</translation>
     </message>
     <message>
-        <source>Darksend Configuration</source>
-        <translation>Cấu hình Darksend</translation>
+        <source>Legacysend Configuration</source>
+        <translation>Cấu hình Legacysend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Crown.</translation>
+        <source>Legacysend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Crown.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend được thiết lập thành công về mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Crown.</translation>
+        <source>Legacysend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend được thiết lập thành công về mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Crown.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend được thiết lập thành công về mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Crown.</translation>
+        <source>Legacysend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend được thiết lập thành công về mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình Crown.</translation>
     </message>
 </context>
 <context>
@@ -1146,12 +1146,12 @@ Kiểu: %3
         <translation>(0 = tự động, &lt;0 = để đó rất nhiều lõi miễn phí)</translation>
     </message>
     <message>
-        <source>Darksend rounds to use</source>
-        <translation>Số vòng Darksend sử dụng</translation>
+        <source>Legacysend rounds to use</source>
+        <translation>Số vòng Legacysend sử dụng</translation>
     </message>
     <message>
-        <source>This amount acts as a threshold to turn off Darksend once it's reached.</source>
-        <translation>Số lượng này hoạt động như là một ngưỡng để tắt Darksend một khi nó đạt đến.</translation>
+        <source>This amount acts as a threshold to turn off Legacysend once it's reached.</source>
+        <translation>Số lượng này hoạt động như là một ngưỡng để tắt Legacysend một khi nó đạt đến.</translation>
     </message>
     <message>
         <source>Amount of Crown to keep anonymized</source>
@@ -1186,7 +1186,7 @@ Kiểu: %3
         <translation>Chuyên gia</translation>
     </message>
     <message>
-        <source>This setting determines the amount of individual thrones that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
         <translation>Thiết lập này xác định số tiền cho mỗi master nodes mà đầu vào thông qua đó được ẩn danh.&lt;br/&gt;Càng có nhiều vòng ẩn danh thì sẽ cho mức độ riêng tư càng cao, nhưng nó cũng tốn nhiều phí hơn.</translation>
     </message>
     <message>
@@ -1423,8 +1423,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Hoàn thành:</translation>
     </message>
     <message>
-        <source>Darksend Balance:</source>
-        <translation>Số dư cho Darksend:</translation>
+        <source>Legacysend Balance:</source>
+        <translation>Số dư cho Legacysend:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
@@ -1443,8 +1443,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>không áp dụng</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1455,24 +1455,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Bắt đầu/Tắt việc trộn</translation>
     </message>
     <message>
-        <source>The denominations you submitted to the Throne.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Mệnh giá mà bạn gửi cho Throne. &lt;br&gt;Để trộn, những người dùng khác cũng cần gửi chính xác dùng loại mệnh giá đó.</translation>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation>Mệnh giá mà bạn gửi cho Masternode. &lt;br&gt;Để trộn, những người dùng khác cũng cần gửi chính xác dùng loại mệnh giá đó.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
         <translation>(Thông điệp cuối)</translation>
     </message>
     <message>
-        <source>Try to manually submit a Darksend request.</source>
-        <translation>Thử gửi yêu cầu Darksend bằng tay.</translation>
+        <source>Try to manually submit a Legacysend request.</source>
+        <translation>Thử gửi yêu cầu Legacysend bằng tay.</translation>
     </message>
     <message>
         <source>Try Mix</source>
         <translation>Thử Trộn</translation>
     </message>
     <message>
-        <source>Reset the current status of Darksend (can interrupt Darksend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Tái lập lại trạng thái hiện tại của Darksend (có thể gián đoạn Darksend nếu nó đang trong quá trình trộn, điều đó có thể làm bạn bị mất tiền!)</translation>
+        <source>Reset the current status of Legacysend (can interrupt Legacysend if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Tái lập lại trạng thái hiện tại của Legacysend (có thể gián đoạn Legacysend nếu nó đang trong quá trình trộn, điều đó có thể làm bạn bị mất tiền!)</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1487,12 +1487,12 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Đã tắt</translation>
     </message>
     <message>
-        <source>Start Darksend Mixing</source>
-        <translation>Bắt đầu trộn Darksend</translation>
+        <source>Start Legacysend Mixing</source>
+        <translation>Bắt đầu trộn Legacysend</translation>
     </message>
     <message>
-        <source>Stop Darksend Mixing</source>
-        <translation>Tắt trộn Darksend</translation>
+        <source>Stop Legacysend Mixing</source>
+        <translation>Tắt trộn Legacysend</translation>
     </message>
     <message>
         <source>No inputs detected</source>
@@ -1535,9 +1535,9 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Đã bật</translation>
     </message>
     <message>
-        <source>Last Darksend message:
+        <source>Last Legacysend message:
 </source>
-        <translation>Thông điệp Darksend cuối cùng:
+        <translation>Thông điệp Legacysend cuối cùng:
 </translation>
     </message>
     <message>
@@ -1545,20 +1545,20 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Không áp dụng</translation>
     </message>
     <message>
-        <source>Darksend was successfully reset.</source>
-        <translation>Darksend vừa được tái lập thành công.</translation>
+        <source>Legacysend was successfully reset.</source>
+        <translation>Legacysend vừa được tái lập thành công.</translation>
     </message>
     <message>
-        <source>If you don't want to see internal Darksend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Nếu bạn không muốn thấy các thông tin bên trong về Darksend phí/giao dịch thì hãy chọn "Thông dụng nhất" làm Kiểu trong trang "Giao dịch".</translation>
+        <source>If you don't want to see internal Legacysend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>Nếu bạn không muốn thấy các thông tin bên trong về Legacysend phí/giao dịch thì hãy chọn "Thông dụng nhất" làm Kiểu trong trang "Giao dịch".</translation>
     </message>
     <message>
-        <source>Darksend requires at least %1 to use.</source>
-        <translation>Darksend cần ít nhất %1 để sử dụng.</translation>
+        <source>Legacysend requires at least %1 to use.</source>
+        <translation>Legacysend cần ít nhất %1 để sử dụng.</translation>
     </message>
     <message>
-        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
-        <translation>Ví đã được khoá và người dùng từ chối mở khoá. Đang tắt Darksend.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling Legacysend.</source>
+        <translation>Ví đã được khoá và người dùng từ chối mở khoá. Đang tắt Legacysend.</translation>
     </message>
 </context>
 <context>
@@ -1812,8 +1812,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Number of Thrones</source>
-        <translation>Số lượng Thrones</translation>
+        <source>Number of Masternodes</source>
+        <translation>Số lượng Masternodes</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2364,8 +2364,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Thêm &amp;Người nhận</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>InstantX</source>
@@ -2416,8 +2416,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>các khoản tiền ẩn danh</translation>
     </message>
     <message>
-        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(darksend yêu cầu số tiền này sẽ được làm tròn đến gần %1)</translation>
+        <source>(legacysend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(legacysend yêu cầu số tiền này sẽ được làm tròn đến gần %1)</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3020,8 +3020,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Nhận từ</translation>
     </message>
     <message>
-        <source>Received via Darksend</source>
-        <translation>Nhận qua Darksend</translation>
+        <source>Received via Legacysend</source>
+        <translation>Nhận qua Legacysend</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -3036,24 +3036,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Được đào</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Darksend Denominate</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend Denominate</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Thanh toán Darksend Collateral</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Thanh toán Legacysend Collateral</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend tạo đầu vào Collateral</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend tạo đầu vào Collateral</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend tạo các mệnh giá</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend tạo các mệnh giá</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksent</translation>
+        <source>Legacysent</source>
+        <translation>Legacysent</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3131,24 +3131,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Gửi đến</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksent</translation>
+        <source>Legacysent</source>
+        <translation>Legacysent</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend tạo đầu vào Collateral</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend tạo đầu vào Collateral</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend tạo các mệnh giá</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend tạo các mệnh giá</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Darksend Denominate</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend Denominate</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Thanh toán Darksend Collateral</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Thanh toán Legacysend Collateral</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3330,8 +3330,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Không nhận được một khoá trong thư mục %s. Crown Core có thể đã đang chạy.</translation>
     </message>
     <message>
-        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend sử dụng số lượng mệnh giá nhất định để gửi tiền, bạn có thể chỉ cần đơn giản ẩn danh vài coin nữa.</translation>
+        <source>Legacysend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>Legacysend sử dụng số lượng mệnh giá nhất định để gửi tiền, bạn có thể chỉ cần đơn giản ẩn danh vài coin nữa.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3382,12 +3382,12 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Không thể để ràng buộc vào %s trên máy tính này. Crown Core có thể đã chạy.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>Không tìm đủ ngân sách Darksend denominated cho giao dịch này.</translation>
+        <source>Unable to locate enough Legacysend denominated funds for this transaction.</source>
+        <translation>Không tìm đủ ngân sách Legacysend denominated cho giao dịch này.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
-        <translation>Không tìm đủ ngân sách Darksend denominated cho giao dịch mà nó không bằng 10000 CRW</translation>
+        <source>Unable to locate enough Legacysend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
+        <translation>Không tìm đủ ngân sách Legacysend denominated cho giao dịch mà nó không bằng 10000 CRW</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3410,8 +3410,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Cảnh báo: wallet.dat đã bị hỏng, dữ liệu đã được cứu! Tệp gốc wallet.dat đã được lưu thành wallet.{timestamp}.bak trong %s; nếu số dư hoặc các giao dịch của bạn không chính xác, bạn có thể khôi phục từ bản sao lưu.</translation>
     </message>
     <message>
-        <source>You must specify a throneprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Bạn cần chỉ rõ throneprivkey trong tệp cấu hình. Hãy xem tài liệu để có hướng dẫn.</translation>
+        <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation>Bạn cần chỉ rõ masternodeprivkey trong tệp cấu hình. Hãy xem tài liệu để có hướng dẫn.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
@@ -3486,8 +3486,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Phát hiện ra dữ liệu khối bị hỏng</translation>
     </message>
     <message>
-        <source>Darksend options:</source>
-        <translation>Tuỳ chọn Darksend:</translation>
+        <source>Legacysend options:</source>
+        <translation>Tuỳ chọn Legacysend:</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -3558,8 +3558,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Lỗi: Ví đã bị khoá, không thể tạo giao dịch!</translation>
     </message>
     <message>
-        <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Lỗi: Bạn đã có các thành phần đang chờ trong Darksend pool</translation>
+        <source>Error: You already have pending entries in the Legacysend pool</source>
+        <translation>Lỗi: Bạn đã có các thành phần đang chờ trong Legacysend pool</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -3610,8 +3610,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Xoá hết tất cả các giao dịch ví và chỉ phục hồi những phần đó của blockchain qua -rescan khi khởi động</translation>
     </message>
     <message>
-        <source>Disable all Crown specific functionality (Thrones, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Tắt tất cả các chức năng đặc trưng của Crown (Throne, Darksend, InstantX, Lập ngân sách) (0-1, ngầm định: %u)</translation>
+        <source>Disable all Crown specific functionality (Masternodes, Legacysend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Tắt tất cả các chức năng đặc trưng của Crown (Masternode, Legacysend, InstantX, Lập ngân sách) (0-1, ngầm định: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3622,8 +3622,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Bật InstantX, hiển thị các xác thực cho các giao dịch bị khoá (bool, ngầm định: %s)</translation>
     </message>
     <message>
-        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Cho phép sử dụng tự động darksend cho những ngân sách được lưu trong ví (0-1, ngầm định: %u)</translation>
+        <source>Enable use of automated legacysend for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Cho phép sử dụng tự động legacysend cho những ngân sách được lưu trong ví (0-1, ngầm định: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3682,8 +3682,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Thông tin gỡ rối đầu ra (ngầm định: %u, cung cấp &lt;category&gt;  là một tuỳ chọn)</translation>
     </message>
     <message>
-        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Cung cấp thanh khoản cho Darksend bằng việc thường xuyên trộn tiền một cách liên tục (0-100, ngầm định: %u, 1=rất thường xuyên, phí cao, 100=rất ít thường xuyên, phí thấp)</translation>
+        <source>Provide liquidity to Legacysend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Cung cấp thanh khoản cho Legacysend bằng việc thường xuyên trộn tiền một cách liên tục (0-100, ngầm định: %u, 1=rất thường xuyên, phí cao, 100=rất ít thường xuyên, phí thấp)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3799,28 +3799,28 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Không thể phân tích giá trị -rpcbind %s như là địa chỉ mạng</translation>
     </message>
     <message>
-        <source>Darksend is idle.</source>
-        <translation>Darksend đang nghỉ.</translation>
+        <source>Legacysend is idle.</source>
+        <translation>Legacysend đang nghỉ.</translation>
     </message>
     <message>
-        <source>Darksend request complete:</source>
-        <translation>Yêu cầu Darksend hoàn thành:</translation>
+        <source>Legacysend request complete:</source>
+        <translation>Yêu cầu Legacysend hoàn thành:</translation>
     </message>
     <message>
-        <source>Darksend request incomplete:</source>
-        <translation>Yêu cầu Darksend chưa hoàn thành:</translation>
+        <source>Legacysend request incomplete:</source>
+        <translation>Yêu cầu Legacysend chưa hoàn thành:</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
         <translation>Tắt chế độ an toàn, ghi đè lên một sự kiện của chế đọ an toàn (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Enable the client to act as a throne (0-1, default: %u)</source>
-        <translation>Cho phép phần mềm hoạt động như là throne (0-1, ngầm định: %u)</translation>
+        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
+        <translation>Cho phép phần mềm hoạt động như là masternode (0-1, ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Error connecting to Throne.</source>
-        <translation>Lỗi kết nối tới Throne.</translation>
+        <source>Error connecting to Masternode.</source>
+        <translation>Lỗi kết nối tới Masternode.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Crown Core</source>
@@ -3939,8 +3939,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Số tiền không hợp lệ cho -paytxfee =&lt;số tiền&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Last successful Darksend action was too recent.</source>
-        <translation>Phiên giao dịch Darksend thành công cuối cùng quá gần đây.</translation>
+        <source>Last successful Legacysend action was too recent.</source>
+        <translation>Phiên giao dịch Legacysend thành công cuối cùng quá gần đây.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
@@ -3959,20 +3959,20 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Đang nạp bộ đệm ngân sách...</translation>
     </message>
     <message>
-        <source>Loading throne cache...</source>
-        <translation>Đang tải cache cho throne...</translation>
+        <source>Loading masternode cache...</source>
+        <translation>Đang tải cache cho masternode...</translation>
     </message>
     <message>
-        <source>Loading throne payment cache...</source>
-        <translation>Đang tải bộ đệm thanh toán cho throne...</translation>
+        <source>Loading masternode payment cache...</source>
+        <translation>Đang tải bộ đệm thanh toán cho masternode...</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
         <translation>Khoá đã sẵn sàng.</translation>
     </message>
     <message>
-        <source>Lock thrones from throne configuration file (default: %u)</source>
-        <translation>Khoá các throne từ tệp cấu hình throne (ngầm định: %u)</translation>
+        <source>Lock masternodes from masternode configuration file (default: %u)</source>
+        <translation>Khoá các masternode từ tệp cấu hình masternode (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
@@ -3995,16 +3995,16 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Cần chỉ rõ một cổng với -whitebind: '%s'</translation>
     </message>
     <message>
-        <source>No Thrones detected.</source>
+        <source>No Masternodes detected.</source>
         <translation>Không tìm thấy các Master node.</translation>
     </message>
     <message>
-        <source>No compatible Throne found.</source>
-        <translation>Không tìm thấy Throne tương thích.</translation>
+        <source>No compatible Masternode found.</source>
+        <translation>Không tìm thấy Masternode tương thích.</translation>
     </message>
     <message>
-        <source>Not in the Throne list.</source>
-        <translation>Không có trong danh sách Throne.</translation>
+        <source>Not in the Masternode list.</source>
+        <translation>Không có trong danh sách Masternode.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
@@ -4043,8 +4043,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Khoá riêng của máy chủ (ngầm định: %s)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this throne (example: %s)</source>
-        <translation>Đặt external address:port cho throne này (ví dụ: %s)</translation>
+        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <translation>Đặt external address:port cho masternode này (ví dụ: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
@@ -4075,8 +4075,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Hãy xác định thời gian hết hạn tính theo milli giây (tối thiểu: 1, ngầm định: %d)</translation>
     </message>
     <message>
-        <source>Specify throne configuration file (default: %s)</source>
-        <translation>Hãy chỉ ra tệp cấu hình throne (ngầm định: %s)</translation>
+        <source>Specify masternode configuration file (default: %s)</source>
+        <translation>Hãy chỉ ra tệp cấu hình masternode (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -4091,16 +4091,16 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Dừng chạy sau khi nạp các khối từ đĩa (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Submitted following entries to throne: %u / %d</source>
-        <translation>Đã gửi các những thành phần sau tới throne: %u / %d</translation>
+        <source>Submitted following entries to masternode: %u / %d</source>
+        <translation>Đã gửi các những thành phần sau tới masternode: %u / %d</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Đã gửi đến throne, đang đợi các đầu vào khác nữa (%u / %d) %s</translation>
+        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
+        <translation>Đã gửi đến masternode, đang đợi các đầu vào khác nữa (%u / %d) %s</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting in queue %s</source>
-        <translation>Đã được gửi cho throne, đang đợi trong hàng đợi %s</translation>
+        <source>Submitted to masternode, waiting in queue %s</source>
+        <translation>Đã được gửi cho masternode, đang đợi trong hàng đợi %s</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -4115,27 +4115,27 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Đang đồng bộ ngân sách...</translation>
     </message>
     <message>
-        <source>Synchronizing throne winners...</source>
-        <translation>Đồng bộ các throne được chọn...</translation>
+        <source>Synchronizing masternode winners...</source>
+        <translation>Đồng bộ các masternode được chọn...</translation>
     </message>
     <message>
-        <source>Synchronizing thrones...</source>
-        <translation>Đang đồng bộ các throne...</translation>
+        <source>Synchronizing masternodes...</source>
+        <translation>Đang đồng bộ các masternode...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
         <translation>Đang đồng bộ các sporks...</translation>
     </message>
     <message>
-        <source>This is not a Throne.</source>
-        <translation>Đây không phải là một Throne.</translation>
+        <source>This is not a Masternode.</source>
+        <translation>Đây không phải là một Masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Ngưỡng ngắt kết nối khi đối tác ngang hàng cư xử không đúng (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Use N separate thrones to anonymize funds  (2-8, default: %u)</source>
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
         <translation>Sử dụng N masternods riêng biệt để ẩn danh khoản tiền (2-8, ngầm định: %u)</translation>
     </message>
     <message>
@@ -4159,32 +4159,32 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Sẽ thử lại...</translation>
     </message>
     <message>
-        <source>Invalid throneprivkey. Please see documenation.</source>
-        <translation>Throneprivkey không hợp lệ. Hãy xem lại tài liệu.</translation>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
+        <translation>Masternodeprivkey không hợp lệ. Hãy xem lại tài liệu.</translation>
     </message>
     <message>
         <source>(must be 9340 for mainnet)</source>
         <translation>(phải là 9340 cho mạng chính thức)</translation>
     </message>
     <message>
-        <source>Can't find random Throne.</source>
-        <translation>Không tìm thấy Throne ngẫu nhiên.</translation>
+        <source>Can't find random Masternode.</source>
+        <translation>Không tìm thấy Masternode ngẫu nhiên.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>Không thể trộn trong quá trình đồng bộ.</translation>
     </message>
     <message>
-        <source>Could not parse throne.conf</source>
-        <translation>Không hiểu được tệp throne.conf</translation>
+        <source>Could not parse masternode.conf</source>
+        <translation>Không hiểu được tệp masternode.conf</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
         <translation>Lỗi netmask được chỉ ra trong -whitelist: '%s'</translation>
     </message>
     <message>
-        <source>Invalid port detected in throne.conf</source>
-        <translation>Phát hiện thấy cổng không hợp lệ trong tệp throne.conf</translation>
+        <source>Invalid port detected in masternode.conf</source>
+        <translation>Phát hiện thấy cổng không hợp lệ trong tệp masternode.conf</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
@@ -4203,8 +4203,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Giữ nhiều nhất &lt;n&gt; các giao dịch không kết nối được trong bộ nhớ (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Last Darksend was too recent.</source>
-        <translation>Darksend cuối cùng quá gần.</translation>
+        <source>Last Legacysend was too recent.</source>
+        <translation>Legacysend cuối cùng quá gần.</translation>
     </message>
     <message>
         <source>Line: %d</source>
@@ -4227,16 +4227,16 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Đang tải ví...</translation>
     </message>
     <message>
-        <source>Throne options:</source>
-        <translation>Tuỳ chọn Throne:</translation>
+        <source>Masternode options:</source>
+        <translation>Tuỳ chọn Masternode:</translation>
     </message>
     <message>
-        <source>Throne queue is full.</source>
-        <translation>Danh sách hàng đợi Throne đã đầy.</translation>
+        <source>Masternode queue is full.</source>
+        <translation>Danh sách hàng đợi Masternode đã đầy.</translation>
     </message>
     <message>
-        <source>Throne:</source>
-        <translation>Throne:</translation>
+        <source>Masternode:</source>
+        <translation>Masternode:</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
@@ -4339,8 +4339,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Thiết lập kích thước khối tối đa theo bytes (ngầm định: %d)</translation>
     </message>
     <message>
-        <source>Set the throne private key</source>
-        <translation>Đặt khoá riêng cho throne</translation>
+        <source>Set the masternode private key</source>
+        <translation>Đặt khoá riêng cho masternode</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -4455,8 +4455,8 @@ ví dụ: alertnotify=echo %%s | mail -s "Crown Alert" admin@foo.com
         <translation>Username cho kết nối JSON-RPC</translation>
     </message>
     <message>
-        <source>Value more than Darksend pool maximum allows.</source>
-        <translation>Giá tri trị lớn hơn giá trị tối đa mà bể Darksend cho phép.</translation>
+        <source>Value more than Legacysend pool maximum allows.</source>
+        <translation>Giá tri trị lớn hơn giá trị tối đa mà bể Legacysend cho phép.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

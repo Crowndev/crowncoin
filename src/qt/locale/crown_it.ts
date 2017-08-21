@@ -714,8 +714,8 @@ Indirizzo: %4
         <translation>Copia resto</translation>
     </message>
     <message>
-        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Selezionati input non anonimizzati.&lt;b&gt;Darksend sará disabilitato.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Se vuoi ancora usare Darksend, per favore per prima cosa togli la selezione a tutti gli inputs non anonimizzati e dopo controlla il Darksend checkbox di nuovo.</translation>
+        <source>Non-anonymized input selected. &lt;b&gt;Legacysend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Legacysend, please deselect all non-nonymized inputs first and then check Legacysend checkbox again.</source>
+        <translation>Selezionati input non anonimizzati.&lt;b&gt;Legacysend sará disabilitato.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Se vuoi ancora usare Legacysend, per favore per prima cosa togli la selezione a tutti gli inputs non anonimizzati e dopo controlla il Legacysend checkbox di nuovo.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -811,10 +811,10 @@ Indirizzo: %4
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>LegacysendConfig</name>
     <message>
-        <source>Configure Darksend</source>
-        <translation>Configura Darksend</translation>
+        <source>Configure Legacysend</source>
+        <translation>Configura Legacysend</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
@@ -833,16 +833,16 @@ Indirizzo: %4
         <translation>Selezionare il livello di privacy</translation>
     </message>
     <message>
-        <source>Use 2 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Usa 2 separati throne per mischiare fino al 10000 CRW</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Usa 2 separati masternode per mischiare fino al 10000 CRW</translation>
     </message>
     <message>
-        <source>Use 8 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Usa 8 separati throne per mischiare fino al 10000 CRW</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Usa 8 separati masternode per mischiare fino al 10000 CRW</translation>
     </message>
     <message>
-        <source>Use 16 separate thrones</source>
-        <translation>Usa 16 separati throne</translation>
+        <source>Use 16 separate masternodes</source>
+        <translation>Usa 16 separati masternode</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 CRW to anonymize 10000 CRW</source>
@@ -861,20 +861,20 @@ Indirizzo: %4
         <translation>Questa è la più lenta ma più sicura opzione. Usare il massimo grado di anonimizzazione costerà</translation>
     </message>
     <message>
-        <source>Darksend Configuration</source>
-        <translation>Configurazione Darksend</translation>
+        <source>Legacysend Configuration</source>
+        <translation>Configurazione Legacysend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <source>Legacysend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
         <translation>Dark send è statto correttamente impostato su base (%1 e 2 round). Puoi cambiare questa impostazione in qualsiasi momento tu lo voglia dalla finestra di configurazione.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend è stata impostata correttamente a elevato (%1 e 8 turni). È possibile modificare in qualsiasi momento aprendo schermata di configurazione di Crown.</translation>
+        <source>Legacysend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend è stata impostata correttamente a elevato (%1 e 8 turni). È possibile modificare in qualsiasi momento aprendo schermata di configurazione di Crown.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend è stato correttamente settato al massimo (%1 e 16 rounds). Puoi cambiarlo quando vuoi aprendo la finestra di configurazione di Crown</translation>
+        <source>Legacysend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend è stato correttamente settato al massimo (%1 e 16 rounds). Puoi cambiarlo quando vuoi aprendo la finestra di configurazione di Crown</translation>
     </message>
 </context>
 <context>
@@ -1111,12 +1111,12 @@ Indirizzo: %4
         <translation>(0 = automatico, &lt;0 = lascia questo numero di core liberi)</translation>
     </message>
     <message>
-        <source>Darksend rounds to use</source>
-        <translation>Round darksend da utilizzare</translation>
+        <source>Legacysend rounds to use</source>
+        <translation>Round legacysend da utilizzare</translation>
     </message>
     <message>
-        <source>This amount acts as a threshold to turn off Darksend once it's reached.</source>
-        <translation>Tale importo si comporta come una soglia per spegnere Darksend una volta che è raggiunto.</translation>
+        <source>This amount acts as a threshold to turn off Legacysend once it's reached.</source>
+        <translation>Tale importo si comporta come una soglia per spegnere Legacysend una volta che è raggiunto.</translation>
     </message>
     <message>
         <source>Amount of Crown to keep anonymized</source>
@@ -1377,8 +1377,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Completamento:</translation>
     </message>
     <message>
-        <source>Darksend Balance:</source>
-        <translation>Bilancio Darksend:</translation>
+        <source>Legacysend Balance:</source>
+        <translation>Bilancio Legacysend:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
@@ -1397,8 +1397,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>n/a</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1409,7 +1409,7 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Start/Stop Mixing</translation>
     </message>
     <message>
-        <source>The denominations you submitted to the Throne.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
         <translation>Il valore che hai richiesto al Mastermode. &lt;br&gt; Per mixare, gli altri utenti devono richiedere esattamente gli stessi valori.</translation>
     </message>
     <message>
@@ -1417,16 +1417,16 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>(Ultimo messaggio)</translation>
     </message>
     <message>
-        <source>Try to manually submit a Darksend request.</source>
-        <translation>Prova ad inserire una richiesta Darksend manualmente.</translation>
+        <source>Try to manually submit a Legacysend request.</source>
+        <translation>Prova ad inserire una richiesta Legacysend manualmente.</translation>
     </message>
     <message>
         <source>Try Mix</source>
         <translation>Prova il Mix</translation>
     </message>
     <message>
-        <source>Reset the current status of Darksend (can interrupt Darksend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Resetta lo stato corrente del Darksend (può interrompere il Darksend se è nel processo di mixaggio, costandoti una perdita economica!)</translation>
+        <source>Reset the current status of Legacysend (can interrupt Legacysend if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Resetta lo stato corrente del Legacysend (può interrompere il Legacysend se è nel processo di mixaggio, costandoti una perdita economica!)</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1441,12 +1441,12 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Disabilita</translation>
     </message>
     <message>
-        <source>Start Darksend Mixing</source>
-        <translation>Avvia Darksend mix</translation>
+        <source>Start Legacysend Mixing</source>
+        <translation>Avvia Legacysend mix</translation>
     </message>
     <message>
-        <source>Stop Darksend Mixing</source>
-        <translation>Ferma Darksend mix</translation>
+        <source>Stop Legacysend Mixing</source>
+        <translation>Ferma Legacysend mix</translation>
     </message>
     <message>
         <source>No inputs detected</source>
@@ -1465,9 +1465,9 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Abilitato</translation>
     </message>
     <message>
-        <source>Last Darksend message:
+        <source>Last Legacysend message:
 </source>
-        <translation>Ultimo messaggio Darksend
+        <translation>Ultimo messaggio Legacysend
 </translation>
     </message>
     <message>
@@ -1475,16 +1475,16 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>N/D</translation>
     </message>
     <message>
-        <source>Darksend was successfully reset.</source>
-        <translation>Darksend è stato resettato con successo</translation>
+        <source>Legacysend was successfully reset.</source>
+        <translation>Legacysend è stato resettato con successo</translation>
     </message>
     <message>
-        <source>Darksend requires at least %1 to use.</source>
-        <translation>Darksend ha bisogno almeno dell' %1 per essere usato.</translation>
+        <source>Legacysend requires at least %1 to use.</source>
+        <translation>Legacysend ha bisogno almeno dell' %1 per essere usato.</translation>
     </message>
     <message>
-        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
-        <translation>Portafoglio è bloccato e l'utente ha rifiutato di sbloccare. Disattivazione Darksend.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling Legacysend.</source>
+        <translation>Portafoglio è bloccato e l'utente ha rifiutato di sbloccare. Disattivazione Legacysend.</translation>
     </message>
 </context>
 <context>
@@ -2218,8 +2218,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>&amp;Aggiungi beneficiario</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>InstantX</source>
@@ -2266,8 +2266,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>fondi anonimi</translation>
     </message>
     <message>
-        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(darksend richiede questo importo da arrotondato al più vicino %1).</translation>
+        <source>(legacysend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(legacysend richiede questo importo da arrotondato al più vicino %1).</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2862,8 +2862,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Ricevuto da</translation>
     </message>
     <message>
-        <source>Received via Darksend</source>
-        <translation>Ricevuto via Darksend</translation>
+        <source>Received via Legacysend</source>
+        <translation>Ricevuto via Legacysend</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -2878,24 +2878,24 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Ottenuto dal mining</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Darksend Denominazione</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend Denominazione</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Darksend Collaterale Pagamento</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Legacysend Collaterale Pagamento</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Fa Ingressi Collaterali</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend Fa Ingressi Collaterali</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend Crea Denominazioni</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend Crea Denominazioni</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksent</translation>
+        <source>Legacysent</source>
+        <translation>Legacysent</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -2973,24 +2973,24 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Inviato a</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksent</translation>
+        <source>Legacysent</source>
+        <translation>Legacysent</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Fa Ingressi Collaterali</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend Fa Ingressi Collaterali</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend Crea Denominazioni</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend Crea Denominazioni</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Darksend Denominazione</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend Denominazione</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Darksend Collaterale Pagamento</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Legacysend Collaterale Pagamento</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3168,8 +3168,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Impossibile ottenere un blocco sulla data directory %s. Crown Core è probabilmente già in esecuzione.</translation>
     </message>
     <message>
-        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend utilizza esatto denominato importo a inviare fondi, si potrebbe semplicemente bisogno di anonimizzare alcuni più monete.</translation>
+        <source>Legacysend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>Legacysend utilizza esatto denominato importo a inviare fondi, si potrebbe semplicemente bisogno di anonimizzare alcuni più monete.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3220,12 +3220,12 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Incapace di legare al %s su questo computer. Crown Core è probabilmente già funzionato.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>Impossibile trovare fondi sufficienti Darksend denominati per questa transazione.</translation>
+        <source>Unable to locate enough Legacysend denominated funds for this transaction.</source>
+        <translation>Impossibile trovare fondi sufficienti Legacysend denominati per questa transazione.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
-        <translation>Impossibile trovare un numero sufficiente di non denominati fondi Darksend per questa operazione che non sono uguali a 10000 CRW.</translation>
+        <source>Unable to locate enough Legacysend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
+        <translation>Impossibile trovare un numero sufficiente di non denominati fondi Legacysend per questa operazione che non sono uguali a 10000 CRW.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3248,8 +3248,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Attenzione: wallet.dat corrotto, dati recuperati! Il wallet.dat originale è stato salvato come wallet.{timestamp}.bak in %s; se il tuo saldo o le transazioni non sono corrette dovresti ripristinare da un backup.</translation>
     </message>
     <message>
-        <source>You must specify a throneprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Devi specificare una throneprivkey nella configurazione. Per favore consulta la documentazione di aiuto.</translation>
+        <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation>Devi specificare una masternodeprivkey nella configurazione. Per favore consulta la documentazione di aiuto.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
@@ -3324,8 +3324,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Rilevato database blocchi corrotto</translation>
     </message>
     <message>
-        <source>Darksend options:</source>
-        <translation>Opzioni Darksend:</translation>
+        <source>Legacysend options:</source>
+        <translation>Opzioni Legacysend:</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -3396,8 +3396,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Errore: portafoglio bloccato, impossibile creare la transazione!</translation>
     </message>
     <message>
-        <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Errore: è già voci in sospeso in piscina Darksend</translation>
+        <source>Error: You already have pending entries in the Legacysend pool</source>
+        <translation>Errore: è già voci in sospeso in piscina Legacysend</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -3432,8 +3432,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Abilita instantx, mostra conferme per le transazioni bloccate (bool, predefinito: %s)</translation>
     </message>
     <message>
-        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Abilita utilizzo di darksend automatizzato per i fondi conservati in questo portafoglio (0-1, predefinito: %u)</translation>
+        <source>Enable use of automated legacysend for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Abilita utilizzo di legacysend automatizzato per i fondi conservati in questo portafoglio (0-1, predefinito: %u)</translation>
     </message>
     <message>
         <source>Fees (in CRW/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
@@ -3448,20 +3448,20 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Uscite denominate non confermati trovati, saranno aspettare che confermano per continua.</translation>
     </message>
     <message>
-        <source>Darksend is idle.</source>
-        <translation>Nessun Throne trovato.</translation>
+        <source>Legacysend is idle.</source>
+        <translation>Nessun Masternode trovato.</translation>
     </message>
     <message>
-        <source>Darksend request complete:</source>
-        <translation>Richiesta di Darksend completa:</translation>
+        <source>Legacysend request complete:</source>
+        <translation>Richiesta di Legacysend completa:</translation>
     </message>
     <message>
-        <source>Darksend request incomplete:</source>
-        <translation>Richiesta di Darksend incompleta:</translation>
+        <source>Legacysend request incomplete:</source>
+        <translation>Richiesta di Legacysend incompleta:</translation>
     </message>
     <message>
-        <source>Error connecting to Throne.</source>
-        <translation>Errore di connessione al Throne</translation>
+        <source>Error connecting to Masternode.</source>
+        <translation>Errore di connessione al Masternode</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Crown Core</source>
@@ -3540,28 +3540,28 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Importo non valido per -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Lock thrones from throne configuration file (default: %u)</source>
-        <translation>Blocca i thrones  nel file di configurazione del throne (default: %u)</translation>
+        <source>Lock masternodes from masternode configuration file (default: %u)</source>
+        <translation>Blocca i masternodes  nel file di configurazione del masternode (default: %u)</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
         <translation>Mixing in corso...</translation>
     </message>
     <message>
-        <source>No Thrones detected.</source>
-        <translation>Nessun Throne trovato.</translation>
+        <source>No Masternodes detected.</source>
+        <translation>Nessun Masternode trovato.</translation>
     </message>
     <message>
-        <source>No compatible Throne found.</source>
-        <translation>Nessun compatibile Throne trovato.</translation>
+        <source>No compatible Masternode found.</source>
+        <translation>Nessun compatibile Masternode trovato.</translation>
     </message>
     <message>
-        <source>Not in the Throne list.</source>
-        <translation>Non si trova in lista di Throne.</translation>
+        <source>Not in the Masternode list.</source>
+        <translation>Non si trova in lista di Masternode.</translation>
     </message>
     <message>
-        <source>Invalid throneprivkey. Please see documenation.</source>
-        <translation>throneprivkey non valida. Per favore consulta la documentazione</translation>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
+        <translation>masternodeprivkey non valida. Per favore consulta la documentazione</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
@@ -3576,8 +3576,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Mantenere al massimo &lt;n&gt; le operazioni in collegabile in memoria (predefinito: %u)</translation>
     </message>
     <message>
-        <source>Last Darksend was too recent.</source>
-        <translation>L'ultima darksend è troppo recente</translation>
+        <source>Last Legacysend was too recent.</source>
+        <translation>L'ultima legacysend è troppo recente</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -3596,16 +3596,16 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Caricamento portafoglio...</translation>
     </message>
     <message>
-        <source>Throne options:</source>
-        <translation>Opzioni throne:</translation>
+        <source>Masternode options:</source>
+        <translation>Opzioni masternode:</translation>
     </message>
     <message>
-        <source>Throne queue is full.</source>
-        <translation>La lista di throne e' piena.</translation>
+        <source>Masternode queue is full.</source>
+        <translation>La lista di masternode e' piena.</translation>
     </message>
     <message>
-        <source>Throne:</source>
-        <translation>Throne: </translation>
+        <source>Masternode:</source>
+        <translation>Masternode: </translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
@@ -3686,8 +3686,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Imposta la dimensione massima del blocco in byte (predefinita: %d)</translation>
     </message>
     <message>
-        <source>Set the throne private key</source>
-        <translation>Configura la chiave privata del Throne</translation>
+        <source>Set the masternode private key</source>
+        <translation>Configura la chiave privata del Masternode</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3785,8 +3785,8 @@ Più URL vengono separati da una barra verticale |.</translation>
 </translation>
     </message>
     <message>
-        <source>Value more than Darksend pool maximum allows.</source>
-        <translation>Più valore di Darksend piscina massima permette.</translation>
+        <source>Value more than Legacysend pool maximum allows.</source>
+        <translation>Più valore di Legacysend piscina massima permette.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

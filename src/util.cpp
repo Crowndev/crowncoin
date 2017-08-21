@@ -103,21 +103,21 @@ namespace boost {
 using namespace std;
 
 //Crown only features
-bool fThroNe = false;
-string strThroNePrivKey = "";
-string strThroNeAddr = "";
+bool fMasterNode = false;
+string strMasterNodePrivKey = "";
+string strMasterNodeAddr = "";
 bool fLiteMode = false;
 bool fEnableInstantX = true;
 int nInstantXDepth = 5;
-int nDarksendRounds = 2;
+int nLegacysendRounds = 2;
 int nAnonymizeCrownAmount = 10000;
 int nLiquidityProvider = 0;
 /** Spork enforcement enabled time */
-int64_t enforceThronePaymentsTime = 4085657524;
+int64_t enforceMasternodePaymentsTime = 4085657524;
 bool fSucessfullyLoaded = false;
-bool fEnableDarksend = false;
-/** All denominations used by darksend */
-std::vector<int64_t> darkSendDenominations;
+bool fEnableLegacysend = false;
+/** All denominations used by legacysend */
+std::vector<int64_t> legacySendDenominations;
 string strBudgetMode = "";
 
 map<string, string> mapArgs;
@@ -233,9 +233,9 @@ bool LogAcceptCategory(const char* category)
             // thread_specific_ptr automatically deletes the set when the thread ends.
             // "crown" is a composite category enabling all Crown-related debug output
             if(ptrCategory->count(string("crown"))) {
-                ptrCategory->insert(string("darksend"));
+                ptrCategory->insert(string("legacysend"));
                 ptrCategory->insert(string("instantx"));
-                ptrCategory->insert(string("throne"));
+                ptrCategory->insert(string("masternode"));
                 ptrCategory->insert(string("mnpayments"));
                 ptrCategory->insert(string("mnbudget"));
             }
@@ -490,9 +490,9 @@ boost::filesystem::path GetConfigFile()
     return pathConfigFile;
 }
 
-boost::filesystem::path GetThroneConfigFile()
+boost::filesystem::path GetMasternodeConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-mnconf", "throne.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-mnconf", "masternode.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir() / pathConfigFile;
     return pathConfigFile;
 }

@@ -1341,7 +1341,7 @@
         <number>3</number>
        </property>
        <item>
-        <widget class="QCheckBox" name="checkUseDarksend">
+        <widget class="QCheckBox" name="checkUseLegacysend">
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -1358,7 +1358,7 @@
           </size>
          </property>
          <property name="text">
-          <string>Darksend</string>
+          <string>Legacysend</string>
          </property>
          <property name="checked">
           <bool>false</bool>

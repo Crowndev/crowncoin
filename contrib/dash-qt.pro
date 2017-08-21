@@ -56,7 +56,7 @@ INCLUDEPATH += . \
                src/secp256k1/src/java
 
 # Input
-HEADERS += src/activethrone.h \
+HEADERS += src/activemasternode.h \
            src/addrman.h \
            src/alert.h \
            src/allocators.h \
@@ -76,8 +76,8 @@ HEADERS += src/activethrone.h \
            src/compressor.h \
            src/core_io.h \
            src/crypter.h \
-           src/darksend-relay.h \
-           src/darksend.h \
+           src/legacysend-relay.h \
+           src/legacysend.h \
            src/crown-config.h \
            src/db.h \
            src/eccryptoverify.h \
@@ -91,12 +91,12 @@ HEADERS += src/activethrone.h \
            src/leveldbwrapper.h \
            src/limitedmap.h \
            src/main.h \
-           src/throne-budget.h \
-           src/throne-payments.h \
-           src/throne-sync.h \
-           src/throne.h \
-           src/throneconfig.h \
-           src/throneman.h \
+           src/masternode-budget.h \
+           src/masternode-payments.h \
+           src/masternode-sync.h \
+           src/masternode.h \
+           src/masternodeconfig.h \
+           src/masternodeman.h \
            src/merkleblock.h \
            src/miner.h \
            src/mruset.h \
@@ -175,7 +175,7 @@ HEADERS += src/activethrone.h \
            src/qt/coincontroldialog.h \
            src/qt/coincontroltreewidget.h \
            src/qt/csvmodelwriter.h \
-           src/qt/darksendconfig.h \
+           src/qt/legacysendconfig.h \
            src/qt/editaddressdialog.h \
            src/qt/guiconstants.h \
            src/qt/guiutil.h \
@@ -341,7 +341,7 @@ HEADERS += src/activethrone.h \
 FORMS += src/qt/forms/addressbookpage.ui \
          src/qt/forms/askpassphrasedialog.ui \
          src/qt/forms/coincontroldialog.ui \
-         src/qt/forms/darksendconfig.ui \
+         src/qt/forms/legacysendconfig.ui \
          src/qt/forms/editaddressdialog.ui \
          src/qt/forms/helpmessagedialog.ui \
          src/qt/forms/intro.ui \
@@ -355,7 +355,7 @@ FORMS += src/qt/forms/addressbookpage.ui \
          src/qt/forms/sendcoinsentry.ui \
          src/qt/forms/signverifymessagedialog.ui \
          src/qt/forms/transactiondescdialog.ui
-SOURCES += src/activethrone.cpp \
+SOURCES += src/activemasternode.cpp \
            src/addrman.cpp \
            src/alert.cpp \
            src/allocators.cpp \
@@ -372,8 +372,8 @@ SOURCES += src/activethrone.cpp \
            src/core_read.cpp \
            src/core_write.cpp \
            src/crypter.cpp \
-           src/darksend-relay.cpp \
-           src/darksend.cpp \
+           src/legacysend-relay.cpp \
+           src/legacysend.cpp \
            src/crown-cli.cpp \
            src/crown-tx.cpp \
            src/crownd.cpp \
@@ -389,12 +389,12 @@ SOURCES += src/activethrone.cpp \
            src/keystore.cpp \
            src/leveldbwrapper.cpp \
            src/main.cpp \
-           src/throne-budget.cpp \
-           src/throne-payments.cpp \
-           src/throne-sync.cpp \
-           src/throne.cpp \
-           src/throneconfig.cpp \
-           src/throneman.cpp \
+           src/masternode-budget.cpp \
+           src/masternode-payments.cpp \
+           src/masternode-sync.cpp \
+           src/masternode.cpp \
+           src/masternodeconfig.cpp \
+           src/masternodeman.cpp \
            src/merkleblock.cpp \
            src/miner.cpp \
            src/net.cpp \
@@ -408,8 +408,8 @@ SOURCES += src/activethrone.cpp \
            src/rpcblockchain.cpp \
            src/rpcclient.cpp \
            src/rpcdump.cpp \
-           src/rpcthrone-budget.cpp \
-           src/rpcthrone.cpp \
+           src/rpcmasternode-budget.cpp \
+           src/rpcmasternode.cpp \
            src/rpcmining.cpp \
            src/rpcmisc.cpp \
            src/rpcnet.cpp \
@@ -470,7 +470,7 @@ SOURCES += src/activethrone.cpp \
            src/qt/coincontroldialog.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
-           src/qt/darksendconfig.cpp \
+           src/qt/legacysendconfig.cpp \
            src/qt/crown.cpp \
            src/qt/crownstrings.cpp \
            src/qt/editaddressdialog.cpp \

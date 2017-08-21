@@ -229,7 +229,7 @@ private:
     EncryptionStatus cachedEncryptionStatus;
     int cachedNumBlocks;
     int cachedTxLocks;
-    int cachedDarksendRounds;
+    int cachedLegacysendRounds;
 
     QTimer *pollTimer;
 

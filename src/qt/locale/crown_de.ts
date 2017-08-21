@@ -740,8 +740,8 @@ Adresse: %4</translation>
         <translation>Wechselgeld kopieren</translation>
     </message>
     <message>
-        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Nicht-anonymisierter Input ausgewählt. &lt;b&gt;Darksend wird deaktiviert.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Sollten Sie trotzdem Darksend verwenden wollen, müssen Sie zuerst alle nicht-anonymisierten Inputs entmarkieren und  das Ankreuzfeld "Darksend" erneut auswählen.</translation>
+        <source>Non-anonymized input selected. &lt;b&gt;Legacysend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Legacysend, please deselect all non-nonymized inputs first and then check Legacysend checkbox again.</source>
+        <translation>Nicht-anonymisierter Input ausgewählt. &lt;b&gt;Legacysend wird deaktiviert.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Sollten Sie trotzdem Legacysend verwenden wollen, müssen Sie zuerst alle nicht-anonymisierten Inputs entmarkieren und  das Ankreuzfeld "Legacysend" erneut auswählen.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -841,10 +841,10 @@ Adresse: %4</translation>
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>LegacysendConfig</name>
     <message>
-        <source>Configure Darksend</source>
-        <translation>Darksend konfigurieren</translation>
+        <source>Configure Legacysend</source>
+        <translation>Legacysend konfigurieren</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
@@ -863,16 +863,16 @@ Adresse: %4</translation>
         <translation>Bitten wählen Sie eine Datenschutz-Stufe.</translation>
     </message>
     <message>
-        <source>Use 2 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Benutze 2 separate Thrones um bis zu 10000 CRW zu mixen</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Benutze 2 separate Masternodes um bis zu 10000 CRW zu mixen</translation>
     </message>
     <message>
-        <source>Use 8 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Benutze 8 separate Thrones um bis zu 10000 CRW zu mixen</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Benutze 8 separate Masternodes um bis zu 10000 CRW zu mixen</translation>
     </message>
     <message>
-        <source>Use 16 separate thrones</source>
-        <translation>Benutze 16 separate Thrones</translation>
+        <source>Use 16 separate masternodes</source>
+        <translation>Benutze 16 separate Masternodes</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 CRW to anonymize 10000 CRW</source>
@@ -891,20 +891,20 @@ Adresse: %4</translation>
         <translation>Dies ist die langsamste und sicherste Option. Maximale Anonymität kostet</translation>
     </message>
     <message>
-        <source>Darksend Configuration</source>
-        <translation>Darksend-Konfiguration</translation>
+        <source>Legacysend Configuration</source>
+        <translation>Legacysend-Konfiguration</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend wurde erfolgreich auf einfachen Datenschutz (%1 und 2 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Crown ändern.</translation>
+        <source>Legacysend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend wurde erfolgreich auf einfachen Datenschutz (%1 und 2 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Crown ändern.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend wurde erfolgreich auf hohen Datenschutz (%1 und 8 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Crown ändern.</translation>
+        <source>Legacysend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend wurde erfolgreich auf hohen Datenschutz (%1 und 8 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Crown ändern.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend wurde erfolgreich auf maximalen Datenschutz (%1 und 16 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Crown ändern.</translation>
+        <source>Legacysend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend wurde erfolgreich auf maximalen Datenschutz (%1 und 16 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von Crown ändern.</translation>
     </message>
 </context>
 <context>
@@ -1145,12 +1145,12 @@ Adresse: %4</translation>
         <translation>(0 = automatisch, &lt;0 = so viele Kerne frei lassen)</translation>
     </message>
     <message>
-        <source>Darksend rounds to use</source>
-        <translation>Darksend Runden</translation>
+        <source>Legacysend rounds to use</source>
+        <translation>Legacysend Runden</translation>
     </message>
     <message>
-        <source>This amount acts as a threshold to turn off Darksend once it's reached.</source>
-        <translation>Beim Erreichen dieses Betrages wird Darksend ausgeschaltet.</translation>
+        <source>This amount acts as a threshold to turn off Legacysend once it's reached.</source>
+        <translation>Beim Erreichen dieses Betrages wird Legacysend ausgeschaltet.</translation>
     </message>
     <message>
         <source>Amount of Crown to keep anonymized</source>
@@ -1185,8 +1185,8 @@ Adresse: %4</translation>
         <translation>Erweiterte Wallet-Optionen</translation>
     </message>
     <message>
-        <source>This setting determines the amount of individual thrones that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Diese Einstellung setzt fest, durch wie viele Thrones ein Input anonymisiert wird. &lt;br/&gt; Eine höhere Anzahl bedeutet höhere Anonymität, verursacht allerdings auch höhere Gebühren.</translation>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <translation>Diese Einstellung setzt fest, durch wie viele Masternodes ein Input anonymisiert wird. &lt;br/&gt; Eine höhere Anzahl bedeutet höhere Anonymität, verursacht allerdings auch höhere Gebühren.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1422,8 +1422,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Vollendet:</translation>
     </message>
     <message>
-        <source>Darksend Balance:</source>
-        <translation>Darksend Kontostand:</translation>
+        <source>Legacysend Balance:</source>
+        <translation>Legacysend Kontostand:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
@@ -1442,8 +1442,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>k.A.</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1454,24 +1454,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Starte/Stoppe das Mixen</translation>
     </message>
     <message>
-        <source>The denominations you submitted to the Throne.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Die gestückelten Beträge, die Sie zu dem Throne gesendet haben.&lt;br&gt; Zum Erfolgreichen Mixen müssen andere Benutzer exakt gleich gestückelte Beträge senden.</translation>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation>Die gestückelten Beträge, die Sie zu dem Masternode gesendet haben.&lt;br&gt; Zum Erfolgreichen Mixen müssen andere Benutzer exakt gleich gestückelte Beträge senden.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
         <translation>(Letzte Nachricht)</translation>
     </message>
     <message>
-        <source>Try to manually submit a Darksend request.</source>
-        <translation>Versuche eine Darksendanfrage manuell abzusetzen.</translation>
+        <source>Try to manually submit a Legacysend request.</source>
+        <translation>Versuche eine Legacysendanfrage manuell abzusetzen.</translation>
     </message>
     <message>
         <source>Try Mix</source>
         <translation>Versuche zu Mixen</translation>
     </message>
     <message>
-        <source>Reset the current status of Darksend (can interrupt Darksend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Aktuellen Darksend Status zurücksetzen (wenn der Prozess des Mixens bereits begonnen hat kann es passieren, dass Darksend unterbrochen wird. Bereits gezahlte Gebühren werden einbehalten!) </translation>
+        <source>Reset the current status of Legacysend (can interrupt Legacysend if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Aktuellen Legacysend Status zurücksetzen (wenn der Prozess des Mixens bereits begonnen hat kann es passieren, dass Legacysend unterbrochen wird. Bereits gezahlte Gebühren werden einbehalten!) </translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1486,12 +1486,12 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Deaktiviert</translation>
     </message>
     <message>
-        <source>Start Darksend Mixing</source>
-        <translation>Starte Darksend Mixen</translation>
+        <source>Start Legacysend Mixing</source>
+        <translation>Starte Legacysend Mixen</translation>
     </message>
     <message>
-        <source>Stop Darksend Mixing</source>
-        <translation>Stoppe Darksend Mixen</translation>
+        <source>Stop Legacysend Mixing</source>
+        <translation>Stoppe Legacysend Mixen</translation>
     </message>
     <message>
         <source>No inputs detected</source>
@@ -1534,9 +1534,9 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Aktiviert</translation>
     </message>
     <message>
-        <source>Last Darksend message:
+        <source>Last Legacysend message:
 </source>
-        <translation>Letzter Darksend Status:
+        <translation>Letzter Legacysend Status:
 </translation>
     </message>
     <message>
@@ -1544,20 +1544,20 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>k.A.</translation>
     </message>
     <message>
-        <source>Darksend was successfully reset.</source>
-        <translation>Darksend wurde erfolgreich zurückgesetzt.</translation>
+        <source>Legacysend was successfully reset.</source>
+        <translation>Legacysend wurde erfolgreich zurückgesetzt.</translation>
     </message>
     <message>
-        <source>If you don't want to see internal Darksend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Wenn Sie keine internen Darksend-Gebühren oder -Transaktionen sehen wollen wählen Sie "Gängigste" als Typ auf der "Transaktionen" Karteikarte.</translation>
+        <source>If you don't want to see internal Legacysend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>Wenn Sie keine internen Legacysend-Gebühren oder -Transaktionen sehen wollen wählen Sie "Gängigste" als Typ auf der "Transaktionen" Karteikarte.</translation>
     </message>
     <message>
-        <source>Darksend requires at least %1 to use.</source>
-        <translation>Zur Benutzung von Darksend benötigt man mindestens %1</translation>
+        <source>Legacysend requires at least %1 to use.</source>
+        <translation>Zur Benutzung von Legacysend benötigt man mindestens %1</translation>
     </message>
     <message>
-        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
-        <translation>Das Wallet ist gesperrt und der Benutzer hat abgelehnt, es zu entsperren. Darksend wird deaktiviert.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling Legacysend.</source>
+        <translation>Das Wallet ist gesperrt und der Benutzer hat abgelehnt, es zu entsperren. Legacysend wird deaktiviert.</translation>
     </message>
 </context>
 <context>
@@ -1811,8 +1811,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Blockkette</translation>
     </message>
     <message>
-        <source>Number of Thrones</source>
-        <translation>Anzahl Thrones</translation>
+        <source>Number of Masternodes</source>
+        <translation>Anzahl Masternodes</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2363,8 +2363,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Empfänger &amp;hinzufügen</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>InstantX</source>
@@ -2415,8 +2415,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>anonymisierte Coins</translation>
     </message>
     <message>
-        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(Darksend verlangt, dass dieser Betrag auf den nächsten %1 aufgerundet wird)</translation>
+        <source>(legacysend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(Legacysend verlangt, dass dieser Betrag auf den nächsten %1 aufgerundet wird)</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3020,8 +3020,8 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
         <translation>Empfangen von</translation>
     </message>
     <message>
-        <source>Received via Darksend</source>
-        <translation>über/durch Darksend empfangen</translation>
+        <source>Received via Legacysend</source>
+        <translation>über/durch Legacysend empfangen</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -3036,24 +3036,24 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
         <translation>Erarbeitet</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Darksend Stückelung</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend Stückelung</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Darksend Sicherheits-Zahlung</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Legacysend Sicherheits-Zahlung</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Sicherheits-Eingänge machen</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend Sicherheits-Eingänge machen</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend Stückelungs-Gebühr</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend Stückelungs-Gebühr</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksend</translation>
+        <source>Legacysent</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3131,24 +3131,24 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
         <translation>Überwiesen an</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksend</translation>
+        <source>Legacysent</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Sicherheits-Eingänge machen</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend Sicherheits-Eingänge machen</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend Stückelungs-Gebühr</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend Stückelungs-Gebühr</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Darksend Stückelung</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Legacysend Stückelung</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Darksend Sicherheits-Zahlung</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Legacysend Sicherheits-Zahlung</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3330,8 +3330,8 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
         <translation>Das Programm kann das Daten-Verzeichnis %s nicht als "in Verwendung" markieren. Wahrscheinlich läuft das Programm bereits.</translation>
     </message>
     <message>
-        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend benutzt exakt gestückelte Beträge zum Versenden, Sie müssen dafür möglicherweise noch mehr Crown anonymisieren.</translation>
+        <source>Legacysend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>Legacysend benutzt exakt gestückelte Beträge zum Versenden, Sie müssen dafür möglicherweise noch mehr Crown anonymisieren.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3382,12 +3382,12 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
         <translation>Crown Core den Prozess %s auf dem Computer nicht an sich binden. Wahrscheinlich läuft das Programm bereits.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>Für diese Transaktion konnten nicht genug mit Darksend gestückelte Beträge gefunden werden.</translation>
+        <source>Unable to locate enough Legacysend denominated funds for this transaction.</source>
+        <translation>Für diese Transaktion konnten nicht genug mit Legacysend gestückelte Beträge gefunden werden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
-        <translation>Für diese Transaktion konnten nicht genug nicht mit Darksend gestückelte Beträge gefunden werden, die ungleich 10000 CRW sind.</translation>
+        <source>Unable to locate enough Legacysend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
+        <translation>Für diese Transaktion konnten nicht genug nicht mit Legacysend gestückelte Beträge gefunden werden, die ungleich 10000 CRW sind.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3410,8 +3410,8 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
         <translation>Warnung: wallet.dat beschädigt, Datenrettung erfolgreich! Original wallet.dat wurde als wallet.{Zeitstempel}.dat in %s gespeichert. Falls ihr Kontostand oder Transaktionen nicht korrekt sind, sollten Sie dem vorangegangenen Zustand durch die Datensicherung wiederherstellen.</translation>
     </message>
     <message>
-        <source>You must specify a throneprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Es muss ein Throne-Geheimschlüssel (throneprivkey) in der Konfiguration angegeben werden. Für weitere Informationen siehe Dokumentation.</translation>
+        <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation>Es muss ein Masternode-Geheimschlüssel (masternodeprivkey) in der Konfiguration angegeben werden. Für weitere Informationen siehe Dokumentation.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
@@ -3486,8 +3486,8 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
         <translation>Beschädigte Blockdatenbank erkannt</translation>
     </message>
     <message>
-        <source>Darksend options:</source>
-        <translation>Darksend Optionen:</translation>
+        <source>Legacysend options:</source>
+        <translation>Legacysend Optionen:</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -3558,8 +3558,8 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
         <translation>Fehler: Wallet gesperrt, Transaktion kann nicht erstellt werden!</translation>
     </message>
     <message>
-        <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Fehler: Es sind bereits anstehende Einträge im Darksend-Pool</translation>
+        <source>Error: You already have pending entries in the Legacysend pool</source>
+        <translation>Fehler: Es sind bereits anstehende Einträge im Legacysend-Pool</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -3610,8 +3610,8 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
         <translation>Lösche alle Wallet-Transaktionen stelle nur diese mittels -rescan beim nächsten Start des Wallets wieder her.</translation>
     </message>
     <message>
-        <source>Disable all Crown specific functionality (Thrones, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Deaktiviere all Crown-spezifischen Funktionen (Thrones, Darksend, InstantX, Budgeting) (0-1, Standard: %u)</translation>
+        <source>Disable all Crown specific functionality (Masternodes, Legacysend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Deaktiviere all Crown-spezifischen Funktionen (Masternodes, Legacysend, InstantX, Budgeting) (0-1, Standard: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3622,8 +3622,8 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
         <translation>Aktiviere InstantX, zeige Bestätigungen für gesperrte Transaktionen an (bool, Standard: %s)</translation>
     </message>
     <message>
-        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Aktiviere Darksend automatisch (0-1, Standard: %u)</translation>
+        <source>Enable use of automated legacysend for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Aktiviere Legacysend automatisch (0-1, Standard: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3643,7 +3643,7 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Unbestätigte für Darksend vorbereitete Ausgabebeträge gefunden, warte bis sie bestätigt sind bevor weitergemacht wird.</translation>
+        <translation>Unbestätigte für Legacysend vorbereitete Ausgabebeträge gefunden, warte bis sie bestätigt sind bevor weitergemacht wird.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
@@ -3682,8 +3682,8 @@ Dies kann passieren, wenn einige Crown aus ihrer Wallet bereits ausgegeben wurde
         <translation>Debugging-Informationen ausgeben (Standard: %u, &lt;category&gt; anzugeben ist optional)</translation>
     </message>
     <message>
-        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Durch diese Einstellung können Sie dem Darksend-Netzwerk zusätzliche Liquidität zur Verfügung stellen in dem Sie von Zeit zu Zeit bereits anonymisierte Crown wieder dem Mixing-Prozess zuführen. (0-100, 0=aus, 1=sehr oft, 100=sehr selten (wenig Gebühren). Standard: %u)</translation>
+        <source>Provide liquidity to Legacysend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Durch diese Einstellung können Sie dem Legacysend-Netzwerk zusätzliche Liquidität zur Verfügung stellen in dem Sie von Zeit zu Zeit bereits anonymisierte Crown wieder dem Mixing-Prozess zuführen. (0-100, 0=aus, 1=sehr oft, 100=sehr selten (wenig Gebühren). Standard: %u)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3799,28 +3799,28 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"Crown Alert\" admin@foo.com</tran
         <translation>-rpcbind Wert %s konnte nicht als Netzwerkadresse erkannt werden</translation>
     </message>
     <message>
-        <source>Darksend is idle.</source>
-        <translation>Darksend ist untätig.</translation>
+        <source>Legacysend is idle.</source>
+        <translation>Legacysend ist untätig.</translation>
     </message>
     <message>
-        <source>Darksend request complete:</source>
-        <translation>Darksend-Anfrage vollständig:</translation>
+        <source>Legacysend request complete:</source>
+        <translation>Legacysend-Anfrage vollständig:</translation>
     </message>
     <message>
-        <source>Darksend request incomplete:</source>
-        <translation>Darksend-Anfrage unvollständig:</translation>
+        <source>Legacysend request incomplete:</source>
+        <translation>Legacysend-Anfrage unvollständig:</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
         <translation>Sicherheitsmodus deaktivieren, überschreibt ein echtes Sicherheitsmodusereignis (Standard: %u)</translation>
     </message>
     <message>
-        <source>Enable the client to act as a throne (0-1, default: %u)</source>
-        <translation>Throne-Modus aktivieren. (0=aus, 1=an; Voreinstellung: %u)</translation>
+        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
+        <translation>Masternode-Modus aktivieren. (0=aus, 1=an; Voreinstellung: %u)</translation>
     </message>
     <message>
-        <source>Error connecting to Throne.</source>
-        <translation>Fehler bei der Verbindung zum Throne.</translation>
+        <source>Error connecting to Masternode.</source>
+        <translation>Fehler bei der Verbindung zum Masternode.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Crown Core</source>
@@ -3940,8 +3940,8 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Ungültiger Betrag für -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Last successful Darksend action was too recent.</source>
-        <translation>Die letzte erfolgreiche Darksend-Transaktion ist noch zu neu.</translation>
+        <source>Last successful Legacysend action was too recent.</source>
+        <translation>Die letzte erfolgreiche Legacysend-Transaktion ist noch zu neu.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
@@ -3960,20 +3960,20 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Lade Budget-Cache...</translation>
     </message>
     <message>
-        <source>Loading throne cache...</source>
-        <translation>Lade Throne-Cache...</translation>
+        <source>Loading masternode cache...</source>
+        <translation>Lade Masternode-Cache...</translation>
     </message>
     <message>
-        <source>Loading throne payment cache...</source>
-        <translation>Lade Throne Zahlungs-Cache...</translation>
+        <source>Loading masternode payment cache...</source>
+        <translation>Lade Masternode Zahlungs-Cache...</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
         <translation>Schon gesperrt.</translation>
     </message>
     <message>
-        <source>Lock thrones from throne configuration file (default: %u)</source>
-        <translation>Thrones über Throne-Konfiguration sperren (Standard: %u)</translation>
+        <source>Lock masternodes from masternode configuration file (default: %u)</source>
+        <translation>Masternodes über Masternode-Konfiguration sperren (Standard: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
@@ -3996,16 +3996,16 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Für -whitebind muss eine Portnummer angegeben werden: '%s'</translation>
     </message>
     <message>
-        <source>No Thrones detected.</source>
-        <translation>Keine Thrones gefunden.</translation>
+        <source>No Masternodes detected.</source>
+        <translation>Keine Masternodes gefunden.</translation>
     </message>
     <message>
-        <source>No compatible Throne found.</source>
-        <translation>Kein kompatibler Throne gefunden.</translation>
+        <source>No compatible Masternode found.</source>
+        <translation>Kein kompatibler Masternode gefunden.</translation>
     </message>
     <message>
-        <source>Not in the Throne list.</source>
-        <translation>Nicht in der Throne-Liste.</translation>
+        <source>Not in the Masternode list.</source>
+        <translation>Nicht in der Masternode-Liste.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
@@ -4044,8 +4044,8 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Privater Serverschlüssel (Standard: %s)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this throne (example: %s)</source>
-        <translation>Setze externe Adresse und Port, um diesen Throne zu erreichen (Beispiel: %s)</translation>
+        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <translation>Setze externe Adresse und Port, um diesen Masternode zu erreichen (Beispiel: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
@@ -4076,8 +4076,8 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Verbindungzeitüberschreitung in Millisekunden festlegen (Minimum: 1, Standard: %d)</translation>
     </message>
     <message>
-        <source>Specify throne configuration file (default: %s)</source>
-        <translation>Konfigurationsdatei der Throne-Einstellungen angeben (Standard: %s)</translation>
+        <source>Specify masternode configuration file (default: %s)</source>
+        <translation>Konfigurationsdatei der Masternode-Einstellungen angeben (Standard: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -4092,16 +4092,16 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Nach dem Import von Blöcken von der Festplatte Programm beenden (Standard: %u)</translation>
     </message>
     <message>
-        <source>Submitted following entries to throne: %u / %d</source>
-        <translation>Folgende Einträge wurden an Throne gesendet: %u / %d</translation>
+        <source>Submitted following entries to masternode: %u / %d</source>
+        <translation>Folgende Einträge wurden an Masternode gesendet: %u / %d</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting for more entries ( %u / %d ) %s</source>
-        <translation>An Throne gesendet, warte auf weitere Einträge ( %u / %d ) %s</translation>
+        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
+        <translation>An Masternode gesendet, warte auf weitere Einträge ( %u / %d ) %s</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting in queue %s</source>
-        <translation>An Throne übermittelt, wartet in Warteschlange %s</translation>
+        <source>Submitted to masternode, waiting in queue %s</source>
+        <translation>An Masternode übermittelt, wartet in Warteschlange %s</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -4116,28 +4116,28 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Synchronisiere Budgets...</translation>
     </message>
     <message>
-        <source>Synchronizing throne winners...</source>
-        <translation>Synchronisiere Throne Gewinner...</translation>
+        <source>Synchronizing masternode winners...</source>
+        <translation>Synchronisiere Masternode Gewinner...</translation>
     </message>
     <message>
-        <source>Synchronizing thrones...</source>
-        <translation>Synchronisiere Thrones...</translation>
+        <source>Synchronizing masternodes...</source>
+        <translation>Synchronisiere Masternodes...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
         <translation>Synchronisiere Sporks...</translation>
     </message>
     <message>
-        <source>This is not a Throne.</source>
-        <translation>Dies ist kein Throne.</translation>
+        <source>This is not a Masternode.</source>
+        <translation>Dies ist kein Masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Schwellenwert, um Verbindungen zu sich nicht konform verhaltenden Gegenstellen zu beenden (Standard: %u)</translation>
     </message>
     <message>
-        <source>Use N separate thrones to anonymize funds  (2-8, default: %u)</source>
-        <translation>N unterschiedliche Thrones benutzen, um Crown zu anonymisieren (2-8, Standard: %u)</translation>
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
+        <translation>N unterschiedliche Masternodes benutzen, um Crown zu anonymisieren (2-8, Standard: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -4160,32 +4160,32 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Versuche erneut...</translation>
     </message>
     <message>
-        <source>Invalid throneprivkey. Please see documenation.</source>
-        <translation>Throne-Geheimschlüssel (throneprivkey) ist ungültig. Siehe Dokumentation. </translation>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
+        <translation>Masternode-Geheimschlüssel (masternodeprivkey) ist ungültig. Siehe Dokumentation. </translation>
     </message>
     <message>
         <source>(must be 9340 for mainnet)</source>
         <translation>(muss für Standardnetz 9340 sein)</translation>
     </message>
     <message>
-        <source>Can't find random Throne.</source>
-        <translation>Kann keinen zufällig ausgewählten Throne finden</translation>
+        <source>Can't find random Masternode.</source>
+        <translation>Kann keinen zufällig ausgewählten Masternode finden</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>Währen der Synchronisierung kann nicht gemixt werden.</translation>
     </message>
     <message>
-        <source>Could not parse throne.conf</source>
-        <translation>throne.conf konnte nicht analysiert werden</translation>
+        <source>Could not parse masternode.conf</source>
+        <translation>masternode.conf konnte nicht analysiert werden</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
         <translation>Ungültige Netzmaske für -whitelist angegeben: '%s'</translation>
     </message>
     <message>
-        <source>Invalid port detected in throne.conf</source>
-        <translation>Ungültige Portnummer in throne.conf</translation>
+        <source>Invalid port detected in masternode.conf</source>
+        <translation>Ungültige Portnummer in masternode.conf</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
@@ -4204,8 +4204,8 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Maximal &lt;n&gt; (noch) nicht einsortierte Zahlungen zwischenspeichern (Voreinstellung: %u)</translation>
     </message>
     <message>
-        <source>Last Darksend was too recent.</source>
-        <translation>Letzte Darksend-Transaktion ist noch zu neu.</translation>
+        <source>Last Legacysend was too recent.</source>
+        <translation>Letzte Legacysend-Transaktion ist noch zu neu.</translation>
     </message>
     <message>
         <source>Line: %d</source>
@@ -4228,16 +4228,16 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Lade Wallet...</translation>
     </message>
     <message>
-        <source>Throne options:</source>
-        <translation>Throne Optionen:</translation>
+        <source>Masternode options:</source>
+        <translation>Masternode Optionen:</translation>
     </message>
     <message>
-        <source>Throne queue is full.</source>
-        <translation>Warteschlange der Throne ist voll.</translation>
+        <source>Masternode queue is full.</source>
+        <translation>Warteschlange der Masternode ist voll.</translation>
     </message>
     <message>
-        <source>Throne:</source>
-        <translation>Throne:</translation>
+        <source>Masternode:</source>
+        <translation>Masternode:</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
@@ -4340,8 +4340,8 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Maximale Blockgröße in Byte festlegen (Standard: %d)</translation>
     </message>
     <message>
-        <source>Set the throne private key</source>
-        <translation>Privaten Throne-Schlüssel setzen</translation>
+        <source>Set the masternode private key</source>
+        <translation>Privaten Masternode-Schlüssel setzen</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -4456,8 +4456,8 @@ Crown Core wird heruntergefahren.</translation>
         <translation>Benutzername für JSON-RPC-Verbindungen</translation>
     </message>
     <message>
-        <source>Value more than Darksend pool maximum allows.</source>
-        <translation>Wert größer als der vom Darksend Pool maximal erlaubte.</translation>
+        <source>Value more than Legacysend pool maximum allows.</source>
+        <translation>Wert größer als der vom Legacysend Pool maximal erlaubte.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

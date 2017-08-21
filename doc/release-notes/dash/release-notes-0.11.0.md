@@ -1,7 +1,7 @@
 0.11.0 Release notes
 ====================
 
-Crown Core 0.11.0 is forked off the Bitcoin Core 0.9.3. The old darkcoin
+Crown Core 0.11.0 is forked off the Bitcoin Core 0.9.3. The old legacycoin
 versions 0.10.x were forked from the Litecoin 0.8 tree. The following changes
 are introduced in this major release. This list is compiled from the release
 notes of Bitcoin Core  0.9.0, 0.9.1, 0.9.2, 0.9.2.1, 0.9.3 and was completed
@@ -23,35 +23,35 @@ Crown Core:
 - Adapted BIP44 coin type `5` for Crown (0x80000005) as defined in SLIP-0044
 - Added new units: `duffs` (1 / 100.000.000 DRK)
 - Added units for testnet: tDRK, mtDRK, utDRK, tduffs
-- Added new DNS seed from throne.io
+- Added new DNS seed from masternode.io
 - Fixed wallet locking after sending coins
 - Add `-regtest` mode, similar to testnet but private with instant block
   generation with `setgenerate` RPC.
-- Add separate darkcoin-cli client
+- Add separate legacycoin-cli client
 - Implemented KeyPass integration for CLI, RPC and Qt:
   `keepass`, `keepassport`, `keepasskey`, `keepassid`, `keepassname`
 
 
-Thrones:
+Masternodes:
 
-- Improve support for start-many with multi throne config
-- New throne rpc commands: stop-many, start-alias, stop-alias, list-conf
-- Fixed possible throne payments exploit
-- Better support for non-specific throne payments
-- Added throne support for regtest
-- Randomly sort thrones before picking next winner
-- Show number of thrones in debug window
+- Improve support for start-many with multi masternode config
+- New masternode rpc commands: stop-many, start-alias, stop-alias, list-conf
+- Fixed possible masternode payments exploit
+- Better support for non-specific masternode payments
+- Added masternode support for regtest
+- Randomly sort masternodes before picking next winner
+- Show number of masternodes in debug window
 
 
-Darksend:
+Legacysend:
 
-- Reduced lower darksend limit to 1.5 DRK
+- Reduced lower legacysend limit to 1.5 DRK
 - Fixed progress bar calculation for low amounts
 - Improved support for adding DRK after anon has completed
 - Added denomination information to Overview tab
-- Added more detailed Darksend status information to Overview tab
-- Added Darksend high precision matching engine
-- Added Darksend balance to `getinfo`
+- Added more detailed Legacysend status information to Overview tab
+- Added Legacysend high precision matching engine
+- Added Legacysend balance to `getinfo`
 - Changed maximum rounds of mixing to 16
 
 
@@ -206,7 +206,7 @@ GUI:
 - Optionally add third party links to transaction context menu
 - Check for !pixmap() before trying to export QR code (avoids crashes when no QR
   code could be generated)
-- Fix "Start darkcoin on system login"
+- Fix "Start legacycoin on system login"
 - Switch to Qt 5.2.0 for Windows build
 - Add payment request (BIP 0070) support
 - Improve options dialog
@@ -223,14 +223,14 @@ GUI:
 - Move initialization/shutdown to a thread. This prevents "Not responding"
   messages during startup. Also show a window during shutdown.
 - Don't regenerate autostart link on every client startup
-- Show and store message of normal darkcoin:URI
+- Show and store message of normal legacycoin:URI
 - Fix richtext detection hang issue on very old Qt versions
 - OS X: Make use of the 10.8+ user notification center to display Growl-like
   notifications
 - OS X: Added NSHighResolutionCapable flag to Info.plist for better font
   rendering on Retina displays.
-- OS X: Fix darkcoin-qt startup crash when clicking dock icon
-- Linux: Fix Gnome darkcoin: URI handler
+- OS X: Fix legacycoin-qt startup crash when clicking dock icon
+- Linux: Fix Gnome legacycoin: URI handler
 
 
 Validation:

@@ -572,10 +572,10 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Date : %1
-Montant : %2
-Type : %3
-Adresse : %4
+        <translation>Date : %1
+Montant : %2
+Type : %3
+Adresse : %4
 </translation>
     </message>
     <message>
@@ -614,7 +614,7 @@ Adresse : %4
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Montant :</translation>
+        <translation>Montant :</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -741,8 +741,8 @@ Adresse : %4
         <translation>Copier la monnaie</translation>
     </message>
     <message>
-        <source>Non-anonymized input selected. &lt;b&gt;Darksend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Darksend, please deselect all non-nonymized inputs first and then check Darksend checkbox again.</source>
-        <translation>Entrée non-anonymisées sélectionnée. &lt;b&gt; Darksend sera désactivé. &lt;/ b&gt; &lt;br&gt; Si vous voulez continuer à utiliser Darksend, veuillez désélectionner toutes les entrées non-anonymisées d'abord, puis vérifier à nouveau la case Darksend.</translation>
+        <source>Non-anonymized input selected. &lt;b&gt;Legacysend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Legacysend, please deselect all non-nonymized inputs first and then check Legacysend checkbox again.</source>
+        <translation>Entrée non-anonymisées sélectionnée. &lt;b&gt; Legacysend sera désactivé. &lt;/ b&gt; &lt;br&gt; Si vous voulez continuer à utiliser Legacysend, veuillez désélectionner toutes les entrées non-anonymisées d'abord, puis vérifier à nouveau la case Legacysend.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -842,10 +842,10 @@ Adresse : %4
     </message>
 </context>
 <context>
-    <name>DarksendConfig</name>
+    <name>LegacysendConfig</name>
     <message>
-        <source>Configure Darksend</source>
-        <translation>Configurer Darksend</translation>
+        <source>Configure Legacysend</source>
+        <translation>Configurer Legacysend</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
@@ -864,16 +864,16 @@ Adresse : %4
         <translation>Veuillez choisir un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Utiliser 2 thrones pour mélanger jusqu'à 10000 CRW</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Utiliser 2 masternodes pour mélanger jusqu'à 10000 CRW</translation>
     </message>
     <message>
-        <source>Use 8 separate thrones to mix funds up to 10000 CRW</source>
-        <translation>Utiliser 8 thrones pour mélanger jusqu'à 10000 CRW</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CRW</source>
+        <translation>Utiliser 8 masternodes pour mélanger jusqu'à 10000 CRW</translation>
     </message>
     <message>
-        <source>Use 16 separate thrones</source>
-        <translation>Utiliser 16 thrones</translation>
+        <source>Use 16 separate masternodes</source>
+        <translation>Utiliser 16 masternodes</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 CRW to anonymize 10000 CRW</source>
@@ -892,20 +892,20 @@ Adresse : %4
         <translation>Cette option est le plus lente et la plus sécurisée. Utiliser l'anonymisation maximale coûtera</translation>
     </message>
     <message>
-        <source>Darksend Configuration</source>
-        <translation>Configuration de Darksend</translation>
+        <source>Legacysend Configuration</source>
+        <translation>Configuration de Legacysend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend est réglé avec succès sur normal (%1 and 2 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Crown.</translation>
+        <source>Legacysend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend est réglé avec succès sur normal (%1 and 2 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Crown.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend est réglé avec succès sur haut (%1 and 8 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Crown.</translation>
+        <source>Legacysend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend est réglé avec succès sur haut (%1 and 8 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Crown.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
-        <translation>Darksend est réglé avec succès sur maximum (%1 and 16 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Crown.</translation>
+        <source>Legacysend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crown's configuration screen.</source>
+        <translation>Legacysend est réglé avec succès sur maximum (%1 and 16 rounds). Vous pouvez changer cela à tout moment en ouvrant la fenêtre de configuration du Crown.</translation>
     </message>
 </context>
 <context>
@@ -952,7 +952,7 @@ Adresse : %4
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>L’adresse fournie « %1 » est déjà présente dans le carnet d'adresses.</translation>
+        <translation>L’adresse fournie « %1 » est déjà présente dans le carnet d'adresses.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1010,7 +1010,7 @@ Adresse : %4
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Utilisation :</translation>
+        <translation>Utilisation :</translation>
     </message>
     <message>
         <source>command-line options</source>
@@ -1026,7 +1026,7 @@ Adresse : %4
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Définir la langue, par exemple « fr_CA » (par défaut : la langue du système)</translation>
+        <translation>Définir la langue, par exemple « fr_CA » (par défaut : la langue du système)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -1038,7 +1038,7 @@ Adresse : %4
     </message>
     <message>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Afficher l'écran d'accueil au démarrage (par défaut : 1)</translation>
+        <translation>Afficher l'écran d'accueil au démarrage (par défaut : 1)</translation>
     </message>
 </context>
 <context>
@@ -1146,12 +1146,12 @@ Adresse : %4
         <translation>(0 = auto, &lt; 0 = laisser ce nombre de cœurs inutilisés)</translation>
     </message>
     <message>
-        <source>Darksend rounds to use</source>
-        <translation>Nombre de cycles Darksend à effectuer</translation>
+        <source>Legacysend rounds to use</source>
+        <translation>Nombre de cycles Legacysend à effectuer</translation>
     </message>
     <message>
-        <source>This amount acts as a threshold to turn off Darksend once it's reached.</source>
-        <translation>Ce montant est le seuil pour désactiver Darksend dès qu'il est atteint.</translation>
+        <source>This amount acts as a threshold to turn off Legacysend once it's reached.</source>
+        <translation>Ce montant est le seuil pour désactiver Legacysend dès qu'il est atteint.</translation>
     </message>
     <message>
         <source>Amount of Crown to keep anonymized</source>
@@ -1186,8 +1186,8 @@ Adresse : %4
         <translation>Expert</translation>
     </message>
     <message>
-        <source>This setting determines the amount of individual thrones that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Ce paramètre détermine le nombre de thrones uniques par lesquels l'anonymisation sera effectuée.&lt;br/&gt;Plus le nombre de cycles d'anonymisation est important, plus le degré de confidentialité est élevé, mais les frais associés sont d'autant plus importants.</translation>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <translation>Ce paramètre détermine le nombre de masternodes uniques par lesquels l'anonymisation sera effectuée.&lt;br/&gt;Plus le nombre de cycles d'anonymisation est important, plus le degré de confidentialité est élevé, mais les frais associés sont d'autant plus importants.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1215,7 +1215,7 @@ Adresse : %4
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>&amp;IP du serveur mandataire :</translation>
+        <translation>&amp;IP du serveur mandataire :</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -1223,7 +1223,7 @@ Adresse : %4
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Port :</translation>
+        <translation>&amp;Port :</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
@@ -1255,7 +1255,7 @@ Adresse : %4
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;Langue de l'interface utilisateur :</translation>
+        <translation>&amp;Langue de l'interface utilisateur :</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Crown.</source>
@@ -1273,7 +1273,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unité d'affichage des montants :</translation>
+        <translation>&amp;Unité d'affichage des montants :</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
@@ -1423,8 +1423,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Complétude :</translation>
     </message>
     <message>
-        <source>Darksend Balance:</source>
-        <translation>Balance Darksend :</translation>
+        <source>Legacysend Balance:</source>
+        <translation>Balance Legacysend :</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
@@ -1443,8 +1443,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>n/a</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1455,24 +1455,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Démarrer/Arrêtér le mélange</translation>
     </message>
     <message>
-        <source>The denominations you submitted to the Throne.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Les dénominations que vous avez soumises à la Throne.&lt;br&gt;Pour mélanger, d'autres utilisateurs doivent soumettre les mêmes dénominations.</translation>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation>Les dénominations que vous avez soumises à la Masternode.&lt;br&gt;Pour mélanger, d'autres utilisateurs doivent soumettre les mêmes dénominations.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
         <translation>(Dernier Message)</translation>
     </message>
     <message>
-        <source>Try to manually submit a Darksend request.</source>
-        <translation>Essayer de soumettre manuellement une requête Darksend.</translation>
+        <source>Try to manually submit a Legacysend request.</source>
+        <translation>Essayer de soumettre manuellement une requête Legacysend.</translation>
     </message>
     <message>
         <source>Try Mix</source>
         <translation>Essayer le mélange</translation>
     </message>
     <message>
-        <source>Reset the current status of Darksend (can interrupt Darksend if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Réinitialiser le statut de Darksend (peut interrompre Darksend si le process de mélange est en cours, ce qui peut vous coûter de l'argent !)</translation>
+        <source>Reset the current status of Legacysend (can interrupt Legacysend if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Réinitialiser le statut de Legacysend (peut interrompre Legacysend si le process de mélange est en cours, ce qui peut vous coûter de l'argent !)</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1487,12 +1487,12 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Désactivé</translation>
     </message>
     <message>
-        <source>Start Darksend Mixing</source>
-        <translation>Démarrer le mélange Darksend</translation>
+        <source>Start Legacysend Mixing</source>
+        <translation>Démarrer le mélange Legacysend</translation>
     </message>
     <message>
-        <source>Stop Darksend Mixing</source>
-        <translation>Arrêter le mélange Darksend</translation>
+        <source>Stop Legacysend Mixing</source>
+        <translation>Arrêter le mélange Legacysend</translation>
     </message>
     <message>
         <source>No inputs detected</source>
@@ -1535,9 +1535,9 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Activé</translation>
     </message>
     <message>
-        <source>Last Darksend message:
+        <source>Last Legacysend message:
 </source>
-        <translation>Dernier message de Darksend:
+        <translation>Dernier message de Legacysend:
 </translation>
     </message>
     <message>
@@ -1545,20 +1545,20 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>N.D.</translation>
     </message>
     <message>
-        <source>Darksend was successfully reset.</source>
-        <translation>Darksend est réinitialisé avec succès</translation>
+        <source>Legacysend was successfully reset.</source>
+        <translation>Legacysend est réinitialisé avec succès</translation>
     </message>
     <message>
-        <source>If you don't want to see internal Darksend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Pour ne pas voir les transactions/frais Darksend internes sélectionnez "Les plus Communes" comme Type dans l'onglet "Transactions"</translation>
+        <source>If you don't want to see internal Legacysend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>Pour ne pas voir les transactions/frais Legacysend internes sélectionnez "Les plus Communes" comme Type dans l'onglet "Transactions"</translation>
     </message>
     <message>
-        <source>Darksend requires at least %1 to use.</source>
-        <translation>Darksend nécessite au moins %1 pour l'utiliser</translation>
+        <source>Legacysend requires at least %1 to use.</source>
+        <translation>Legacysend nécessite au moins %1 pour l'utiliser</translation>
     </message>
     <message>
-        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
-        <translation>Le portefeuille est vérouillé et l'utilisateur a refusé de le débloquer. Désactivation de Darksend.</translation>
+        <source>Wallet is locked and user declined to unlock. Disabling Legacysend.</source>
+        <translation>Le portefeuille est vérouillé et l'utilisateur a refusé de le débloquer. Désactivation de Legacysend.</translation>
     </message>
 </context>
 <context>
@@ -1812,8 +1812,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Chaîne de blocs</translation>
     </message>
     <message>
-        <source>Number of Thrones</source>
-        <translation>Nombre de Thrones</translation>
+        <source>Number of Masternodes</source>
+        <translation>Nombre de Masternodes</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2056,7 +2056,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Étiquette :</translation>
+        <translation>&amp;Étiquette :</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
@@ -2229,7 +2229,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Montant :</translation>
+        <translation>Montant :</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -2364,8 +2364,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Ajouter un &amp;destinataire</translation>
     </message>
     <message>
-        <source>Darksend</source>
-        <translation>Darksend</translation>
+        <source>Legacysend</source>
+        <translation>Legacysend</translation>
     </message>
     <message>
         <source>InstantX</source>
@@ -2373,7 +2373,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Solde :</translation>
+        <translation>Solde :</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -2416,8 +2416,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>fonds anonymisés</translation>
     </message>
     <message>
-        <source>(darksend requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(darksend nécessite que ce montant soit arrondi au plus proche de %1).</translation>
+        <source>(legacysend requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(legacysend nécessite que ce montant soit arrondi au plus proche de %1).</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2516,7 +2516,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>&amp;Payer à :</translation>
+        <translation>&amp;Payer à :</translation>
     </message>
     <message>
         <source>The Crown address to send the payment to</source>
@@ -2544,7 +2544,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>É&amp;tiquette :</translation>
+        <translation>É&amp;tiquette :</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
@@ -2552,11 +2552,11 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Montant :</translation>
+        <translation>&amp;Montant :</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Message :</translation>
+        <translation>Message :</translation>
     </message>
     <message>
         <source>A message that was attached to the crown: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Crown network.</source>
@@ -2682,7 +2682,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Cliquez sur « Signer le message » pour générer la signature</translation>
+        <translation>Cliquez sur « Signer le message » pour générer la signature</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -3005,7 +3005,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ce bloc n’a été reçu par aucun autre nœud et ne sera probablement pas accepté !</translation>
+        <translation>Ce bloc n’a été reçu par aucun autre nœud et ne sera probablement pas accepté !</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -3020,8 +3020,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Reçue de</translation>
     </message>
     <message>
-        <source>Received via Darksend</source>
-        <translation>Reçu par Darksend</translation>
+        <source>Received via Legacysend</source>
+        <translation>Reçu par Legacysend</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -3036,24 +3036,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Miné</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Dénomination Darksend</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Dénomination Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Paiement Darksend Collatéral</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Paiement Legacysend Collatéral</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Création d'Entrées Collatérales</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend Création d'Entrées Collatérales</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend Création de Dénominations</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend Création de Dénominations</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksent</translation>
+        <source>Legacysent</source>
+        <translation>Legacysent</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3131,24 +3131,24 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Envoyée à</translation>
     </message>
     <message>
-        <source>Darksent</source>
-        <translation>Darksent</translation>
+        <source>Legacysent</source>
+        <translation>Legacysent</translation>
     </message>
     <message>
-        <source>Darksend Make Collateral Inputs</source>
-        <translation>Darksend Création d'Entrées Collatérales</translation>
+        <source>Legacysend Make Collateral Inputs</source>
+        <translation>Legacysend Création d'Entrées Collatérales</translation>
     </message>
     <message>
-        <source>Darksend Create Denominations</source>
-        <translation>Darksend Création de Dénominations</translation>
+        <source>Legacysend Create Denominations</source>
+        <translation>Legacysend Création de Dénominations</translation>
     </message>
     <message>
-        <source>Darksend Denominate</source>
-        <translation>Dénomination Darksend</translation>
+        <source>Legacysend Denominate</source>
+        <translation>Dénomination Legacysend</translation>
     </message>
     <message>
-        <source>Darksend Collateral Payment</source>
-        <translation>Paiement Darksend Collatéral</translation>
+        <source>Legacysend Collateral Payment</source>
+        <translation>Paiement Legacysend Collatéral</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3248,7 +3248,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Intervalle :</translation>
+        <translation>Intervalle :</translation>
     </message>
     <message>
         <source>to</source>
@@ -3330,8 +3330,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Crown Core fonctionne probablement déjà.</translation>
     </message>
     <message>
-        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Darksend utilise les montants dénominés exacts pour envoyer des fonds, vous pourriez simplement avoir besoin d'anonymiser plus de pièces.</translation>
+        <source>Legacysend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>Legacysend utilise les montants dénominés exacts pour envoyer des fonds, vous pourriez simplement avoir besoin d'anonymiser plus de pièces.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3382,12 +3382,12 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Impossible de se lier à %s sur cet ordinateur. Crown Core fonctionne probablement déjà.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
-        <translation>Impossible de localiser suffisamment de fonds Darksend dénominés pour cette transaction.</translation>
+        <source>Unable to locate enough Legacysend denominated funds for this transaction.</source>
+        <translation>Impossible de localiser suffisamment de fonds Legacysend dénominés pour cette transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
-        <translation>Impossible de localiser suffisamment de fonds non-dénominés Darksend pour cette transaction qui ne sont pas égaux à 10000 CRW.</translation>
+        <source>Unable to locate enough Legacysend non-denominated funds for this transaction that are not equal 10000 CRW.</source>
+        <translation>Impossible de localiser suffisamment de fonds non-dénominés Legacysend pour cette transaction qui ne sont pas égaux à 10000 CRW.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3410,8 +3410,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Avertissement : wallet.dat corrompu, données récupérées ! Le fichier wallet.dat original a été enregistré en tant que wallet.{timestamp}.bak dans %s ; si votre solde ou transactions sont incorrects vous devriez effectuer une restauration depuis une sauvegarde.</translation>
     </message>
     <message>
-        <source>You must specify a throneprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Vous devez définir throneprivkey dans la configuration. Veuillez consulter la documentation pour plus d'aide.</translation>
+        <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation>Vous devez définir masternodeprivkey dans la configuration. Veuillez consulter la documentation pour plus d'aide.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
@@ -3423,7 +3423,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accepter les connexions entrantes (par défaut : 1 si aucun -proxy ou -connect )</translation>
+        <translation>Accepter les connexions entrantes (par défaut : 1 si aucun -proxy ou -connect )</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
@@ -3455,11 +3455,11 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Impossible de résoudre l'adresse -bind : « %s »</translation>
+        <translation>Impossible de résoudre l'adresse -bind : « %s »</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Impossible de résoudre l'adresse -externalip : « %s »</translation>
+        <translation>Impossible de résoudre l'adresse -externalip : « %s »</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
@@ -3486,8 +3486,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Base corrompue de données des blocs détectée</translation>
     </message>
     <message>
-        <source>Darksend options:</source>
-        <translation>Options Darksend :</translation>
+        <source>Legacysend options:</source>
+        <translation>Options Legacysend :</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -3495,7 +3495,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Découvrir sa propre adresse IP (par défaut : 1 lors de l'écoute et si aucun -externalip)</translation>
+        <translation>Découvrir sa propre adresse IP (par défaut : 1 lors de l'écoute et si aucun -externalip)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
@@ -3531,7 +3531,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Erreur lors du chargement de wallet.dat : portefeuille corrompu</translation>
+        <translation>Erreur lors du chargement de wallet.dat : portefeuille corrompu</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3558,8 +3558,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Erreur : Portefeuille verrouillé, impossible de créer la transaction !</translation>
     </message>
     <message>
-        <source>Error: You already have pending entries in the Darksend pool</source>
-        <translation>Erreur : Vous avez déjà des entrées en attente dans la pool Darksend</translation>
+        <source>Error: You already have pending entries in the Legacysend pool</source>
+        <translation>Erreur : Vous avez déjà des entrées en attente dans la pool Legacysend</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -3610,8 +3610,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Effacer toutes les transactions du portefeuille et récupère celle qui font partie de la chaine de blocs via -rescan au démarrage</translation>
     </message>
     <message>
-        <source>Disable all Crown specific functionality (Thrones, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Désactivez toutes les fonctionnalités liées à Crown (Throne, Darksend, InstantX, Budgetisation) (0-1, par défaut: %u)</translation>
+        <source>Disable all Crown specific functionality (Masternodes, Legacysend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Désactivez toutes les fonctionnalités liées à Crown (Masternode, Legacysend, InstantX, Budgetisation) (0-1, par défaut: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3622,8 +3622,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Activer instantx, montrer les confirmations pour les transactions verrouillées (bool, par defaut: %s)</translation>
     </message>
     <message>
-        <source>Enable use of automated darksend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Activer l'utilisation automatique de Darksend pour les fonds stockés dans ce portefeuille (0-1, défaut: %u)</translation>
+        <source>Enable use of automated legacysend for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Activer l'utilisation automatique de Legacysend pour les fonds stockés dans ce portefeuille (0-1, défaut: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3655,7 +3655,7 @@ https://www.transifex.com/projects/p/crown/</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Montant invalide pour -maxtxfee=&lt;montant&gt; : « %s » (doit être au moins du montant de frais minrelay de %s pour éviter des transactions bloquées)</translation>
+        <translation>Montant invalide pour -maxtxfee=&lt;montant&gt; : « %s » (doit être au moins du montant de frais minrelay de %s pour éviter des transactions bloquées)</translation>
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
@@ -3682,8 +3682,8 @@ https://www.transifex.com/projects/p/crown/</translation>
         <translation>Extraire les informations de débogage (par défaut : %u, fournir &lt;category&gt; est optionnel)</translation>
     </message>
     <message>
-        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Fournir des liquidités à Darksend en mélangeant occasionnellement mais régulièrement des pièces (0-100, par défaut : %u, 1=très fréquent, frais élevés, 100=très rare, frais bas)</translation>
+        <source>Provide liquidity to Legacysend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Fournir des liquidités à Legacysend en mélangeant occasionnellement mais régulièrement des pièces (0-100, par défaut : %u, 1=très fréquent, frais élevés, 100=très rare, frais bas)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3735,7 +3735,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Utiliser un serveur proxy SOCKS5 séparé pour atteindre les pairs par les services cachés de Tor (par défaut : %s)</translation>
+        <translation>Utiliser un serveur proxy SOCKS5 séparé pour atteindre les pairs par les services cachés de Tor (par défaut : %s)</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
@@ -3781,7 +3781,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Impossible de résoudre l'adresse -whitebind : « %s »</translation>
+        <translation>Impossible de résoudre l'adresse -whitebind : « %s »</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -3800,28 +3800,28 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
         <translation>Impossible d'analyser la valeur -rpcbind %s en tant qu'adresse réseau</translation>
     </message>
     <message>
-        <source>Darksend is idle.</source>
-        <translation>Darksend est inactif.</translation>
+        <source>Legacysend is idle.</source>
+        <translation>Legacysend est inactif.</translation>
     </message>
     <message>
-        <source>Darksend request complete:</source>
-        <translation>Requête Darksend complète :</translation>
+        <source>Legacysend request complete:</source>
+        <translation>Requête Legacysend complète :</translation>
     </message>
     <message>
-        <source>Darksend request incomplete:</source>
-        <translation>Requête Darksend incomplète.</translation>
+        <source>Legacysend request incomplete:</source>
+        <translation>Requête Legacysend incomplète.</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
         <translation>Désactiver le mode sans échec, passer outre un événement sans échec réel (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Enable the client to act as a throne (0-1, default: %u)</source>
-        <translation>Autoriser le client à agir en tant que throne (0-1, par défaut : %u)</translation>
+        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
+        <translation>Autoriser le client à agir en tant que masternode (0-1, par défaut : %u)</translation>
     </message>
     <message>
-        <source>Error connecting to Throne.</source>
-        <translation>Erreur de connexion au throne.</translation>
+        <source>Error connecting to Masternode.</source>
+        <translation>Erreur de connexion au masternode.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Crown Core</source>
@@ -3917,31 +3917,31 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>Adresse -proxy invalide : « %s »</translation>
+        <translation>Adresse -proxy invalide : « %s »</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Montant invalide pour -maxtxfee=&lt;montant&gt; : « %s »</translation>
+        <translation>Montant invalide pour -maxtxfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Montant invalide pour -minrelayfee=&lt;montant&gt; : « %s »</translation>
+        <translation>Montant invalide pour -minrelayfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Montant invalide pour -mintxfee=&lt;montant&gt; : « %s »</translation>
+        <translation>Montant invalide pour -mintxfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Montant invalide pour -paytxfee=&lt;montant&gt; : « %s » (minimum possible: %s)</translation>
+        <translation>Montant invalide pour -paytxfee=&lt;montant&gt; : « %s » (minimum possible: %s)</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Montant invalide pour -paytxfee=&lt;montant&gt; : « %s »</translation>
+        <translation>Montant invalide pour -paytxfee=&lt;montant&gt; : « %s »</translation>
     </message>
     <message>
-        <source>Last successful Darksend action was too recent.</source>
-        <translation>La dernière action Darksend réussie est trop récente.</translation>
+        <source>Last successful Legacysend action was too recent.</source>
+        <translation>La dernière action Legacysend réussie est trop récente.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
@@ -3960,24 +3960,24 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
         <translation>Chargement du cache de budget...</translation>
     </message>
     <message>
-        <source>Loading throne cache...</source>
-        <translation>Chargement du cache de throne...</translation>
+        <source>Loading masternode cache...</source>
+        <translation>Chargement du cache de masternode...</translation>
     </message>
     <message>
-        <source>Loading throne payment cache...</source>
-        <translation>Chargement du cache de paiement throne...</translation>
+        <source>Loading masternode payment cache...</source>
+        <translation>Chargement du cache de paiement masternode...</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
         <translation>Verrou déjà en place.</translation>
     </message>
     <message>
-        <source>Lock thrones from throne configuration file (default: %u)</source>
-        <translation>Vérouiller les thrones depuis le fichier de configuration throne (par défaut : %u)</translation>
+        <source>Lock masternodes from masternode configuration file (default: %u)</source>
+        <translation>Vérouiller les masternodes depuis le fichier de configuration masternode (par défaut : %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Garder au plus &lt;n&gt; connexions avec les pairs (par défaut : %u)</translation>
+        <translation>Garder au plus &lt;n&gt; connexions avec les pairs (par défaut : %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -3996,16 +3996,16 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
         <translation>Un port doit être spécifié avec -whitebind: '%s'</translation>
     </message>
     <message>
-        <source>No Thrones detected.</source>
-        <translation>Aucun Throne détecté.</translation>
+        <source>No Masternodes detected.</source>
+        <translation>Aucun Masternode détecté.</translation>
     </message>
     <message>
-        <source>No compatible Throne found.</source>
-        <translation>Aucun Throne compatible trouvé.</translation>
+        <source>No compatible Masternode found.</source>
+        <translation>Aucun Masternode compatible trouvé.</translation>
     </message>
     <message>
-        <source>Not in the Throne list.</source>
-        <translation>Absent de la liste des Thrones.</translation>
+        <source>Not in the Masternode list.</source>
+        <translation>Absent de la liste des Masternodes.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
@@ -4037,15 +4037,15 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
     </message>
     <message>
         <source>Server certificate file (default: %s)</source>
-        <translation>Fichier de certification du serveur (par défaut : %s)</translation>
+        <translation>Fichier de certification du serveur (par défaut : %s)</translation>
     </message>
     <message>
         <source>Server private key (default: %s)</source>
-        <translation>Clef privée du serveur (par défaut : %s)</translation>
+        <translation>Clef privée du serveur (par défaut : %s)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this throne (example: %s)</source>
-        <translation>Définir une adresse:port externe pour accéder à ce throne (exemple : %s)</translation>
+        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <translation>Définir une adresse:port externe pour accéder à ce masternode (exemple : %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
@@ -4073,11 +4073,11 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Spécifier le délai d'expiration de la connexion en millisecondes (minimum : 1, par défaut : %d)</translation>
+        <translation>Spécifier le délai d'expiration de la connexion en millisecondes (minimum : 1, par défaut : %d)</translation>
     </message>
     <message>
-        <source>Specify throne configuration file (default: %s)</source>
-        <translation>Définir le fichier de configuration du throne (par défaut : %s)</translation>
+        <source>Specify masternode configuration file (default: %s)</source>
+        <translation>Définir le fichier de configuration du masternode (par défaut : %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -4092,16 +4092,16 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
         <translation>Arrêter après l'importation des blocs du disque (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Submitted following entries to throne: %u / %d</source>
-        <translation>Les entrées suivantes ont été envoyées au throne: %u / %d</translation>
+        <source>Submitted following entries to masternode: %u / %d</source>
+        <translation>Les entrées suivantes ont été envoyées au masternode: %u / %d</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Envoyé au throne, en attente d'entrées supplémentaires ( %u / %d ) %s</translation>
+        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
+        <translation>Envoyé au masternode, en attente d'entrées supplémentaires ( %u / %d ) %s</translation>
     </message>
     <message>
-        <source>Submitted to throne, waiting in queue %s</source>
-        <translation>Soumis au throne, dans la file d'attente %s</translation>
+        <source>Submitted to masternode, waiting in queue %s</source>
+        <translation>Soumis au masternode, dans la file d'attente %s</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -4116,32 +4116,32 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
         <translation>Synchronisation des budgets...</translation>
     </message>
     <message>
-        <source>Synchronizing throne winners...</source>
-        <translation>Synchronisation des thrones vainqueurs...</translation>
+        <source>Synchronizing masternode winners...</source>
+        <translation>Synchronisation des masternodes vainqueurs...</translation>
     </message>
     <message>
-        <source>Synchronizing thrones...</source>
-        <translation>Synchronisation des thrones...</translation>
+        <source>Synchronizing masternodes...</source>
+        <translation>Synchronisation des masternodes...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
         <translation>Synchronisation des sporks...</translation>
     </message>
     <message>
-        <source>This is not a Throne.</source>
-        <translation>Ceci n'est pas un throne.</translation>
+        <source>This is not a Masternode.</source>
+        <translation>Ceci n'est pas un masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Seuil de déconnexion des pairs présentant un mauvais comportement (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Use N separate thrones to anonymize funds  (2-8, default: %u)</source>
-        <translation>Utiliser N thrones différents pour anonymiser les fonds (2-8, par défaut : %u)</translation>
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
+        <translation>Utiliser N masternodes différents pour anonymiser les fonds (2-8, par défaut : %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : %u)</translation>
+        <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : %u)</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Crown Core to complete</source>
@@ -4160,32 +4160,32 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
         <translation>Va réessayer ...</translation>
     </message>
     <message>
-        <source>Invalid throneprivkey. Please see documenation.</source>
-        <translation>throneprivkey invalide. Veuillez vous référer à la documentation.</translation>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
+        <translation>masternodeprivkey invalide. Veuillez vous référer à la documentation.</translation>
     </message>
     <message>
         <source>(must be 9340 for mainnet)</source>
         <translation>(doit être 9340 pour mainnet)</translation>
     </message>
     <message>
-        <source>Can't find random Throne.</source>
-        <translation>Throne aléatoire introuvable.</translation>
+        <source>Can't find random Masternode.</source>
+        <translation>Masternode aléatoire introuvable.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>Ne peux pas mélanger pendant la synchronisation.</translation>
     </message>
     <message>
-        <source>Could not parse throne.conf</source>
-        <translation>Impossible d'analyser throne.conf</translation>
+        <source>Could not parse masternode.conf</source>
+        <translation>Impossible d'analyser masternode.conf</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Masque de réseau inconnu spécifié sur -whitelist : « %s »</translation>
+        <translation>Masque de réseau inconnu spécifié sur -whitelist : « %s »</translation>
     </message>
     <message>
-        <source>Invalid port detected in throne.conf</source>
-        <translation>Port non valide détecté dans throne.conf</translation>
+        <source>Invalid port detected in masternode.conf</source>
+        <translation>Port non valide détecté dans masternode.conf</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
@@ -4201,11 +4201,11 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Garder au plus &lt;n&gt; transactions sans connexion en mémoire (par défaut : %u)</translation>
+        <translation>Garder au plus &lt;n&gt; transactions sans connexion en mémoire (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Last Darksend was too recent.</source>
-        <translation>Le dernier Darksend est trop récent.</translation>
+        <source>Last Legacysend was too recent.</source>
+        <translation>Le dernier Legacysend est trop récent.</translation>
     </message>
     <message>
         <source>Line: %d</source>
@@ -4228,16 +4228,16 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
         <translation>Chargement du portefeuille...</translation>
     </message>
     <message>
-        <source>Throne options:</source>
-        <translation>Options Throne :</translation>
+        <source>Masternode options:</source>
+        <translation>Options Masternode :</translation>
     </message>
     <message>
-        <source>Throne queue is full.</source>
-        <translation>La file d'attente du throne est pleine.</translation>
+        <source>Masternode queue is full.</source>
+        <translation>La file d'attente du masternode est pleine.</translation>
     </message>
     <message>
-        <source>Throne:</source>
-        <translation>Throne :</translation>
+        <source>Masternode:</source>
+        <translation>Masternode :</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
@@ -4269,7 +4269,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
     </message>
     <message>
         <source>Options:</source>
-        <translation>Options :</translation>
+        <translation>Options :</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
@@ -4340,8 +4340,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
         <translation>Définir la taille minimale de bloc en octets (par défaut : %d)</translation>
     </message>
     <message>
-        <source>Set the throne private key</source>
-        <translation>Définir la clé privée du throne</translation>
+        <source>Set the masternode private key</source>
+        <translation>Définir la clé privée du masternode</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -4429,7 +4429,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Réseau inconnu spécifié sur -onlynet : « %s »</translation>
+        <translation>Réseau inconnu spécifié sur -onlynet : « %s »</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
@@ -4445,7 +4445,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : 1 lors de l'écoute)</translation>
+        <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : 1 lors de l'écoute)</translation>
     </message>
     <message>
         <source>Use the test network</source>
@@ -4456,7 +4456,7 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte Crown" admin@foo.com
         <translation>Nom d'utilisateur pour les connexions JSON-RPC</translation>
     </message>
     <message>
-        <source>Value more than Darksend pool maximum allows.</source>
+        <source>Value more than Legacysend pool maximum allows.</source>
         <translation>Valeur supérieure au maximum autorisé par le pool.</translation>
     </message>
     <message>

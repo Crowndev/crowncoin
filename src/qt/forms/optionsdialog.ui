@@ -141,15 +141,15 @@
             </size>
            </property>
            <property name="toolTip">
-            <string>This setting determines the amount of individual thrones that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</string>
+            <string>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</string>
            </property>
            <property name="text">
-            <string>Darksend rounds to use</string>
+            <string>Legacysend rounds to use</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QSpinBox" name="darksendRounds">
+          <widget class="QSpinBox" name="legacysendRounds">
            <property name="maximumSize">
             <size>
              <width>0</width>
@@ -180,7 +180,7 @@
             </size>
            </property>
            <property name="toolTip">
-            <string>This amount acts as a threshold to turn off Darksend once it's reached.</string>
+            <string>This amount acts as a threshold to turn off Legacysend once it's reached.</string>
            </property>
            <property name="statusTip">
             <string notr="true"/>
