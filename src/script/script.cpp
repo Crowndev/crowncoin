@@ -57,7 +57,12 @@ const char* GetOpName(opcodetype opcode)
     case OP_ELSE                   : return "OP_ELSE";
     case OP_ENDIF                  : return "OP_ENDIF";
     case OP_VERIFY                 : return "OP_VERIFY";
+
+    // associations
     case OP_RETURN                 : return "OP_RETURN";
+    case OP_REGISTER               : return "OP_REGISTER";
+    case OP_DEREGISTER             : return "OP_DEREGiSTER";
+    case OP_META                   : return "OP_META";
 
     // stack ops
     case OP_TOALTSTACK             : return "OP_TOALTSTACK";

@@ -25,8 +25,8 @@ public:
     CScriptID(const uint160& in) : uint160(in) {}
 };
 
-static const unsigned int MAX_OP_RETURN_RELAY = 40;      //! bytes
-extern unsigned nMaxDatacarrierBytes;
+static const unsigned int MAX_ASSOCIATIVE_RELAY = 40;      //! bytes
+extern unsigned nMaxAssociativeBytes;
 
 /**
  * Mandatory script verification flags that all new blocks must comply with for
@@ -58,11 +58,11 @@ enum txnouttype
 {
     TX_NONSTANDARD,
     // 'standard' transaction types:
+    TX_ASSOCIATIVE
     TX_PUBKEY,
     TX_PUBKEYHASH,
     TX_SCRIPTHASH,
     TX_MULTISIG,
-    TX_NULL_DATA,
 };
 
 class CNoDestination {

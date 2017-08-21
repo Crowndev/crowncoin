@@ -732,7 +732,7 @@ bool IsStandardTx(const CTransaction& tx, string& reason)
             return false;
         }
 
-        if (whichType == TX_NULL_DATA)
+          if (whichType == TX_ASSOCIATIVE)
             nDataOut++;
         else if ((whichType == TX_MULTISIG) && (!fIsBareMultisigStd)) {
             reason = "bare-multisig";
@@ -743,9 +743,9 @@ bool IsStandardTx(const CTransaction& tx, string& reason)
         }
     }
 
-    // only one OP_RETURN txout is permitted
-    if (nDataOut > 1) {
-        reason = "multi-op-return";
+    // two associative txout to be permitted ???
+    if (nDataOut > 2) {
+        reason = "multi-associative-txout";
         return false;
     }
 
@@ -3349,11 +3349,6 @@ bool TestBlockValidity(CValidationState &state, const CBlock& block, CBlockIndex
 
     return true;
 }
-
-
-
-
-
 
 
 

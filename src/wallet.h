@@ -1100,10 +1100,6 @@ public:
 };
 
 
-
-
-
-
 /** 
  * Account information.
  * Stored in wallet with key "acc"+string account name.
