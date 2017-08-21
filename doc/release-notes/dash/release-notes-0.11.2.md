@@ -7,13 +7,13 @@ Crown Core version 0.11.2 is now available from:
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/darkcoin/darkcoin/issues
+  https://github.com/legacycoin/legacycoin/issues
 
 
-Throne enhancements
+Masternode enhancements
 -----------------------
 
-When restarting the client the thrones will be stored in the datadir in
+When restarting the client the masternodes will be stored in the datadir in
 *mncache.dat* file (make sure you don't have any wallet with such name or this
 functionality will not be available for you)
 
@@ -73,12 +73,12 @@ crownd/crown-qt (on Linux).
 - BIP 66 integration
 - Strict DER signatures
 - Bump block header version to 3 (see notes above)
-- Throne caching
-- Throne payment scheduler
-- Better protection from cheating thrones
-- Extended functionality for `throne list` RPC command
-- Live Darksend and InstantX fee calculations in CoinControl
-- Darksend input caching
+- Masternode caching
+- Masternode payment scheduler
+- Better protection from cheating masternodes
+- Extended functionality for `masternode list` RPC command
+- Live Legacysend and InstantX fee calculations in CoinControl
+- Legacysend input caching
 - Open config file from within the wallet
 - New CSS-based wallet GUI with selectable interface themes
 - Configurable automatic wallet backups
@@ -107,4 +107,4 @@ Thanks to who contributed to this release, at least:
 - 21E14
 
 As well as the Bitcoin Core developers and everyone that helped translating on
-[Transifex](https://www.transifex.com/projects/p/darkcoin/).
+[Transifex](https://www.transifex.com/projects/p/legacycoin/).

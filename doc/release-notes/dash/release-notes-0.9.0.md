@@ -1,7 +1,7 @@
 0.9.x Release notes
 ===================
 
-The 0.9.x branch was discontienued with the open source release of Darksend in
+The 0.9.x branch was discontienued with the open source release of Legacysend in
 v0.10.14 on Sept/25/2014.
 
 
@@ -16,7 +16,7 @@ v0.10.14 on Sept/25/2014.
 
 - Bounds checking in a few places where it was lacking
 - Output list in transactions lacked random seeding
-- throne constants for communication are much easier to read now
+- masternode constants for communication are much easier to read now
 
 
 0.9.13.12 Release notes
@@ -28,8 +28,8 @@ v0.10.14 on Sept/25/2014.
 0.9.13.11 Release notes
 -----------------------
 
-- Improved handling of enforcement for bad throne lists
-- Removed old throne override code
+- Improved handling of enforcement for bad masternode lists
+- Removed old masternode override code
 
 
 0.9.13.10 Release notes
@@ -51,9 +51,9 @@ v0.10.14 on Sept/25/2014.
 
 - Debugged progress bar
 - New terms of use window
-- Darksend UI is disabled for thrones now and titlebar says "[throne]"
+- Legacysend UI is disabled for masternodes now and titlebar says "[masternode]"
 - Improvement for dealing with splitting large inputs
-- Protocol version bump to kick old thrones off
+- Protocol version bump to kick old masternodes off
 
 
 0.9.13.7 Release notes
@@ -67,15 +67,15 @@ v0.10.14 on Sept/25/2014.
 ----------------------
 
 - Added toggle off/on button to overview screen
-- Updated wording for darksend messages
-- Removed disable darksend checkbox from config screen
-- Added "-enabledarksend" cli option
+- Updated wording for legacysend messages
+- Removed disable legacysend checkbox from config screen
+- Added "-enablelegacysend" cli option
 - Toggle button shows the basic configuration when started for
   the first time now
 - Added tooltips for config screen
 - Changed DS participants to three
 - Bump minimum protocol to RC4
-- Added a spork for enforcing throne payments (this will ensure misconfigured
+- Added a spork for enforcing masternode payments (this will ensure misconfigured
   pools break when we enable the spork)
 
 
@@ -90,7 +90,7 @@ v0.10.14 on Sept/25/2014.
 ----------------------
 
 - Fixed issue with denominating small amounts of DRK in large wallet
-  (http://jira.darkcoin.qa/browse/DRK-46)
+  (http://jira.legacycoin.qa/browse/DRK-46)
 - Made splitting up initial inputs much more efficient. Now when splitting up,
   it will use powers of two from 4096 DRK in reverse to get the best possible
   mix of inputs for the next phase without any bloat to the blockchain or to
@@ -101,12 +101,12 @@ v0.10.14 on Sept/25/2014.
 - Sometimes the client would denominate less than the intended amount, then do
   small denominations to make up the difference. This slowed down the
   transactions and created extra transactions that weren't needed.
-- Darksend should anonymize very close to the intended amount now
+- Legacysend should anonymize very close to the intended amount now
 - Added Amount/Rounds to overview screen so you can see current settings
-- Overview darksend cache is cleared on settings change (will instantly update)
+- Overview legacysend cache is cleared on settings change (will instantly update)
 - Fixed issue with completed amount jumping around
-  (http://jira.darkcoin.qa/browse/DRK-46)
-- Made messages less threatening (http://jira.darkcoin.qa/browse/DRK-60)
+  (http://jira.legacycoin.qa/browse/DRK-46)
+- Made messages less threatening (http://jira.legacycoin.qa/browse/DRK-60)
 
 PS : Please move testing funds to a new wallet. This version has massive
 optimizations for the way inputs are stored and split up. This will make
@@ -119,8 +119,8 @@ everything much more efficient.
 - This update deals with freezing, slow wallets, slow load times and the
   "not compatible" error. I debugged one of the slow wallets and found it had
   38,000 keys in the keypool, then after more investigation I found the passive
-  Darksend process has been reserve keys for every attempt! To rectify this
-  I've modified the queuing system, so users wait in a throne queue without
+  Legacysend process has been reserve keys for every attempt! To rectify this
+  I've modified the queuing system, so users wait in a masternode queue without
   actually sending the transactions until the queue is full.
 
 Please move any testing funds to a new wallet to test the new version.
@@ -129,7 +129,7 @@ Please move any testing funds to a new wallet to test the new version.
 0.9.13.2 Release notes
 ----------------------
 
-- Easy to read darksend progress bar (Mouse over for very detailed info)
+- Easy to read legacysend progress bar (Mouse over for very detailed info)
 - Fixed a collateral bug
 - Moved around the overview screen, changed some of the text
 - Removed lots of debug messages (they show up only with debug=1 now)
@@ -182,31 +182,31 @@ RC4 released!
 All fees will use 0.001 sized inputs (they have no change so you can't follow
 them), all transactions now should look like this one:
 
-http://test.explorer.darkcoin.fr/tx/ce0ea2bdf630233955d459489b6f764e0d0bbe9e8a62531dd2a14b455626b59c
+http://test.explorer.legacycoin.fr/tx/ce0ea2bdf630233955d459489b6f764e0d0bbe9e8a62531dd2a14b455626b59c
 
-- Client now creates fee sizes inputs for use in darksend denomination phases
+- Client now creates fee sizes inputs for use in legacysend denomination phases
   to improve anonymity
 - new rpc command erasetransaction. Some users have reported non-confirming
   transactions due to opening their wallet at multiple locations. This can and
   will create double spent transactions that will not confirm. erasetransaction
   is for removing them.
 - SplitUpMoney can only execute every 10 blocks now.
-- removed matching throne debugging messages, that's not really an error
-- Client now prioritises sending denominated funds back into Darksend. This will
-  improve anonymity and help to respect the "anonymize darkcoin" amount in the
+- removed matching masternode debugging messages, that's not really an error
+- Client now prioritises sending denominated funds back into Legacysend. This will
+  improve anonymity and help to respect the "anonymize legacycoin" amount in the
   configuration.
-- fixed a bug where thrones send failed transactions
+- fixed a bug where masternodes send failed transactions
 - changed max to 100k in configuration
-- added a warning message to startup (delete ~/.darkcoin/.agree_to_tou to see it)
+- added a warning message to startup (delete ~/.legacycoin/.agree_to_tou to see it)
 - found a bug causing inputs to get locked forever.
-- Darksend now checks diskspace before sending anything to a throne.
+- Legacysend now checks diskspace before sending anything to a masternode.
 - incrementing protocol version to knock all old clients off
 
 
 0.9.12.21 Release notes
 -----------------------
 
-- Majorly improved the way darksend participants are paired together. It should
+- Majorly improved the way legacysend participants are paired together. It should
   be super fast now.
 
 
@@ -214,7 +214,7 @@ http://test.explorer.darkcoin.fr/tx/ce0ea2bdf630233955d459489b6f764e0d0bbe9e8a62
 -----------------------
 
 - Disabled collateral charging for now. We'll work on this after RC4 is
-  released and update the throne network after it's working properly. It's
+  released and update the masternode network after it's working properly. It's
   not incredibly important at this stage (while we're closed source), so
   I don't want it holding up the release. Plus it's really
   the only issue we're experiencing
@@ -224,7 +224,7 @@ http://test.explorer.darkcoin.fr/tx/ce0ea2bdf630233955d459489b6f764e0d0bbe9e8a62
 - Removed some debug messages
 - Merged mac/windows build icons
 - Fixed windows "Apply" configuration bug
-- Darksend now shows address instead of "n/a"
+- Legacysend now shows address instead of "n/a"
 - Incremented protocol version to kick off old versions that charge fees. Fees
   should be completely gone now.
 - Found a bug that was causing "not compatible" errors too often. This should
@@ -235,7 +235,7 @@ http://test.explorer.darkcoin.fr/tx/ce0ea2bdf630233955d459489b6f764e0d0bbe9e8a62
 0.9.12.19 Release notes
 -----------------------
 
-- Added GUI configuration for Darksend Rounds, Enable Darksend and Anonymize
+- Added GUI configuration for Legacysend Rounds, Enable Legacysend and Anonymize
   amount of DRK
 - Removed 5000DRK hard limit
 - Fixed another cause of getting hit by collateral
@@ -251,23 +251,23 @@ now, so it might be a bit slower.
 
 All transactions after this should look like this one:
 
-http://test.explorer.darkcoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a37a572a24c9d92057d5d
+http://test.explorer.legacycoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a37a572a24c9d92057d5d
 
 
 0.9.12.17 Release notes
 -----------------------
 
-- I've switched up the way the throne network works.
-    1.) Users now will join a random throne (1 of the entire list, just
+- I've switched up the way the masternode network works.
+    1.) Users now will join a random masternode (1 of the entire list, just
         completely randomly)
-    2.) Upon joining if it's the first user, the throne will propagate
+    2.) Upon joining if it's the first user, the masternode will propagate
         a message stating it's taking participants for a merge
     3.) Another user will check that queue, if it's got a recent node, it will
         try that node first, otherwise it will go to 1.)
 
-- Darksend limited to 5000DRK per wallet.dat. Client will warn about this the
-  first time it's opened, then disable darksend from then on.
-- Fixed some bugs with connecting to the correct thrones
+- Legacysend limited to 5000DRK per wallet.dat. Client will warn about this the
+  first time it's opened, then disable legacysend from then on.
+- Fixed some bugs with connecting to the correct masternodes
 - Send was sending way too many coins for all modes, (I sent 100DRK anon and it
   sent 2000DRK, then sent me change for the rest causing a whole reprocess of
   everything in the wallet)
@@ -284,21 +284,21 @@ http://test.explorer.darkcoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a
 0.9.12.15 Release notes
 -----------------------
 
-- Added session IDs for throne communication. Clients were getting
+- Added session IDs for masternode communication. Clients were getting
   confused when they got messages about other sessions (sometimes happened when
-  they all jumped on the same throne at once)
-- Added a pre-session state where the client will query a random throne
-  and ask if they can perform a merge on N darkcoin without giving any other
+  they all jumped on the same masternode at once)
+- Added a pre-session state where the client will query a random masternode
+  and ask if they can perform a merge on N legacycoin without giving any other
   information. If that amount is compatible without losing anonymity, the client
   will then add it's entry for merging
-- Added code to randomly use the top 20 thrones, this can dynamically be
+- Added code to randomly use the top 20 masternodes, this can dynamically be
   increased as more transaction traffic starts to happen (although it's not
   implemented but it could be done later)
 - After successful transactions clients will now automatically attempt another
-  session on a random throne, then repeat until they get any kind of error
+  session on a random masternode, then repeat until they get any kind of error
   or run out of funds that need to be processed.
 - Fixed a change address reuse issue
-- Fixed an issue with the compatible join algorithm (Thrones will only join
+- Fixed an issue with the compatible join algorithm (Masternodes will only join
   the same denominations, this wasn't always the case before)
 - Inc protocol to kick old users odd again
 
@@ -306,8 +306,8 @@ http://test.explorer.darkcoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a
 0.9.12.14 Release notes
 -----------------------
 
-- Fixed an issue where clients weren't connected to the correct throne
-- Fixed throne relay issues
+- Fixed an issue where clients weren't connected to the correct masternode
+- Fixed masternode relay issues
 - Anonymous Balance now calculates correctly
 - Inc protocol to kick old users odd again
 
@@ -315,9 +315,9 @@ http://test.explorer.darkcoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a
 0.9.12.13 Release notes
 -----------------------
 
-- This version automatically resets the throne state machine after a short
+- This version automatically resets the masternode state machine after a short
   period of inactivity.
-- Updated protocol version to kick old thrones off
+- Updated protocol version to kick old masternodes off
 
 
 0.9.12.12 Release notes
@@ -326,41 +326,41 @@ http://test.explorer.darkcoin.fr/tx/6de2c5204abdea451da930f61bae0f954eef13188a3a
 - Fixed change calc for Denominations in GUI
 - Flare found a logging error for dseep, fixed
 - Collateral now includes a fee (sometimes they took forever to get into a block)
-- Found race condition with new blocks and clearing darksend entries that was
+- Found race condition with new blocks and clearing legacysend entries that was
   causing some collateral fees
 - Found a communication mix up where clients would see messages from the wrong
-  throne and think it was theirs, also causing collateral fees
+  masternode and think it was theirs, also causing collateral fees
 - Added "Anonymized Balance" to overview
 - Added "anonymized_balance" to getinfo
 - Changed dropbox box on Send Dialog to be clearer
 - Added text to the confirmation screen with what funds will be sent
-- incremented protocol version to force throne updates
+- incremented protocol version to force masternode updates
 
 
 0.9.12.11 Release notes
 -----------------------
 
-- Darksend Denominate Outputs are now in a random order:
+- Legacysend Denominate Outputs are now in a random order:
 
-http://test.explorer.darkcoin.fr/tx/072ca56cbf705b87749513a2d2ee02080d506adcf8fe178f6dc2967f0711788e
-http://test.explorer.darkcoin.fr/tx/32daa8ca46462e7e99f3532251d68a8c3835a080c937bd83b11db74e47b770ff
+http://test.explorer.legacycoin.fr/tx/072ca56cbf705b87749513a2d2ee02080d506adcf8fe178f6dc2967f0711788e
+http://test.explorer.legacycoin.fr/tx/32daa8ca46462e7e99f3532251d68a8c3835a080c937bd83b11db74e47b770ff
 
-- Darksend now uses 3 participants instead of two.
+- Legacysend now uses 3 participants instead of two.
 - SplitUpMoney can now make collateral inputs when needed
-- Transactions now shows darksend transaction types for easier understanding
+- Transactions now shows legacysend transaction types for easier understanding
   of what's going on:
 - Fixed a couple more cases where collateral was charged when it shouldn't
   have happened (let me know if it happens after this version)
-- Fixed the money destruction bug, it was caused by "darksend denominate 8000".
+- Fixed the money destruction bug, it was caused by "legacysend denominate 8000".
   I missed a reference and the client passed an empty address to
-  SendMoneyToDestination. rcp darksend source: http://pastebin.com/r14piKuq
+  SendMoneyToDestination. rcp legacysend source: http://pastebin.com/r14piKuq
 - Unlocking/Locking wallet fixes (was spamming the logs)
 - Unencrypted wallet fixes (was trying to lock every 10 seconds)
 - Flare found and fixed an issue with DGW3 for win32
-- Added Darksend detection to the UI
-- fixed senttoaddress, it will use all inputs when darksend is disabled now.
+- Added Legacysend detection to the UI
+- fixed senttoaddress, it will use all inputs when legacysend is disabled now.
   Otherwise it will ONLY use non-denom.
-- "darksend addr amount" now returns the hash of the transaction it creates
+- "legacysend addr amount" now returns the hash of the transaction it creates
 
 
 0.9.12.10 Release notes
@@ -369,26 +369,26 @@ http://test.explorer.darkcoin.fr/tx/32daa8ca46462e7e99f3532251d68a8c3835a080c937
 Another huge update to the RC client, most of these are stability fixes and
 anonymity improvements:
 
-- Removed "darksend denominate", darksend now will figure out the most it can
-  denominate. Use "darksend auto" instead.
+- Removed "legacysend denominate", legacysend now will figure out the most it can
+  denominate. Use "legacysend auto" instead.
 - Fixed "Unknown State" display error
 - Fixed 0.0025 collateral issues caused by issues in the state machine, you
   should only be charged this amount now if you shutdown your client during
-  the Darksend process.
+  the Legacysend process.
 - Client will only submit 1 transaction into the pool fixing possible
   anonymity issues
-- Thrones will only merge compatible transactions using the same
+- Masternodes will only merge compatible transactions using the same
   denominations. For example (500,500,100) would be able to merge
   with (500,100), (10,1) with (10,1,1), but not (500,1) with (10,1).
   This improves the anonmity by not allowing someone to follow transactions by
   the missing denominations.
 - Transactions use unique change addresses for every output of each round.
-- QT GUI will now ask to unlock the wallet when it detects Darksend wants to do
+- QT GUI will now ask to unlock the wallet when it detects Legacysend wants to do
   something and lock it when it's done again.
-- Darksend is turned off by default in the daemon now. In most cases daemons
+- Legacysend is turned off by default in the daemon now. In most cases daemons
   won't want to run with anonymity (pools, exchanges, etc), if a user does they
-  can override the default setting with -enabledaemondarksend=true
-- Fees per round of Darksend are 0.001DRK or $0.00538 at current prices. This
+  can override the default setting with -enabledaemonlegacysend=true
+- Fees per round of Legacysend are 0.001DRK or $0.00538 at current prices. This
   means to anonymize 1000DRK with 3 rounds (an average use case) it would cost
   a user 1.5 cents.
 - Protocol version is updated to kick old clients off testnet
@@ -405,13 +405,13 @@ DS+ seems to be pretty stable now :-)
   regenerated as the client will not recognize the old ones)
 - SplitUpMoney does a better job of splitting up really large wallets now
 - Fixed crashing issues
-- Added possible fix for throne list syncing
+- Added possible fix for masternode list syncing
 
 - RPC calls are changed a bit:
 
-    darksend denominate 100 - Will denominate 100DRK
-    darksend auto - Will run AutoDenominate
-    darksend Xaddr 100 - Will send 100 denominated DRK to Xaddr
+    legacysend denominate 100 - Will denominate 100DRK
+    legacysend auto - Will run AutoDenominate
+    legacysend Xaddr 100 - Will send 100 denominated DRK to Xaddr
     sendtoaddress Xaddr 100 - Will send 100 non-denominated DRK to Xaddr
 
 
@@ -420,7 +420,7 @@ DS+ seems to be pretty stable now :-)
 
 - Fixed a few issues with input selection causing the
   "Insufficent Funds 2" error
-- Thrones now reset themselves when they give "entries is full".
+- Masternodes now reset themselves when they give "entries is full".
   Not sure what's causing it but a client will just try again
 - Improved the split up function
 - Fixed issues with AutoDenom in wallets larger than a few hundred
@@ -430,8 +430,8 @@ DS+ seems to be pretty stable now :-)
   all inputs. This caused ds+ inputs to get interrupted by the splitting
   mechanism sometimes.
 - Added new GUI element for selecting which inputs you want to send
-- Fixed darksend+ rounds function, it was returning bad data in some cases
-  causing darksend inputs to never stop being sent through darksend.
+- Fixed legacysend+ rounds function, it was returning bad data in some cases
+  causing legacysend inputs to never stop being sent through legacysend.
 - Fixed "Send" dialog to be able to use the different kinds of inputs available.
   Sending anonymous transactions should now work properly.
 - Fixed some coin select issues
@@ -447,19 +447,19 @@ However, there are some known issues:
 
 
 Testing commands, you can start multiple wallets up and all denominate
-on the same throne for testing purposes:
-/darkcoin-qt -datadir=/home/user/.darkcoin -listen=0 -darksendrounds=8 -usethrone="192.168.56.102:19340"
-/darkcoin-qt -datadir=/home/user/.darkcoin2 -listen=0 -darksendrounds=8 -usethrone="192.168.56.102:19340"
+on the same masternode for testing purposes:
+/legacycoin-qt -datadir=/home/user/.legacycoin -listen=0 -legacysendrounds=8 -usemasternode="192.168.56.102:19340"
+/legacycoin-qt -datadir=/home/user/.legacycoin2 -listen=0 -legacysendrounds=8 -usemasternode="192.168.56.102:19340"
 
-and even disable darksend auto-denom if wanted:
-/darkcoin-qt -datadir=/home/user/.darkcoin -listen=0 -darksendrounds=8 -usethrone="192.168.56.102:19340" -disabledarksend=1
+and even disable legacysend auto-denom if wanted:
+/legacycoin-qt -datadir=/home/user/.legacycoin -listen=0 -legacysendrounds=8 -usemasternode="192.168.56.102:19340" -disablelegacysend=1
 
 
 0.9.12.7 Release notes
 ----------------------
 
 - Added a smart input splitting method. Place 1000+DRK into a brand new wallet
-  and it will be split into many inputs compatible with Darksend
+  and it will be split into many inputs compatible with Legacysend
 - DoAutodenomination now tries the correct balance (it was getting stuck on
   the wrong inputs)
 - "entries is full" fix for at least one of the causes
@@ -473,7 +473,7 @@ and even disable darksend auto-denom if wanted:
 
 - Fixed AutoDenominate. It seems to work pretty well now.
 - Inputs that are large will be broken up automatically for denomination
-- Thrones should change every block now (missed a mod=10 last time)
+- Masternodes should change every block now (missed a mod=10 last time)
 - Mixing requires 5 clients to merge now, should improve anonymity.
 - Mixing rounds are limited to 1000DRK, per block
 
@@ -481,9 +481,9 @@ and even disable darksend auto-denom if wanted:
 0.9.12.5 Release notes
 ----------------------
 
-- Thrones should change every block now
+- Masternodes should change every block now
 - DoAutomaticDenomination should happen every block now
-- DarkSendRounds had a bug that I fixed, should calculate correctly now
+- LegacySendRounds had a bug that I fixed, should calculate correctly now
 
 
 0.9.12.4 Release notes
@@ -491,13 +491,13 @@ and even disable darksend auto-denom if wanted:
 
 This is a pretty large update to the RC client.
 
-- New column "Darksend Rounds" in coincontrol to show how secure a given input is
-- Fixed a few issues causing darksend to fail. We should see many more darksends
+- New column "Legacysend Rounds" in coincontrol to show how secure a given input is
+- Fixed a few issues causing legacysend to fail. We should see many more legacysends
   occuring now if it's fixed.
 - Redid denominations to 1, 10, 100, and 500. Maybe this is too simple, but it
   seems effective, all change from transactions will de denominated automatically
-  again through darksend for the next transactions. We'll see how it works.
-- usethrone option, will override active throne (only in RC, just for testing)
+  again through legacysend for the next transactions. We'll see how it works.
+- usemasternode option, will override active masternode (only in RC, just for testing)
 
 0.9.12.3 Release notes
 ----------------------
@@ -507,8 +507,8 @@ This is a pretty large update to the RC client.
 0.9.12.2 Release notes
 ----------------------
 
-- Fixed payout issues (throne consessus was paying out to vout(0) by default)
-- Improved DarksendInput add entry verification. Thrones will now reject
+- Fixed payout issues (masternode consessus was paying out to vout(0) by default)
+- Improved LegacysendInput add entry verification. Masternodes will now reject
   transactions that look like fees are too low, too high, have spent inputs, etc.
 - Incremented protocol version to kick off clients with vout(0) payment bug
 - DoAutomaticDenominations 100DRK limit changed to 500DRK (we should see a bunch
@@ -518,7 +518,7 @@ This is a pretty large update to the RC client.
 0.9.12.1 Release notes
 ----------------------
 
-- Fixed a signing bug with the throne voting system causing a bunch of issues
+- Fixed a signing bug with the masternode voting system causing a bunch of issues
 - Updated unit tests
 - Incremented protocol version to kick off clients with signing bug
 
@@ -528,11 +528,11 @@ This is a pretty large update to the RC client.
 ----------------------
 
 - resolves issue with wallet not syncing by adding the capability to retrieve nodes through dnsseed
-   (see https://github.com/darkcoinproject/darkcoin/pull/21)
+   (see https://github.com/legacycoinproject/legacycoin/pull/21)
 - Linux 32 and Mac OS X are now officially supported platforms
-   (see https://github.com/darkcoinproject/darkcoin/pull/17)
+   (see https://github.com/legacycoinproject/legacycoin/pull/17)
 - improved overall unit test code coverage
-   (see https://github.com/darkcoinproject/darkcoin/pull/13 and https://github.com/darkcoinproject/darkcoin/pull/15)
+   (see https://github.com/legacycoinproject/legacycoin/pull/13 and https://github.com/legacycoinproject/legacycoin/pull/15)
 - minor documentation updates
-   (https://github.com/darkcoinproject/darkcoin/pull/18)
+   (https://github.com/legacycoinproject/legacycoin/pull/18)
 - improved distribution packaging (win: zip, linux: tar.gz, osx: dmg)
