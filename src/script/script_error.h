@@ -11,7 +11,12 @@ typedef enum ScriptError_t
     SCRIPT_ERR_OK = 0,
     SCRIPT_ERR_UNKNOWN_ERROR,
     SCRIPT_ERR_EVAL_FALSE,
+
+    // Associative op-code feedback
     SCRIPT_ERR_OP_RETURN,
+    SCRIPT_ERR_OP_REGISTER,
+    SCRIPT_ERR_OP_DEREGISTER,
+    SCRIPT_ERR_OP_META,
 
     /* Max sizes */
     SCRIPT_ERR_SCRIPT_SIZE,

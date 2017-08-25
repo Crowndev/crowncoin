@@ -68,7 +68,12 @@ enum opcodetype
     OP_ELSE = 0x67,
     OP_ENDIF = 0x68,
     OP_VERIFY = 0x69,
+
+    // association
     OP_RETURN = 0x6a,
+    OP_REGISTER = 0xc1,
+    OP_DEREGISTER = 0xc2,
+    OP_META = 0xc3,
 
     // stack ops
     OP_TOALTSTACK = 0x6b,
@@ -596,6 +601,7 @@ public:
      * instantly when entering the UTXO set.
      */
     bool IsUnspendable() const
+    // keep OP_RETURN as Unspendable for now
     {
         return (size() > 0 && *begin() == OP_RETURN);
     }
